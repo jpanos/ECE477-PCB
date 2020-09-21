@@ -1,0 +1,956 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 1 1
+Title "ECE 477 PCB"
+Date ""
+Rev "One"
+Comp "Sowen Seeds"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+U 1 1 5F46820E
+P 19000 6800
+F 0 "U1" H 20200 7187 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 20200 7081 60  0000 C CNN
+F 2 "LQFP-144" H 20200 7040 60  0001 C CNN
+F 3 "" H 19000 6800 60  0000 C CNN
+	1    19000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+U 2 1 5F46EB3B
+P 19150 2050
+F 0 "U1" H 20250 2437 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 20250 2331 60  0000 C CNN
+F 2 "LQFP-144" H 20350 2290 60  0001 C CNN
+F 3 "" H 19150 2050 60  0000 C CNN
+	2    19150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+U 3 1 5F47363C
+P 4350 3700
+F 0 "U1" H 5450 4087 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 5450 3981 60  0000 C CNN
+F 2 "LQFP-144" H 5550 3940 60  0001 C CNN
+F 3 "" H 4350 3700 60  0000 C CNN
+	3    4350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-09-16_23-09-37:BQ29312APW U2
+U 1 1 5F637243
+P 28700 3950
+F 0 "U2" H 30000 4337 60  0000 C CNN
+F 1 "BQ29312APW" H 30000 4231 60  0000 C CNN
+F 2 "PW24" H 30000 4190 60  0001 C CNN
+F 3 "" H 28700 3950 60  0000 C CNN
+	1    28700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:PTN78020WAH IC1
+U 1 1 5F63F739
+P 25500 5450
+F 0 "IC1" H 26200 5715 50  0000 C CNN
+F 1 "PTN78020WAH" H 26200 5624 50  0000 C CNN
+F 2 "EUL(R-PDSS-B7)" H 26750 5550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 26750 5450 50  0001 L CNN
+F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 26750 5350 50  0001 L CNN "Description"
+F 5 "" H 26750 5250 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 26750 5150 50  0001 L CNN "Manufacturer_Name"
+F 7 "PTN78020WAH" H 26750 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PTN78020WAH" H 26750 4950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 26750 4850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-PTN78020WAH" H 26750 4750 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 26750 4650 50  0001 L CNN "Mouser Price/Stock"
+	1    25500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-555.0DA:R-555.0DA PS1
+U 1 1 5F642365
+P 23700 5450
+F 0 "PS1" H 23700 5917 50  0000 C CNN
+F 1 "R-555.0DA" H 23700 5826 50  0000 C CNN
+F 2 "CONV_R-555.0DA" H 23700 5450 50  0001 L BNN
+F 3 "Recom" H 23700 5450 50  0001 L BNN
+F 4 "4" H 23700 5450 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 23700 5450 50  0001 L BNN "Field5"
+F 6 "9.1mm" H 23700 5450 50  0001 L BNN "Field6"
+	1    23700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6000 6900 6000
+Wire Wire Line
+	6550 6100 6900 6100
+Wire Wire Line
+	6550 6200 6900 6200
+Wire Wire Line
+	6900 6000 6900 6100
+Connection ~ 6900 6100
+Wire Wire Line
+	6900 6100 6900 6200
+Wire Wire Line
+	6900 6000 7050 6000
+Connection ~ 6900 6000
+Text GLabel 7050 6000 2    50   Input ~ 0
+VCAP
+Wire Wire Line
+	4350 5500 4050 5500
+Wire Wire Line
+	4350 5400 4050 5400
+Wire Wire Line
+	4350 5300 4050 5300
+Wire Wire Line
+	4050 5500 4050 5400
+Connection ~ 4050 5400
+Wire Wire Line
+	4050 5400 4050 5300
+Wire Wire Line
+	4050 5300 3900 5300
+Connection ~ 4050 5300
+Wire Wire Line
+	4350 4900 4050 4900
+Wire Wire Line
+	4350 4800 4050 4800
+Wire Wire Line
+	4350 4600 4050 4600
+Wire Wire Line
+	4350 4500 4050 4500
+Wire Wire Line
+	4350 4400 4050 4400
+Wire Wire Line
+	4350 4300 4050 4300
+Wire Wire Line
+	4350 4200 4050 4200
+Wire Wire Line
+	4350 4100 4050 4100
+Wire Wire Line
+	4350 4000 4050 4000
+Wire Wire Line
+	4350 3900 4050 3900
+Wire Wire Line
+	4350 3800 4050 3800
+Wire Wire Line
+	4350 3700 4050 3700
+Wire Wire Line
+	4050 3450 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	4050 3700 4050 3800
+Connection ~ 4050 3800
+Wire Wire Line
+	4050 3800 4050 3900
+Connection ~ 4050 3900
+Wire Wire Line
+	4050 3900 4050 4000
+Connection ~ 4050 4000
+Wire Wire Line
+	4050 4000 4050 4100
+Connection ~ 4050 4100
+Wire Wire Line
+	4050 4100 4050 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	4050 4200 4050 4300
+Connection ~ 4050 4300
+Wire Wire Line
+	4050 4300 4050 4400
+Connection ~ 4050 4400
+Wire Wire Line
+	4050 4400 4050 4500
+Connection ~ 4050 4500
+Wire Wire Line
+	4050 4500 4050 4600
+Connection ~ 4050 4600
+Connection ~ 4050 4800
+Wire Wire Line
+	4050 4800 4050 4900
+Text GLabel 3900 5300 0    50   Input ~ 0
+VDD_LDO
+Text GLabel 4050 3450 1    50   Input ~ 0
+VDD_MCU
+Wire Wire Line
+	4050 4600 4050 4800
+Wire Wire Line
+	4350 4700 3900 4700
+Text GLabel 3900 4700 0    50   Input ~ 0
+VDD_MCU
+Text GLabel 3000 7050 1    50   Output ~ 0
+VDD_MCU
+$Comp
+L pspice:CAP C2
+U 1 1 5F6CCF34
+P 3550 7500
+F 0 "C2" H 3728 7546 50  0000 L CNN
+F 1 "100nF" H 3728 7455 50  0000 L CNN
+F 2 "" H 3550 7500 50  0001 C CNN
+F 3 "~" H 3550 7500 50  0001 C CNN
+	1    3550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C5
+U 1 1 5F6D1965
+P 5350 7500
+F 0 "C5" H 5528 7546 50  0000 L CNN
+F 1 "100nF" H 5528 7455 50  0000 L CNN
+F 2 "" H 5350 7500 50  0001 C CNN
+F 3 "~" H 5350 7500 50  0001 C CNN
+	1    5350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C6
+U 1 1 5F6D196B
+P 5950 7500
+F 0 "C6" H 6128 7546 50  0000 L CNN
+F 1 "100nF" H 6128 7455 50  0000 L CNN
+F 2 "" H 5950 7500 50  0001 C CNN
+F 3 "~" H 5950 7500 50  0001 C CNN
+	1    5950 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C7
+U 1 1 5F6D1971
+P 6550 7500
+F 0 "C7" H 6728 7546 50  0000 L CNN
+F 1 "100nF" H 6728 7455 50  0000 L CNN
+F 2 "" H 6550 7500 50  0001 C CNN
+F 3 "~" H 6550 7500 50  0001 C CNN
+	1    6550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C8
+U 1 1 5F6D40B4
+P 7150 7500
+F 0 "C8" H 7328 7546 50  0000 L CNN
+F 1 "100nF" H 7328 7455 50  0000 L CNN
+F 2 "" H 7150 7500 50  0001 C CNN
+F 3 "~" H 7150 7500 50  0001 C CNN
+	1    7150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C9
+U 1 1 5F6D40BA
+P 7750 7500
+F 0 "C9" H 7928 7546 50  0000 L CNN
+F 1 "100nF" H 7928 7455 50  0000 L CNN
+F 2 "" H 7750 7500 50  0001 C CNN
+F 3 "~" H 7750 7500 50  0001 C CNN
+	1    7750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C10
+U 1 1 5F6D40C0
+P 8350 7500
+F 0 "C10" H 8528 7546 50  0000 L CNN
+F 1 "100nF" H 8528 7455 50  0000 L CNN
+F 2 "" H 8350 7500 50  0001 C CNN
+F 3 "~" H 8350 7500 50  0001 C CNN
+	1    8350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C11
+U 1 1 5F6D60E2
+P 8950 7500
+F 0 "C11" H 9128 7546 50  0000 L CNN
+F 1 "100nF" H 9128 7455 50  0000 L CNN
+F 2 "" H 8950 7500 50  0001 C CNN
+F 3 "~" H 8950 7500 50  0001 C CNN
+	1    8950 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C12
+U 1 1 5F6D60E8
+P 9550 7500
+F 0 "C12" H 9728 7546 50  0000 L CNN
+F 1 "100nF" H 9728 7455 50  0000 L CNN
+F 2 "" H 9550 7500 50  0001 C CNN
+F 3 "~" H 9550 7500 50  0001 C CNN
+	1    9550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C13
+U 1 1 5F6D60EE
+P 10150 7500
+F 0 "C13" H 10328 7546 50  0000 L CNN
+F 1 "100nF" H 10328 7455 50  0000 L CNN
+F 2 "" H 10150 7500 50  0001 C CNN
+F 3 "~" H 10150 7500 50  0001 C CNN
+	1    10150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C14
+U 1 1 5F6D6DFD
+P 10750 7500
+F 0 "C14" H 10928 7546 50  0000 L CNN
+F 1 "100nF" H 10928 7455 50  0000 L CNN
+F 2 "" H 10750 7500 50  0001 C CNN
+F 3 "~" H 10750 7500 50  0001 C CNN
+	1    10750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C1
+U 1 1 5F6D795D
+P 3000 7500
+F 0 "C1" H 3178 7546 50  0000 L CNN
+F 1 "4.7uF" H 3178 7455 50  0000 L CNN
+F 2 "" H 3000 7500 50  0001 C CNN
+F 3 "~" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C4
+U 1 1 5F6CFD5A
+P 4750 7500
+F 0 "C4" H 4928 7546 50  0000 L CNN
+F 1 "100nF" H 4928 7455 50  0000 L CNN
+F 2 "" H 4750 7500 50  0001 C CNN
+F 3 "~" H 4750 7500 50  0001 C CNN
+	1    4750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C3
+U 1 1 5F6CF1AF
+P 4150 7500
+F 0 "C3" H 4328 7546 50  0000 L CNN
+F 1 "100nF" H 4328 7455 50  0000 L CNN
+F 2 "" H 4150 7500 50  0001 C CNN
+F 3 "~" H 4150 7500 50  0001 C CNN
+	1    4150 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 7750 10150 7750
+Connection ~ 3550 7750
+Wire Wire Line
+	3550 7750 3000 7750
+Connection ~ 4150 7750
+Wire Wire Line
+	4150 7750 3550 7750
+Connection ~ 4750 7750
+Wire Wire Line
+	4750 7750 4150 7750
+Connection ~ 5350 7750
+Wire Wire Line
+	5350 7750 4750 7750
+Connection ~ 5950 7750
+Wire Wire Line
+	5950 7750 5350 7750
+Connection ~ 6550 7750
+Wire Wire Line
+	6550 7750 5950 7750
+Connection ~ 7150 7750
+Wire Wire Line
+	7150 7750 6550 7750
+Connection ~ 7750 7750
+Wire Wire Line
+	7750 7750 7150 7750
+Connection ~ 8350 7750
+Wire Wire Line
+	8350 7750 7750 7750
+Connection ~ 8950 7750
+Wire Wire Line
+	8950 7750 8350 7750
+Connection ~ 9550 7750
+Wire Wire Line
+	9550 7750 8950 7750
+Connection ~ 10150 7750
+Wire Wire Line
+	10150 7750 9550 7750
+Wire Wire Line
+	10750 7250 10150 7250
+Connection ~ 3550 7250
+Wire Wire Line
+	3550 7250 3000 7250
+Connection ~ 4150 7250
+Wire Wire Line
+	4150 7250 3550 7250
+Connection ~ 4750 7250
+Wire Wire Line
+	4750 7250 4150 7250
+Connection ~ 5350 7250
+Wire Wire Line
+	5350 7250 4750 7250
+Connection ~ 5950 7250
+Wire Wire Line
+	5950 7250 5350 7250
+Connection ~ 6550 7250
+Wire Wire Line
+	6550 7250 5950 7250
+Connection ~ 7150 7250
+Wire Wire Line
+	7150 7250 6550 7250
+Connection ~ 7750 7250
+Wire Wire Line
+	7750 7250 7150 7250
+Connection ~ 8350 7250
+Wire Wire Line
+	8350 7250 7750 7250
+Connection ~ 8950 7250
+Wire Wire Line
+	8950 7250 8350 7250
+Connection ~ 9550 7250
+Wire Wire Line
+	9550 7250 8950 7250
+Connection ~ 10150 7250
+Wire Wire Line
+	10150 7250 9550 7250
+Wire Wire Line
+	3000 7750 3000 7900
+Connection ~ 3000 7750
+Wire Wire Line
+	3000 7250 3000 7050
+Connection ~ 3000 7250
+$Comp
+L power:GND #PWR01
+U 1 1 5F6F346B
+P 3000 7900
+F 0 "#PWR01" H 3000 7650 50  0001 C CNN
+F 1 "GND" H 3005 7727 50  0000 C CNN
+F 2 "" H 3000 7900 50  0001 C CNN
+F 3 "" H 3000 7900 50  0001 C CNN
+	1    3000 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C15
+U 1 1 5F6F91A3
+P 3750 8550
+F 0 "C15" H 3928 8596 50  0000 L CNN
+F 1 "100nF" H 3928 8505 50  0000 L CNN
+F 2 "" H 3750 8550 50  0001 C CNN
+F 3 "~" H 3750 8550 50  0001 C CNN
+	1    3750 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C16
+U 1 1 5F6FA8B5
+P 4550 8550
+F 0 "C16" H 4728 8596 50  0000 L CNN
+F 1 "1uF" H 4728 8505 50  0000 L CNN
+F 2 "" H 4550 8550 50  0001 C CNN
+F 3 "~" H 4550 8550 50  0001 C CNN
+	1    4550 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C17
+U 1 1 5F6FC46D
+P 5150 8550
+F 0 "C17" H 5328 8596 50  0000 L CNN
+F 1 "100nF" H 5328 8505 50  0000 L CNN
+F 2 "" H 5150 8550 50  0001 C CNN
+F 3 "~" H 5150 8550 50  0001 C CNN
+	1    5150 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C18
+U 1 1 5F6FF8FF
+P 5950 8550
+F 0 "C18" H 6128 8596 50  0000 L CNN
+F 1 "1uF" H 6128 8505 50  0000 L CNN
+F 2 "" H 5950 8550 50  0001 C CNN
+F 3 "~" H 5950 8550 50  0001 C CNN
+	1    5950 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C19
+U 1 1 5F7012C3
+P 6550 8550
+F 0 "C19" H 6728 8596 50  0000 L CNN
+F 1 "100nF" H 6728 8505 50  0000 L CNN
+F 2 "" H 6550 8550 50  0001 C CNN
+F 3 "~" H 6550 8550 50  0001 C CNN
+	1    6550 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 8800 6550 8800
+Wire Wire Line
+	6550 8300 5950 8300
+Wire Wire Line
+	5950 8300 5950 8150
+Connection ~ 5950 8300
+Wire Wire Line
+	5950 8800 5950 8950
+Connection ~ 5950 8800
+Wire Wire Line
+	4550 8800 5150 8800
+Wire Wire Line
+	5150 8300 4550 8300
+Wire Wire Line
+	4550 8300 4550 8150
+Connection ~ 4550 8300
+Wire Wire Line
+	4550 8800 4550 8950
+Connection ~ 4550 8800
+Wire Wire Line
+	3750 8300 3750 8150
+Wire Wire Line
+	3750 8800 3750 8950
+Text GLabel 3750 8150 1    50   Input ~ 0
+VBAT
+$Comp
+L power:GND #PWR02
+U 1 1 5F716E92
+P 3750 8950
+F 0 "#PWR02" H 3750 8700 50  0001 C CNN
+F 1 "GND" H 3755 8777 50  0000 C CNN
+F 2 "" H 3750 8950 50  0001 C CNN
+F 3 "" H 3750 8950 50  0001 C CNN
+	1    3750 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR03
+U 1 1 5F71C473
+P 4550 8950
+F 0 "#PWR03" H 4550 8700 50  0001 C CNN
+F 1 "GNDA" H 4555 8777 50  0000 C CNN
+F 2 "" H 4550 8950 50  0001 C CNN
+F 3 "" H 4550 8950 50  0001 C CNN
+	1    4550 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR04
+U 1 1 5F71DBCC
+P 5950 8950
+F 0 "#PWR04" H 5950 8700 50  0001 C CNN
+F 1 "GNDA" H 5955 8777 50  0000 C CNN
+F 2 "" H 5950 8950 50  0001 C CNN
+F 3 "" H 5950 8950 50  0001 C CNN
+	1    5950 8950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 8150 1    50   Input ~ 0
+VDDA
+Text GLabel 5950 8150 1    50   Input ~ 0
+VREF+
+Wire Wire Line
+	4350 5100 3450 5100
+Wire Wire Line
+	4350 6200 3450 6200
+$Comp
+L Device:R_US R2
+U 1 1 5F725EB7
+P 3450 6050
+F 0 "R2" H 3518 6096 50  0000 L CNN
+F 1 "0R" H 3518 6005 50  0000 L CNN
+F 2 "" V 3490 6040 50  0001 C CNN
+F 3 "~" H 3450 6050 50  0001 C CNN
+	1    3450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5100 3450 5750
+Wire Wire Line
+	3450 6200 3300 6200
+Connection ~ 3450 6200
+Wire Wire Line
+	3450 5750 3300 5750
+Connection ~ 3450 5750
+Wire Wire Line
+	3450 5750 3450 5900
+$Comp
+L Device:R_US R1
+U 1 1 5F72EED5
+P 3000 5750
+F 0 "R1" H 3068 5796 50  0000 L CNN
+F 1 "0R" H 3068 5705 50  0000 L CNN
+F 2 "" V 3040 5740 50  0001 C CNN
+F 3 "~" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 5750 2800 5750
+Wire Wire Line
+	2800 5750 2800 5550
+Wire Wire Line
+	3300 5750 3300 5550
+Connection ~ 3300 5750
+Wire Wire Line
+	3300 5750 3150 5750
+Text GLabel 3300 5550 1    50   Input ~ 0
+VDDA
+Text GLabel 2800 5550 1    50   Input ~ 0
+VDD_MCU
+Text GLabel 3300 6200 0    50   Input ~ 0
+VREF+
+Wire Wire Line
+	6550 5800 6900 5800
+Wire Wire Line
+	6900 5800 6900 4900
+Wire Wire Line
+	6550 4900 6900 4900
+Connection ~ 6900 4900
+Wire Wire Line
+	6900 4900 6900 4800
+Wire Wire Line
+	6550 4800 6900 4800
+Connection ~ 6900 4800
+Wire Wire Line
+	6900 4800 6900 4700
+Wire Wire Line
+	6550 4700 6900 4700
+Connection ~ 6900 4700
+Wire Wire Line
+	6900 4700 6900 4600
+Wire Wire Line
+	6550 4600 6900 4600
+Connection ~ 6900 4600
+Wire Wire Line
+	6900 4600 6900 4500
+Wire Wire Line
+	6550 4500 6900 4500
+Connection ~ 6900 4500
+Wire Wire Line
+	6900 4500 6900 4400
+Wire Wire Line
+	6550 4400 6900 4400
+Connection ~ 6900 4400
+Wire Wire Line
+	6900 4400 6900 4300
+Wire Wire Line
+	6550 4300 6900 4300
+Connection ~ 6900 4300
+Wire Wire Line
+	6900 4300 6900 4200
+Wire Wire Line
+	6550 4200 6900 4200
+Connection ~ 6900 4200
+Wire Wire Line
+	6900 4200 6900 4100
+Wire Wire Line
+	6550 4100 6900 4100
+Connection ~ 6900 4100
+Wire Wire Line
+	6900 4100 6900 4000
+Wire Wire Line
+	6550 4000 6900 4000
+Connection ~ 6900 4000
+Wire Wire Line
+	6900 4000 6900 3900
+Wire Wire Line
+	6550 3900 6900 3900
+Connection ~ 6900 3900
+Wire Wire Line
+	6900 3900 6900 3800
+Wire Wire Line
+	6550 3800 6900 3800
+Connection ~ 6900 3800
+Wire Wire Line
+	6900 3800 6900 3700
+Wire Wire Line
+	6550 3700 6900 3700
+Connection ~ 6900 3700
+Wire Wire Line
+	6900 3700 6900 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5F76AB5D
+P 6900 3450
+F 0 "#PWR?" H 6900 3200 50  0001 C CNN
+F 1 "GND" H 6905 3277 50  0000 C CNN
+F 2 "" H 6900 3450 50  0001 C CNN
+F 3 "" H 6900 3450 50  0001 C CNN
+	1    6900 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F79E182
+P 4450 12500
+F 0 "R?" H 4382 12454 50  0000 R CNN
+F 1 "100K" H 4382 12545 50  0000 R CNN
+F 2 "" V 4490 12490 50  0001 C CNN
+F 3 "~" H 4450 12500 50  0001 C CNN
+	1    4450 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F7A1AEE
+P 4100 12150
+F 0 "R?" V 4305 12150 50  0000 C CNN
+F 1 "47K" V 4214 12150 50  0000 C CNN
+F 2 "" V 4140 12140 50  0001 C CNN
+F 3 "~" H 4100 12150 50  0001 C CNN
+	1    4100 12150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q?
+U 1 1 5F7C964D
+P 4900 12150
+F 0 "Q?" H 5088 12203 60  0000 L CNN
+F 1 "NPN SOT23" H 5088 12097 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 5100 12350 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 5100 12450 60  0001 L CNN
+F 4 "MMBT2222ALT1GOSCT-ND" H 5100 12550 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT2222ALT1G" H 5100 12650 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5100 12750 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5100 12850 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 5100 12950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 5100 13050 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A SOT23" H 5100 13150 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 5100 13250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5100 13350 60  0001 L CNN "Status"
+	1    4900 12150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 12350 4450 12150
+Connection ~ 4450 12150
+Wire Wire Line
+	4450 12150 4700 12150
+Wire Wire Line
+	4250 12150 4450 12150
+Wire Wire Line
+	5000 12350 5000 12650
+Wire Wire Line
+	4450 12650 5000 12650
+Connection ~ 5000 12650
+Wire Wire Line
+	5000 12650 5000 12850
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EDDBC
+P 5000 12850
+F 0 "#PWR?" H 5000 12600 50  0001 C CNN
+F 1 "GND" H 5005 12677 50  0000 C CNN
+F 2 "" H 5000 12850 50  0001 C CNN
+F 3 "" H 5000 12850 50  0001 C CNN
+	1    5000 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F7FE74E
+P 7000 12600
+F 0 "R?" H 6932 12554 50  0000 R CNN
+F 1 "100K" H 6932 12645 50  0000 R CNN
+F 2 "" V 7040 12590 50  0001 C CNN
+F 3 "~" H 7000 12600 50  0001 C CNN
+	1    7000 12600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F7FE754
+P 6650 12250
+F 0 "R?" V 6855 12250 50  0000 C CNN
+F 1 "47K" V 6764 12250 50  0000 C CNN
+F 2 "" V 6690 12240 50  0001 C CNN
+F 3 "~" H 6650 12250 50  0001 C CNN
+	1    6650 12250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q?
+U 1 1 5F7FE763
+P 7450 12250
+F 0 "Q?" H 7638 12303 60  0000 L CNN
+F 1 "NPN SOT23" H 7638 12197 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 7650 12450 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 7650 12550 60  0001 L CNN
+F 4 "MMBT2222ALT1GOSCT-ND" H 7650 12650 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT2222ALT1G" H 7650 12750 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7650 12850 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7650 12950 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 7650 13050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 7650 13150 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A SOT23" H 7650 13250 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 7650 13350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7650 13450 60  0001 L CNN "Status"
+	1    7450 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 12450 7000 12250
+Connection ~ 7000 12250
+Wire Wire Line
+	7000 12250 7250 12250
+Wire Wire Line
+	6800 12250 7000 12250
+Wire Wire Line
+	7550 12450 7550 12750
+Wire Wire Line
+	7000 12750 7550 12750
+Connection ~ 7550 12750
+Wire Wire Line
+	7550 12750 7550 12950
+$Comp
+L power:GND #PWR?
+U 1 1 5F7FE771
+P 7550 12950
+F 0 "#PWR?" H 7550 12700 50  0001 C CNN
+F 1 "GND" H 7555 12777 50  0000 C CNN
+F 2 "" H 7550 12950 50  0001 C CNN
+F 3 "" H 7550 12950 50  0001 C CNN
+	1    7550 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F81DB29
+P 4600 14900
+F 0 "R?" H 4532 14854 50  0000 R CNN
+F 1 "100K" H 4532 14945 50  0000 R CNN
+F 2 "" V 4640 14890 50  0001 C CNN
+F 3 "~" H 4600 14900 50  0001 C CNN
+	1    4600 14900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F81DB2F
+P 4250 14550
+F 0 "R?" V 4455 14550 50  0000 C CNN
+F 1 "47K" V 4364 14550 50  0000 C CNN
+F 2 "" V 4290 14540 50  0001 C CNN
+F 3 "~" H 4250 14550 50  0001 C CNN
+	1    4250 14550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q?
+U 1 1 5F81DB3E
+P 5050 14550
+F 0 "Q?" H 5238 14603 60  0000 L CNN
+F 1 "NPN SOT23" H 5238 14497 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 5250 14750 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 5250 14850 60  0001 L CNN
+F 4 "MMBT2222ALT1GOSCT-ND" H 5250 14950 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT2222ALT1G" H 5250 15050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5250 15150 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5250 15250 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 5250 15350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 5250 15450 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A SOT23" H 5250 15550 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 5250 15650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5250 15750 60  0001 L CNN "Status"
+	1    5050 14550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 14750 4600 14550
+Connection ~ 4600 14550
+Wire Wire Line
+	4600 14550 4850 14550
+Wire Wire Line
+	4400 14550 4600 14550
+Wire Wire Line
+	5150 14750 5150 15050
+Wire Wire Line
+	4600 15050 5150 15050
+Connection ~ 5150 15050
+Wire Wire Line
+	5150 15050 5150 15250
+$Comp
+L power:GND #PWR?
+U 1 1 5F81DB4C
+P 5150 15250
+F 0 "#PWR?" H 5150 15000 50  0001 C CNN
+F 1 "GND" H 5155 15077 50  0000 C CNN
+F 2 "" H 5150 15250 50  0001 C CNN
+F 3 "" H 5150 15250 50  0001 C CNN
+	1    5150 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F823AF9
+P 7200 15050
+F 0 "R?" H 7132 15004 50  0000 R CNN
+F 1 "100K" H 7132 15095 50  0000 R CNN
+F 2 "" V 7240 15040 50  0001 C CNN
+F 3 "~" H 7200 15050 50  0001 C CNN
+	1    7200 15050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F823AFF
+P 6850 14700
+F 0 "R?" V 7055 14700 50  0000 C CNN
+F 1 "47K" V 6964 14700 50  0000 C CNN
+F 2 "" V 6890 14690 50  0001 C CNN
+F 3 "~" H 6850 14700 50  0001 C CNN
+	1    6850 14700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q?
+U 1 1 5F823B0E
+P 7650 14700
+F 0 "Q?" H 7838 14753 60  0000 L CNN
+F 1 "NPN SOT23" H 7838 14647 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 7850 14900 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 7850 15000 60  0001 L CNN
+F 4 "MMBT2222ALT1GOSCT-ND" H 7850 15100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT2222ALT1G" H 7850 15200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7850 15300 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 7850 15400 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 7850 15500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 7850 15600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A SOT23" H 7850 15700 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 7850 15800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7850 15900 60  0001 L CNN "Status"
+	1    7650 14700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 14900 7200 14700
+Connection ~ 7200 14700
+Wire Wire Line
+	7200 14700 7450 14700
+Wire Wire Line
+	7000 14700 7200 14700
+Wire Wire Line
+	7750 14900 7750 15200
+Wire Wire Line
+	7200 15200 7750 15200
+Connection ~ 7750 15200
+Wire Wire Line
+	7750 15200 7750 15400
+$Comp
+L power:GND #PWR?
+U 1 1 5F823B1C
+P 7750 15400
+F 0 "#PWR?" H 7750 15150 50  0001 C CNN
+F 1 "GND" H 7755 15227 50  0000 C CNN
+F 2 "" H 7750 15400 50  0001 C CNN
+F 3 "" H 7750 15400 50  0001 C CNN
+	1    7750 15400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
