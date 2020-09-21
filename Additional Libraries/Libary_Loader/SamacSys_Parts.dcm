@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PTN78020WAH
+D 6-A Wide-Input Voltage Adjustable Switching Regulator
+K
+F http://www.ti.com/lit/gpn/ptn78020w
+$ENDCMP
+#
+$CMP STM32H745ZIT6
+D HIGH-PERFORMANCE AND DSP WITH DP STM32H745ZIT6
+K
+F https://www.st.com/resource/en/datasheet/stm32h745ii.pdf
+$ENDCMP
+#
+$CMP ST1L05CPU33R
+D LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator
+K
+F https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf
+$ENDCMP
+#
+$CMP ESDAXLC6-1BT2
+D STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882
+K
+F https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf
+$ENDCMP
+#
+$CMP ST1L05BPUR
+D STMICROELECTRONICS - ST1L05BPUR - LDO, ADJ, 1.22V-5.5V, 1.3A, DFN-6
+K
+F https://www.st.com/resource/en/datasheet/st1l05.pdf
+$ENDCMP
+#
+#End Doc Library
