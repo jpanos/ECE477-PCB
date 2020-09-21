@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 1 1 5F46820E
 P 19000 7050
 F 0 "U1" H 20200 7437 60  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 19000 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 2 1 5F46EB3B
 P 19150 2050
 F 0 "U1" H 20250 2437 60  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 19150 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2020-08-25_13-35-24:STM32H7_LQFP144_T2 U1
+L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 3 1 5F47363C
 P 2950 2800
 F 0 "U1" H 4050 3187 60  0000 C CNN
@@ -1295,52 +1295,52 @@ Text GLabel 2650 5100 0    50   Input ~ 0
 $Comp
 L SamacSys_Parts:ST1L05BPUR IC?
 U 1 1 5F907254
-P 3100 10000
-F 0 "IC?" H 3600 10265 50  0000 C CNN
-F 1 "ST1L05BPUR" H 3600 10174 50  0000 C CNN
-F 2 "SON95P300X300X100-7N-D" H 3950 10100 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/st1l05.pdf" H 3950 10000 50  0001 L CNN
-F 4 "STMICROELECTRONICS - ST1L05BPUR - LDO, ADJ, 1.22V-5.5V, 1.3A, DFN-6" H 3950 9900 50  0001 L CNN "Description"
-F 5 "1" H 3950 9800 50  0001 L CNN "Height"
-F 6 "511-ST1L05BPUR" H 3950 9700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05BPUR?qs=MJw%2F449BOx8r6LrCfzDi%2FA%3D%3D" H 3950 9600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 3950 9500 50  0001 L CNN "Manufacturer_Name"
-F 9 "ST1L05BPUR" H 3950 9400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3100 10000
+P 4650 11300
+F 0 "IC?" H 5150 11565 50  0000 C CNN
+F 1 "ST1L05BPUR" H 5150 11474 50  0000 C CNN
+F 2 "SON95P300X300X100-7N-D" H 5500 11400 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/st1l05.pdf" H 5500 11300 50  0001 L CNN
+F 4 "STMICROELECTRONICS - ST1L05BPUR - LDO, ADJ, 1.22V-5.5V, 1.3A, DFN-6" H 5500 11200 50  0001 L CNN "Description"
+F 5 "1" H 5500 11100 50  0001 L CNN "Height"
+F 6 "511-ST1L05BPUR" H 5500 11000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05BPUR?qs=MJw%2F449BOx8r6LrCfzDi%2FA%3D%3D" H 5500 10900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 5500 10800 50  0001 L CNN "Manufacturer_Name"
+F 9 "ST1L05BPUR" H 5500 10700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4650 11300
 	1    0    0    -1  
 $EndComp
 $Comp
 L SamacSys_Parts:ST1L05CPU33R IC?
 U 1 1 5F914541
-P 1300 10950
-F 0 "IC?" H 2000 11215 50  0000 C CNN
-F 1 "ST1L05CPU33R" H 2000 11124 50  0000 C CNN
-F 2 "SON95P300X300X100-7N-D" H 2550 11050 50  0001 L CNN
-F 3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" H 2550 10950 50  0001 L CNN
-F 4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" H 2550 10850 50  0001 L CNN "Description"
-F 5 "1" H 2550 10750 50  0001 L CNN "Height"
-F 6 "511-ST1L05CPU33R" H 2550 10650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" H 2550 10550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 2550 10450 50  0001 L CNN "Manufacturer_Name"
-F 9 "ST1L05CPU33R" H 2550 10350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1300 10950
+P 2850 12250
+F 0 "IC?" H 3550 12515 50  0000 C CNN
+F 1 "ST1L05CPU33R" H 3550 12424 50  0000 C CNN
+F 2 "SON95P300X300X100-7N-D" H 4100 12350 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" H 4100 12250 50  0001 L CNN
+F 4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" H 4100 12150 50  0001 L CNN "Description"
+F 5 "1" H 4100 12050 50  0001 L CNN "Height"
+F 6 "511-ST1L05CPU33R" H 4100 11950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" H 4100 11850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 4100 11750 50  0001 L CNN "Manufacturer_Name"
+F 9 "ST1L05CPU33R" H 4100 11650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2850 12250
 	1    0    0    -1  
 $EndComp
 $Comp
 L SamacSys_Parts:ESDAXLC6-1BT2 IC?
 U 1 1 5F91EC05
-P 3300 11500
-F 0 "IC?" H 3928 11496 50  0000 L CNN
-F 1 "ESDAXLC6-1BT2" H 3928 11405 50  0000 L CNN
-F 2 "SOD882" H 3950 11600 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 3950 11500 50  0001 L CNN
-F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 3950 11400 50  0001 L CNN "Description"
-F 5 "" H 3950 11300 50  0001 L CNN "Height"
-F 6 "511-ESDAXLC6-1BT2" H 3950 11200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 3950 11100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 3950 11000 50  0001 L CNN "Manufacturer_Name"
-F 9 "ESDAXLC6-1BT2" H 3950 10900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3300 11500
+P 4850 12800
+F 0 "IC?" H 5478 12796 50  0000 L CNN
+F 1 "ESDAXLC6-1BT2" H 5478 12705 50  0000 L CNN
+F 2 "SOD882" H 5500 12900 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 5500 12800 50  0001 L CNN
+F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 5500 12700 50  0001 L CNN "Description"
+F 5 "" H 5500 12600 50  0001 L CNN "Height"
+F 6 "511-ESDAXLC6-1BT2" H 5500 12500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 5500 12400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 5500 12300 50  0001 L CNN "Manufacturer_Name"
+F 9 "ESDAXLC6-1BT2" H 5500 12200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 12800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
