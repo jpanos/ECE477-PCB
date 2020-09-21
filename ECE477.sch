@@ -47,7 +47,7 @@ F 3 "" H 2950 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2020-09-16_23-09-37:BQ29312APW U2
+L ECE477-rescue:BQ29312APW-2020-09-16_23-09-37 U2
 U 1 1 5F637243
 P 28700 3950
 F 0 "U2" H 30000 4337 60  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 28700 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:PTN78020WAH IC1
+L ECE477-rescue:PTN78020WAH-SamacSys_Parts IC1
 U 1 1 5F63F739
 P 25500 5450
 F 0 "IC1" H 26200 5715 50  0000 C CNN
@@ -77,7 +77,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sS
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-555.0DA:R-555.0DA PS1
+L ECE477-rescue:R-555.0DA-R-555.0DA PS1
 U 1 1 5F642365
 P 23700 5450
 F 0 "PS1" H 23700 5917 50  0000 C CNN
@@ -704,7 +704,7 @@ F 3 "~" H 18350 13600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q1
+L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q1
 U 1 1 5F7C964D
 P 19150 13600
 F 0 "Q1" H 19338 13653 60  0000 L CNN
@@ -771,7 +771,7 @@ F 3 "~" H 20900 13700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q3
+L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q3
 U 1 1 5F7FE763
 P 21700 13700
 F 0 "Q3" H 21888 13753 60  0000 L CNN
@@ -838,7 +838,7 @@ F 3 "~" H 18500 16000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q2
+L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q2
 U 1 1 5F81DB3E
 P 19300 16000
 F 0 "Q2" H 19488 16053 60  0000 L CNN
@@ -905,7 +905,7 @@ F 3 "~" H 21100 16150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT2222ALT1G Q4
+L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q4
 U 1 1 5F823B0E
 P 21900 16150
 F 0 "Q4" H 22088 16203 60  0000 L CNN
@@ -1186,46 +1186,46 @@ Default PWR supply config: INTERNAL SMPS only\n
 $Comp
 L pspice:CAP C25
 U 1 1 5F817F26
-P 6750 10550
-F 0 "C25" H 6928 10596 50  0000 L CNN
-F 1 "100nF" H 6928 10505 50  0000 L CNN
-F 2 "" H 6750 10550 50  0001 C CNN
-F 3 "~" H 6750 10550 50  0001 C CNN
-	1    6750 10550
+P 12150 8600
+F 0 "C25" H 12328 8646 50  0000 L CNN
+F 1 "100nF" H 12328 8555 50  0000 L CNN
+F 2 "" H 12150 8600 50  0001 C CNN
+F 3 "~" H 12150 8600 50  0001 C CNN
+	1    12150 8600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:CAP C24
 U 1 1 5F817F2C
-P 6750 9950
-F 0 "C24" H 6928 9996 50  0000 L CNN
-F 1 "100nF" H 6928 9905 50  0000 L CNN
-F 2 "" H 6750 9950 50  0001 C CNN
-F 3 "~" H 6750 9950 50  0001 C CNN
-	1    6750 9950
+P 12150 8000
+F 0 "C24" H 12328 8046 50  0000 L CNN
+F 1 "100nF" H 12328 7955 50  0000 L CNN
+F 2 "" H 12150 8000 50  0001 C CNN
+F 3 "~" H 12150 8000 50  0001 C CNN
+	1    12150 8000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7000 9950 7000 10550
+	12400 8000 12400 8600
 Wire Wire Line
-	7000 10550 7100 10550
-Connection ~ 7000 10550
+	12400 8600 12500 8600
+Connection ~ 12400 8600
 Wire Wire Line
-	6500 10550 6500 9950
+	11900 8600 11900 8000
 Wire Wire Line
-	6500 9950 6450 9950
-Connection ~ 6500 9950
-Text GLabel 6450 9950 1    50   Input ~ 0
+	11900 8000 11850 8000
+Connection ~ 11900 8000
+Text GLabel 11850 8000 1    50   Input ~ 0
 VDD_LDO
 $Comp
 L power:GND #PWR015
 U 1 1 5F83E171
-P 7100 10550
-F 0 "#PWR015" H 7100 10300 50  0001 C CNN
-F 1 "GND" H 7105 10377 50  0000 C CNN
-F 2 "" H 7100 10550 50  0001 C CNN
-F 3 "" H 7100 10550 50  0001 C CNN
-	1    7100 10550
+P 12500 8600
+F 0 "#PWR015" H 12500 8350 50  0001 C CNN
+F 1 "GND" H 12505 8427 50  0000 C CNN
+F 2 "" H 12500 8600 50  0001 C CNN
+F 3 "" H 12500 8600 50  0001 C CNN
+	1    12500 8600
 	1    0    0    -1  
 $EndComp
 Text GLabel 8900 7900 1    50   Input ~ 0
@@ -1255,7 +1255,7 @@ Wire Wire Line
 	10400 7300 10650 7300
 Text GLabel 10650 7300 2    50   Input ~ 0
 VFBSD
-Text Notes 8050 9850 2    50   ~ 0
+Text Notes 13450 7900 2    50   ~ 0
 Must be place near VDD_LDO\n
 Text GLabel 9750 9050 0    50   Input ~ 0
 1V2_MCU
@@ -1266,81 +1266,390 @@ VDD_LDO
 Text Notes 9800 9050 0    50   ~ 0
 Solder Bridge?\n
 $Comp
-L Jumper:Jumper_3_Open JP?
+L Jumper:Jumper_3_Open JP1
 U 1 1 5F894476
-P 1950 9050
-F 0 "JP?" V 1996 9137 50  0000 L CNN
-F 1 "Jumper_3_Open" V 1905 9137 50  0000 L CNN
-F 2 "" H 1950 9050 50  0001 C CNN
-F 3 "~" H 1950 9050 50  0001 C CNN
-	1    1950 9050
+P 1700 8950
+F 0 "JP1" V 1746 9037 50  0000 L CNN
+F 1 "Jumper_3_Open" V 1655 9037 50  0000 L CNN
+F 2 "" H 1700 8950 50  0001 C CNN
+F 3 "~" H 1700 8950 50  0001 C CNN
+	1    1700 8950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1950 8800 1800 8800
+	1700 8700 1550 8700
 Wire Wire Line
-	1950 9300 1800 9300
-Text GLabel 1800 8800 0    50   Input ~ 0
+	1700 9200 1550 9200
+Text GLabel 1550 8700 0    50   Input ~ 0
 3V3_VDD
-Text GLabel 1800 9300 0    50   Input ~ 0
+Text GLabel 1550 9200 0    50   Input ~ 0
 1V8_VDD
 Wire Wire Line
-	2100 9050 2400 9050
-Text GLabel 2400 9050 1    50   Input ~ 0
+	1850 8950 2150 8950
+Text GLabel 2150 8950 1    50   Input ~ 0
 VDD_MCU
 Text GLabel 2650 5000 0    50   Input ~ 0
 3V3_VDD
 Text GLabel 2650 5100 0    50   Input ~ 0
 3V3_VDD
 $Comp
-L SamacSys_Parts:ST1L05BPUR IC?
+L ECE477-rescue:ST1L05BPUR-SamacSys_Parts IC3
 U 1 1 5F907254
-P 4650 11300
-F 0 "IC?" H 5150 11565 50  0000 C CNN
-F 1 "ST1L05BPUR" H 5150 11474 50  0000 C CNN
-F 2 "SON95P300X300X100-7N-D" H 5500 11400 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/st1l05.pdf" H 5500 11300 50  0001 L CNN
-F 4 "STMICROELECTRONICS - ST1L05BPUR - LDO, ADJ, 1.22V-5.5V, 1.3A, DFN-6" H 5500 11200 50  0001 L CNN "Description"
-F 5 "1" H 5500 11100 50  0001 L CNN "Height"
-F 6 "511-ST1L05BPUR" H 5500 11000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05BPUR?qs=MJw%2F449BOx8r6LrCfzDi%2FA%3D%3D" H 5500 10900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 5500 10800 50  0001 L CNN "Manufacturer_Name"
-F 9 "ST1L05BPUR" H 5500 10700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4650 11300
+P 2250 12400
+F 0 "IC3" H 2750 12665 50  0000 C CNN
+F 1 "ST1L05BPUR" H 2750 12574 50  0000 C CNN
+F 2 "SON95P300X300X100-7N-D" H 3100 12500 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/st1l05.pdf" H 3100 12400 50  0001 L CNN
+F 4 "STMICROELECTRONICS - ST1L05BPUR - LDO, ADJ, 1.22V-5.5V, 1.3A, DFN-6" H 3100 12300 50  0001 L CNN "Description"
+F 5 "1" H 3100 12200 50  0001 L CNN "Height"
+F 6 "511-ST1L05BPUR" H 3100 12100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05BPUR?qs=MJw%2F449BOx8r6LrCfzDi%2FA%3D%3D" H 3100 12000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 3100 11900 50  0001 L CNN "Manufacturer_Name"
+F 9 "ST1L05BPUR" H 3100 11800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2250 12400
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:ST1L05CPU33R IC?
+L ECE477-rescue:ST1L05CPU33R-SamacSys_Parts IC2
 U 1 1 5F914541
-P 2850 12250
-F 0 "IC?" H 3550 12515 50  0000 C CNN
-F 1 "ST1L05CPU33R" H 3550 12424 50  0000 C CNN
-F 2 "SON95P300X300X100-7N-D" H 4100 12350 50  0001 L CNN
-F 3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" H 4100 12250 50  0001 L CNN
-F 4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" H 4100 12150 50  0001 L CNN "Description"
-F 5 "1" H 4100 12050 50  0001 L CNN "Height"
-F 6 "511-ST1L05CPU33R" H 4100 11950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" H 4100 11850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 4100 11750 50  0001 L CNN "Manufacturer_Name"
-F 9 "ST1L05CPU33R" H 4100 11650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2850 12250
+P 2250 10350
+F 0 "IC2" H 2950 10615 50  0000 C CNN
+F 1 "ST1L05CPU33R" H 2950 10524 50  0000 C CNN
+F 2 "SON95P300X300X100-7N-D" H 3500 10450 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" H 3500 10350 50  0001 L CNN
+F 4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" H 3500 10250 50  0001 L CNN "Description"
+F 5 "1" H 3500 10150 50  0001 L CNN "Height"
+F 6 "511-ST1L05CPU33R" H 3500 10050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" H 3500 9950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 3500 9850 50  0001 L CNN "Manufacturer_Name"
+F 9 "ST1L05CPU33R" H 3500 9750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2250 10350
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:ESDAXLC6-1BT2 IC?
+L ECE477-rescue:ESDAXLC6-1BT2-SamacSys_Parts IC4
 U 1 1 5F91EC05
-P 4850 12800
-F 0 "IC?" H 5478 12796 50  0000 L CNN
-F 1 "ESDAXLC6-1BT2" H 5478 12705 50  0000 L CNN
-F 2 "SOD882" H 5500 12900 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 5500 12800 50  0001 L CNN
-F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 5500 12700 50  0001 L CNN "Description"
-F 5 "" H 5500 12600 50  0001 L CNN "Height"
-F 6 "511-ESDAXLC6-1BT2" H 5500 12500 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 5500 12400 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 5500 12300 50  0001 L CNN "Manufacturer_Name"
-F 9 "ESDAXLC6-1BT2" H 5500 12200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4850 12800
+P 7500 11850
+F 0 "IC4" H 8128 11846 50  0000 L CNN
+F 1 "ESDAXLC6-1BT2" H 8128 11755 50  0000 L CNN
+F 2 "SOD882" H 8150 11950 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 8150 11850 50  0001 L CNN
+F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 8150 11750 50  0001 L CNN "Description"
+F 5 "" H 8150 11650 50  0001 L CNN "Height"
+F 6 "511-ESDAXLC6-1BT2" H 8150 11550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 8150 11450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 8150 11350 50  0001 L CNN "Manufacturer_Name"
+F 9 "ESDAXLC6-1BT2" H 8150 11250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 11850
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	2300 9300 1000 9300
+Wire Notes Line
+	1000 9300 1000 8500
+Wire Notes Line
+	1000 8500 2300 8500
+Wire Notes Line
+	2300 8500 2300 9300
+Text Notes 1750 9350 0    50   ~ 0
+PWR Selection\n\n
+Wire Wire Line
+	3650 10350 3650 10000
+Wire Wire Line
+	3650 10000 1400 10000
+Wire Wire Line
+	3650 10450 3850 10450
+Wire Wire Line
+	3650 10550 3850 10550
+Wire Wire Line
+	2250 10450 2150 10450
+Wire Wire Line
+	2150 10450 2150 11200
+Wire Wire Line
+	2950 11050 2950 11200
+Connection ~ 2150 11200
+Wire Wire Line
+	2150 11200 2950 11200
+Wire Wire Line
+	2950 11200 3850 11200
+Connection ~ 2950 11200
+$Comp
+L pspice:CAP C29
+U 1 1 5F735E0E
+P 1750 10800
+F 0 "C29" H 1928 10846 50  0000 L CNN
+F 1 "100nF" H 1928 10755 50  0000 L CNN
+F 2 "" H 1750 10800 50  0001 C CNN
+F 3 "~" H 1750 10800 50  0001 C CNN
+	1    1750 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C28
+U 1 1 5F73EF44
+P 1050 10800
+F 0 "C28" H 1228 10846 50  0000 L CNN
+F 1 "4.7uF" H 1228 10755 50  0000 L CNN
+F 2 "" H 1050 10800 50  0001 C CNN
+F 3 "~" H 1050 10800 50  0001 C CNN
+	1    1050 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5F756B60
+P 1550 10350
+F 0 "R12" H 1618 10396 50  0000 L CNN
+F 1 "10K" H 1618 10305 50  0000 L CNN
+F 2 "" V 1590 10340 50  0001 C CNN
+F 3 "~" H 1550 10350 50  0001 C CNN
+	1    1550 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 10350 1750 10350
+Wire Wire Line
+	1750 10350 1750 10550
+Connection ~ 1750 10350
+Wire Wire Line
+	1750 10350 2250 10350
+Wire Wire Line
+	1400 10000 1400 10350
+Wire Wire Line
+	1050 10550 1050 10000
+Wire Wire Line
+	1400 10000 1050 10000
+Connection ~ 1400 10000
+Text GLabel 1050 10000 1    50   Input ~ 0
+5V
+Wire Wire Line
+	1050 11050 1050 11200
+Wire Wire Line
+	1050 11200 1750 11200
+Wire Wire Line
+	1750 11050 1750 11200
+Connection ~ 1750 11200
+Wire Wire Line
+	1750 11200 2150 11200
+$Comp
+L power:GND #PWR017
+U 1 1 5F7B85B7
+P 3850 11200
+F 0 "#PWR017" H 3850 10950 50  0001 C CNN
+F 1 "GND" H 3855 11027 50  0000 C CNN
+F 2 "" H 3850 11200 50  0001 C CNN
+F 3 "" H 3850 11200 50  0001 C CNN
+	1    3850 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C30
+U 1 1 5F7C2C90
+P 3850 10850
+F 0 "C30" H 4028 10896 50  0000 L CNN
+F 1 "4.7uF" H 4028 10805 50  0000 L CNN
+F 2 "" H 3850 10850 50  0001 C CNN
+F 3 "~" H 3850 10850 50  0001 C CNN
+	1    3850 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 11100 3850 11200
+Connection ~ 3850 11200
+Wire Wire Line
+	3850 10600 3850 10550
+Connection ~ 3850 10550
+Wire Wire Line
+	3850 10550 3850 10450
+Wire Wire Line
+	3850 10450 4600 10450
+Connection ~ 3850 10450
+Text GLabel 4200 10450 1    50   Input ~ 0
+3V3
+Text GLabel 4600 10450 1    50   Input ~ 0
+3V3_PER
+Wire Wire Line
+	3250 12400 3250 12000
+Wire Wire Line
+	3250 12000 2350 12000
+$Comp
+L pspice:CAP C32
+U 1 1 5F818D16
+P 2000 12000
+F 0 "C32" H 2178 12046 50  0000 L CNN
+F 1 "100nF" H 2178 11955 50  0000 L CNN
+F 2 "" H 2000 12000 50  0001 C CNN
+F 3 "~" H 2000 12000 50  0001 C CNN
+	1    2000 12000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5F824297
+P 1750 12000
+F 0 "#PWR018" H 1750 11750 50  0001 C CNN
+F 1 "GND" H 1755 11827 50  0000 C CNN
+F 2 "" H 1750 12000 50  0001 C CNN
+F 3 "" H 1750 12000 50  0001 C CNN
+	1    1750 12000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 12000 2350 11550
+Wire Wire Line
+	2350 11550 1350 11550
+Wire Wire Line
+	1350 11550 1350 11750
+Connection ~ 2350 12000
+Wire Wire Line
+	2350 12000 2250 12000
+$Comp
+L Device:R_US R13
+U 1 1 5F83B455
+P 1350 11900
+F 0 "R13" H 1418 11946 50  0000 L CNN
+F 1 "10K" H 1418 11855 50  0000 L CNN
+F 2 "" V 1390 11890 50  0001 C CNN
+F 3 "~" H 1350 11900 50  0001 C CNN
+	1    1350 11900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 12400 1350 12050
+Wire Wire Line
+	1350 12400 1750 12400
+Wire Wire Line
+	1350 11550 1100 11550
+Connection ~ 1350 11550
+Text GLabel 1100 11550 0    50   Input ~ 0
+3V3_VDD
+Wire Wire Line
+	2250 12500 2050 12500
+Wire Wire Line
+	2050 12500 2050 13250
+Wire Wire Line
+	2050 13250 2750 13250
+Wire Wire Line
+	2250 12600 2250 12750
+Wire Wire Line
+	2750 13100 2750 13250
+Connection ~ 2750 13250
+Wire Wire Line
+	2750 13250 3400 13250
+$Comp
+L pspice:CAP C31
+U 1 1 5F88492A
+P 1750 12850
+F 0 "C31" H 1928 12896 50  0000 L CNN
+F 1 "100nF" H 1928 12805 50  0000 L CNN
+F 2 "" H 1750 12850 50  0001 C CNN
+F 3 "~" H 1750 12850 50  0001 C CNN
+	1    1750 12850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 12600 1750 12400
+Connection ~ 1750 12400
+Wire Wire Line
+	1750 12400 2250 12400
+Wire Wire Line
+	1750 13100 1750 13250
+Wire Wire Line
+	1750 13250 2050 13250
+Connection ~ 2050 13250
+$Comp
+L power:GND #PWR019
+U 1 1 5F8AB03B
+P 3500 13250
+F 0 "#PWR019" H 3500 13000 50  0001 C CNN
+F 1 "GND" H 3505 13077 50  0000 C CNN
+F 2 "" H 3500 13250 50  0001 C CNN
+F 3 "" H 3500 13250 50  0001 C CNN
+	1    3500 13250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 13250
+Wire Wire Line
+	3250 12600 3600 12600
+$Comp
+L Device:R_US R14
+U 1 1 5F8E1C18
+P 3400 12900
+F 0 "R14" H 3468 12946 50  0000 L CNN
+F 1 "56k" H 3468 12855 50  0000 L CNN
+F 2 "" V 3440 12890 50  0001 C CNN
+F 3 "~" H 3400 12900 50  0001 C CNN
+	1    3400 12900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 5F8EFC73
+P 3900 12500
+F 0 "R15" H 3968 12546 50  0000 L CNN
+F 1 "27k" H 3968 12455 50  0000 L CNN
+F 2 "" V 3940 12490 50  0001 C CNN
+F 3 "~" H 3900 12500 50  0001 C CNN
+	1    3900 12500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 12500 3400 12500
+Wire Wire Line
+	3400 12500 3400 12750
+Connection ~ 3400 12500
+Wire Wire Line
+	3400 12500 3750 12500
+Wire Wire Line
+	3400 13050 3400 13250
+Connection ~ 3400 13250
+Wire Wire Line
+	3400 13250 3500 13250
+Wire Wire Line
+	3600 12250 3600 12600
+Wire Wire Line
+	3600 12250 4050 12250
+$Comp
+L pspice:CAP C?
+U 1 1 5F95F653
+P 4350 12900
+F 0 "C?" H 4528 12946 50  0000 L CNN
+F 1 "100nF" H 4528 12855 50  0000 L CNN
+F 2 "" H 4350 12900 50  0001 C CNN
+F 3 "~" H 4350 12900 50  0001 C CNN
+	1    4350 12900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 13250 4350 13150
+Wire Wire Line
+	3500 13250 4350 13250
+Wire Wire Line
+	4050 12250 4050 12500
+Wire Wire Line
+	4050 12250 4350 12250
+Connection ~ 4050 12250
+Wire Wire Line
+	4350 12050 4350 12250
+Connection ~ 4350 12250
+Wire Wire Line
+	4350 12250 4350 12650
+Text GLabel 4350 12050 1    50   Input ~ 0
+1V8-VDD
+Text Notes 3400 12800 0    50   ~ 0
+R2\n
+Text Notes 3700 12600 0    50   ~ 0
+R1
+Text Notes 3150 11850 0    50   ~ 0
+V_Out = 1.22 * (1 + R1/R2)
+Wire Notes Line
+	650  13750 650  9700
+Wire Notes Line
+	650  9700 4850 9700
+Wire Notes Line
+	4850 9700 4850 13750
+Wire Notes Line
+	4850 13750 650  13750
+Text Notes 750  13700 0    50   ~ 0
+PWR generation blocks for 3.3V and 1.8V power to the MCU
 $EndSCHEMATC
