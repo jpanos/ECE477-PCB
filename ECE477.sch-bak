@@ -60,34 +60,34 @@ $EndComp
 $Comp
 L ECE477-rescue:PTN78020WAH-SamacSys_Parts IC1
 U 1 1 5F63F739
-P 26350 7350
-F 0 "IC1" H 27050 7615 50  0000 C CNN
-F 1 "PTN78020WAH" H 27050 7524 50  0000 C CNN
-F 2 "EUL(R-PDSS-B7)" H 27600 7450 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 27600 7350 50  0001 L CNN
-F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 27600 7250 50  0001 L CNN "Description"
-F 5 "" H 27600 7150 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 27600 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "PTN78020WAH" H 27600 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "PTN78020WAH" H 27600 6850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 27600 6750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "595-PTN78020WAH" H 27600 6650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 27600 6550 50  0001 L CNN "Mouser Price/Stock"
-	1    26350 7350
+P 17500 8350
+F 0 "IC1" H 18200 8615 50  0000 C CNN
+F 1 "PTN78020WAH" H 18200 8524 50  0000 C CNN
+F 2 "EUL(R-PDSS-B7)" H 18750 8450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 18750 8350 50  0001 L CNN
+F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 18750 8250 50  0001 L CNN "Description"
+F 5 "" H 18750 8150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 18750 8050 50  0001 L CNN "Manufacturer_Name"
+F 7 "PTN78020WAH" H 18750 7950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PTN78020WAH" H 18750 7850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 18750 7750 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-PTN78020WAH" H 18750 7650 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 18750 7550 50  0001 L CNN "Mouser Price/Stock"
+	1    17500 8350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:R-555.0DA-R-555.0DA PS1
 U 1 1 5F642365
-P 24550 7350
-F 0 "PS1" H 24550 7817 50  0000 C CNN
-F 1 "R-555.0DA" H 24550 7726 50  0000 C CNN
-F 2 "CONV_R-555.0DA" H 24550 7350 50  0001 L BNN
-F 3 "Recom" H 24550 7350 50  0001 L BNN
-F 4 "4" H 24550 7350 50  0001 L BNN "Field4"
-F 5 "Manufacturer Recommendations" H 24550 7350 50  0001 L BNN "Field5"
-F 6 "9.1mm" H 24550 7350 50  0001 L BNN "Field6"
-	1    24550 7350
+P 15700 8350
+F 0 "PS1" H 15700 8817 50  0000 C CNN
+F 1 "R-555.0DA" H 15700 8726 50  0000 C CNN
+F 2 "CONV_R-555.0DA" H 15700 8350 50  0001 L BNN
+F 3 "Recom" H 15700 8350 50  0001 L BNN
+F 4 "4" H 15700 8350 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 15700 8350 50  0001 L BNN "Field5"
+F 6 "9.1mm" H 15700 8350 50  0001 L BNN "Field6"
+	1    15700 8350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1678,6 +1678,76 @@ F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=
 F 8 "STMicroelectronics" H 8150 11350 50  0001 L CNN "Manufacturer_Name"
 F 9 "ESDAXLC6-1BT2" H 8150 11250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    7500 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:P7805-2000-S J1
+U 1 1 5F6FC61B
+P 3900 8850
+F 0 "J1" H 4628 8796 50  0000 L CNN
+F 1 "P7805-2000-S" H 4628 8705 50  0000 L CNN
+F 2 "P78052000S" H 4650 8950 50  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf" H 4650 8850 50  0001 L CNN
+F 4 "Non-Isolated DC/DC Converters 5 Vdc, 2 A, 10 W, 8~36 Vdc Input Range" H 4650 8750 50  0001 L CNN "Description"
+F 5 "17.5" H 4650 8650 50  0001 L CNN "Height"
+F 6 "490-P7805-2000-S" H 4650 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/P7805-2000-S?qs=GBLSl2AkirtGU70jx9b4PA%3D%3D" H 4650 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc" H 4650 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "P7805-2000-S" H 4650 8250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3900 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 8850 3600 8850
+Wire Wire Line
+	3900 9050 3600 9050
+Text GLabel 3600 8850 0    50   Input ~ 0
+PWR_IN
+Text GLabel 3600 9050 0    50   Input ~ 0
+5V
+Text GLabel 3150 8950 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR020
+U 1 1 5F746F28
+P 3300 8950
+F 0 "#PWR020" H 3300 8700 50  0001 C CNN
+F 1 "GND" H 3305 8777 50  0000 C CNN
+F 2 "" H 3300 8950 50  0001 C CNN
+F 3 "" H 3300 8950 50  0001 C CNN
+	1    3300 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 8950 3300 8950
+Connection ~ 3300 8950
+Wire Wire Line
+	3300 8950 3900 8950
+Wire Notes Line
+	5400 8500 2700 8500
+Wire Notes Line
+	2700 8500 2700 9300
+Wire Notes Line
+	2700 9300 5400 9300
+Wire Notes Line
+	5400 9300 5400 8500
+Text Notes 2750 8600 0    50   ~ 0
+Battery voltage regulation
+$Comp
+L SamacSys_Parts:BQ29330DBT IC?
+U 1 1 5F7B6D95
+P 25550 4950
+F 0 "IC?" H 26200 5215 50  0000 C CNN
+F 1 "BQ29330DBT" H 26200 5124 50  0000 C CNN
+F 2 "SOP50P640X120-30N" H 26700 5050 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 26700 4950 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 26700 4850 50  0001 L CNN "Description"
+F 5 "1.2" H 26700 4750 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 26700 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 26700 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 26700 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 26700 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    25550 4950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

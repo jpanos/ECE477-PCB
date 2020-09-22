@@ -42,4 +42,10 @@ K
 F https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf
 $ENDCMP
 #
+$CMP BQ29330DBT
+D TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330
+$ENDCMP
+#
 #End Doc Library

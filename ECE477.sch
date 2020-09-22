@@ -49,45 +49,45 @@ $EndComp
 $Comp
 L ECE477-rescue:BQ29312APW-2020-09-16_23-09-37 U2
 U 1 1 5F637243
-P 28700 3950
-F 0 "U2" H 30000 4337 60  0000 C CNN
-F 1 "BQ29312APW" H 30000 4231 60  0000 C CNN
-F 2 "PW24" H 30000 4190 60  0001 C CNN
-F 3 "" H 28700 3950 60  0000 C CNN
-	1    28700 3950
+P 26450 7350
+F 0 "U2" H 27750 7737 60  0000 C CNN
+F 1 "BQ29312APW" H 27750 7631 60  0000 C CNN
+F 2 "PW24" H 27750 7590 60  0001 C CNN
+F 3 "" H 26450 7350 60  0000 C CNN
+	1    26450 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:PTN78020WAH-SamacSys_Parts IC1
 U 1 1 5F63F739
-P 22000 8850
-F 0 "IC1" H 22700 9115 50  0000 C CNN
-F 1 "PTN78020WAH" H 22700 9024 50  0000 C CNN
-F 2 "EUL(R-PDSS-B7)" H 23250 8950 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 23250 8850 50  0001 L CNN
-F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 23250 8750 50  0001 L CNN "Description"
-F 5 "" H 23250 8650 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 23250 8550 50  0001 L CNN "Manufacturer_Name"
-F 7 "PTN78020WAH" H 23250 8450 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "PTN78020WAH" H 23250 8350 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 23250 8250 50  0001 L CNN "Arrow Price/Stock"
-F 10 "595-PTN78020WAH" H 23250 8150 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 23250 8050 50  0001 L CNN "Mouser Price/Stock"
-	1    22000 8850
+P 17500 8350
+F 0 "IC1" H 18200 8615 50  0000 C CNN
+F 1 "PTN78020WAH" H 18200 8524 50  0000 C CNN
+F 2 "EUL(R-PDSS-B7)" H 18750 8450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 18750 8350 50  0001 L CNN
+F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 18750 8250 50  0001 L CNN "Description"
+F 5 "" H 18750 8150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 18750 8050 50  0001 L CNN "Manufacturer_Name"
+F 7 "PTN78020WAH" H 18750 7950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PTN78020WAH" H 18750 7850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 18750 7750 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-PTN78020WAH" H 18750 7650 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 18750 7550 50  0001 L CNN "Mouser Price/Stock"
+	1    17500 8350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:R-555.0DA-R-555.0DA PS1
 U 1 1 5F642365
-P 20200 8850
-F 0 "PS1" H 20200 9317 50  0000 C CNN
-F 1 "R-555.0DA" H 20200 9226 50  0000 C CNN
-F 2 "CONV_R-555.0DA" H 20200 8850 50  0001 L BNN
-F 3 "Recom" H 20200 8850 50  0001 L BNN
-F 4 "4" H 20200 8850 50  0001 L BNN "Field4"
-F 5 "Manufacturer Recommendations" H 20200 8850 50  0001 L BNN "Field5"
-F 6 "9.1mm" H 20200 8850 50  0001 L BNN "Field6"
-	1    20200 8850
+P 15700 8350
+F 0 "PS1" H 15700 8817 50  0000 C CNN
+F 1 "R-555.0DA" H 15700 8726 50  0000 C CNN
+F 2 "CONV_R-555.0DA" H 15700 8350 50  0001 L BNN
+F 3 "Recom" H 15700 8350 50  0001 L BNN
+F 4 "4" H 15700 8350 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 15700 8350 50  0001 L BNN "Field5"
+F 6 "9.1mm" H 15700 8350 50  0001 L BNN "Field6"
+	1    15700 8350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1681,10 +1681,10 @@ F 9 "ESDAXLC6-1BT2" H 8150 11250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:P7805-2000-S J?
+L SamacSys_Parts:P7805-2000-S J1
 U 1 1 5F6FC61B
 P 3900 8850
-F 0 "J?" H 4628 8796 50  0000 L CNN
+F 0 "J1" H 4628 8796 50  0000 L CNN
 F 1 "P7805-2000-S" H 4628 8705 50  0000 L CNN
 F 2 "P78052000S" H 4650 8950 50  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf" H 4650 8850 50  0001 L CNN
@@ -1708,10 +1708,10 @@ Text GLabel 3600 9050 0    50   Input ~ 0
 Text GLabel 3150 8950 0    50   Input ~ 0
 GND
 $Comp
-L power:GND #PWR?
+L power:GND #PWR020
 U 1 1 5F746F28
 P 3300 8950
-F 0 "#PWR?" H 3300 8700 50  0001 C CNN
+F 0 "#PWR020" H 3300 8700 50  0001 C CNN
 F 1 "GND" H 3305 8777 50  0000 C CNN
 F 2 "" H 3300 8950 50  0001 C CNN
 F 3 "" H 3300 8950 50  0001 C CNN
@@ -1723,4 +1723,31 @@ Wire Wire Line
 Connection ~ 3300 8950
 Wire Wire Line
 	3300 8950 3900 8950
+Wire Notes Line
+	5400 8500 2700 8500
+Wire Notes Line
+	2700 8500 2700 9300
+Wire Notes Line
+	2700 9300 5400 9300
+Wire Notes Line
+	5400 9300 5400 8500
+Text Notes 2750 8600 0    50   ~ 0
+Battery voltage regulation
+$Comp
+L SamacSys_Parts:BQ29330DBT IC?
+U 1 1 5F7B6D95
+P 24300 7250
+F 0 "IC?" H 24950 7515 50  0000 C CNN
+F 1 "BQ29330DBT" H 24950 7424 50  0000 C CNN
+F 2 "SOP50P640X120-30N" H 25450 7350 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 25450 7250 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 25450 7150 50  0001 L CNN "Description"
+F 5 "1.2" H 25450 7050 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 25450 6950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 25450 6850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 25450 6750 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 25450 6650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    24300 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
