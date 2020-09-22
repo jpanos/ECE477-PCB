@@ -36,4 +36,10 @@ K
 F https://www.st.com/resource/en/datasheet/st1l05.pdf
 $ENDCMP
 #
+$CMP P7805-2000-S
+D Non-Isolated DC/DC Converters 5 Vdc, 2 A, 10 W, 8~36 Vdc Input Range
+K
+F https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf
+$ENDCMP
+#
 #End Doc Library

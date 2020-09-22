@@ -60,34 +60,34 @@ $EndComp
 $Comp
 L ECE477-rescue:PTN78020WAH-SamacSys_Parts IC1
 U 1 1 5F63F739
-P 26350 7350
-F 0 "IC1" H 27050 7615 50  0000 C CNN
-F 1 "PTN78020WAH" H 27050 7524 50  0000 C CNN
-F 2 "EUL(R-PDSS-B7)" H 27600 7450 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 27600 7350 50  0001 L CNN
-F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 27600 7250 50  0001 L CNN "Description"
-F 5 "" H 27600 7150 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 27600 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "PTN78020WAH" H 27600 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "PTN78020WAH" H 27600 6850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 27600 6750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "595-PTN78020WAH" H 27600 6650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 27600 6550 50  0001 L CNN "Mouser Price/Stock"
-	1    26350 7350
+P 22000 8850
+F 0 "IC1" H 22700 9115 50  0000 C CNN
+F 1 "PTN78020WAH" H 22700 9024 50  0000 C CNN
+F 2 "EUL(R-PDSS-B7)" H 23250 8950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/ptn78020w" H 23250 8850 50  0001 L CNN
+F 4 "6-A Wide-Input Voltage Adjustable Switching Regulator" H 23250 8750 50  0001 L CNN "Description"
+F 5 "" H 23250 8650 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 23250 8550 50  0001 L CNN "Manufacturer_Name"
+F 7 "PTN78020WAH" H 23250 8450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PTN78020WAH" H 23250 8350 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ptn78020wah/texas-instruments" H 23250 8250 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-PTN78020WAH" H 23250 8150 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN78020WAH?qs=sSOk4GDDv7wwVFPVhz2GuA%3D%3D" H 23250 8050 50  0001 L CNN "Mouser Price/Stock"
+	1    22000 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:R-555.0DA-R-555.0DA PS1
 U 1 1 5F642365
-P 24550 7350
-F 0 "PS1" H 24550 7817 50  0000 C CNN
-F 1 "R-555.0DA" H 24550 7726 50  0000 C CNN
-F 2 "CONV_R-555.0DA" H 24550 7350 50  0001 L BNN
-F 3 "Recom" H 24550 7350 50  0001 L BNN
-F 4 "4" H 24550 7350 50  0001 L BNN "Field4"
-F 5 "Manufacturer Recommendations" H 24550 7350 50  0001 L BNN "Field5"
-F 6 "9.1mm" H 24550 7350 50  0001 L BNN "Field6"
-	1    24550 7350
+P 20200 8850
+F 0 "PS1" H 20200 9317 50  0000 C CNN
+F 1 "R-555.0DA" H 20200 9226 50  0000 C CNN
+F 2 "CONV_R-555.0DA" H 20200 8850 50  0001 L BNN
+F 3 "Recom" H 20200 8850 50  0001 L BNN
+F 4 "4" H 20200 8850 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 20200 8850 50  0001 L BNN "Field5"
+F 6 "9.1mm" H 20200 8850 50  0001 L BNN "Field6"
+	1    20200 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1326,23 +1326,6 @@ F 9 "ST1L05CPU33R" H 3500 9750 50  0001 L CNN "Manufacturer_Part_Number"
 	1    2250 10350
 	1    0    0    -1  
 $EndComp
-$Comp
-L ECE477-rescue:ESDAXLC6-1BT2-SamacSys_Parts IC4
-U 1 1 5F91EC05
-P 7500 11850
-F 0 "IC4" H 8128 11846 50  0000 L CNN
-F 1 "ESDAXLC6-1BT2" H 8128 11755 50  0000 L CNN
-F 2 "SOD882" H 8150 11950 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 8150 11850 50  0001 L CNN
-F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 8150 11750 50  0001 L CNN "Description"
-F 5 "" H 8150 11650 50  0001 L CNN "Height"
-F 6 "511-ESDAXLC6-1BT2" H 8150 11550 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 8150 11450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 8150 11350 50  0001 L CNN "Manufacturer_Name"
-F 9 "ESDAXLC6-1BT2" H 8150 11250 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7500 11850
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	2300 9300 1000 9300
 Wire Notes Line
@@ -1680,4 +1663,64 @@ Text GLabel 16300 3100 0    50   Input ~ 0
 USART1_TX
 Text GLabel 16300 3200 0    50   Input ~ 0
 USART1_RX
+$Comp
+L ECE477-rescue:ESDAXLC6-1BT2-SamacSys_Parts IC4
+U 1 1 5F91EC05
+P 7500 11850
+F 0 "IC4" H 8128 11846 50  0000 L CNN
+F 1 "ESDAXLC6-1BT2" H 8128 11755 50  0000 L CNN
+F 2 "SOD882" H 8150 11950 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/esdaxlc6-1bt2.pdf" H 8150 11850 50  0001 L CNN
+F 4 "STMicroelectronics ESDAXLC6-1BT2, Bi-Directional TVS Diode, 40W, 2-Pin SOD-882" H 8150 11750 50  0001 L CNN "Description"
+F 5 "" H 8150 11650 50  0001 L CNN "Height"
+F 6 "511-ESDAXLC6-1BT2" H 8150 11550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDAXLC6-1BT2?qs=wkiPY8TIIKdg3oms3habPg%3D%3D" H 8150 11450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 8150 11350 50  0001 L CNN "Manufacturer_Name"
+F 9 "ESDAXLC6-1BT2" H 8150 11250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:P7805-2000-S J?
+U 1 1 5F6FC61B
+P 3900 8850
+F 0 "J?" H 4628 8796 50  0000 L CNN
+F 1 "P7805-2000-S" H 4628 8705 50  0000 L CNN
+F 2 "P78052000S" H 4650 8950 50  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf" H 4650 8850 50  0001 L CNN
+F 4 "Non-Isolated DC/DC Converters 5 Vdc, 2 A, 10 W, 8~36 Vdc Input Range" H 4650 8750 50  0001 L CNN "Description"
+F 5 "17.5" H 4650 8650 50  0001 L CNN "Height"
+F 6 "490-P7805-2000-S" H 4650 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/P7805-2000-S?qs=GBLSl2AkirtGU70jx9b4PA%3D%3D" H 4650 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc" H 4650 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "P7805-2000-S" H 4650 8250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3900 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 8850 3600 8850
+Wire Wire Line
+	3900 9050 3600 9050
+Text GLabel 3600 8850 0    50   Input ~ 0
+PWR_IN
+Text GLabel 3600 9050 0    50   Input ~ 0
+5V
+Text GLabel 3150 8950 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F746F28
+P 3300 8950
+F 0 "#PWR?" H 3300 8700 50  0001 C CNN
+F 1 "GND" H 3305 8777 50  0000 C CNN
+F 2 "" H 3300 8950 50  0001 C CNN
+F 3 "" H 3300 8950 50  0001 C CNN
+	1    3300 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 8950 3300 8950
+Connection ~ 3300 8950
+Wire Wire Line
+	3300 8950 3900 8950
 $EndSCHEMATC
