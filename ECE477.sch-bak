@@ -49,12 +49,12 @@ $EndComp
 $Comp
 L ECE477-rescue:BQ29312APW-2020-09-16_23-09-37 U2
 U 1 1 5F637243
-P 28700 3950
-F 0 "U2" H 30000 4337 60  0000 C CNN
-F 1 "BQ29312APW" H 30000 4231 60  0000 C CNN
-F 2 "PW24" H 30000 4190 60  0001 C CNN
-F 3 "" H 28700 3950 60  0000 C CNN
-	1    28700 3950
+P 26450 7350
+F 0 "U2" H 27750 7737 60  0000 C CNN
+F 1 "BQ29312APW" H 27750 7631 60  0000 C CNN
+F 2 "PW24" H 27750 7590 60  0001 C CNN
+F 3 "" H 26450 7350 60  0000 C CNN
+	1    26450 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1736,18 +1736,18 @@ Battery voltage regulation
 $Comp
 L SamacSys_Parts:BQ29330DBT IC?
 U 1 1 5F7B6D95
-P 25550 4950
-F 0 "IC?" H 26200 5215 50  0000 C CNN
-F 1 "BQ29330DBT" H 26200 5124 50  0000 C CNN
-F 2 "SOP50P640X120-30N" H 26700 5050 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 26700 4950 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 26700 4850 50  0001 L CNN "Description"
-F 5 "1.2" H 26700 4750 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 26700 4650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 26700 4550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 26700 4450 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 26700 4350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    25550 4950
+P 24300 7250
+F 0 "IC?" H 24950 7515 50  0000 C CNN
+F 1 "BQ29330DBT" H 24950 7424 50  0000 C CNN
+F 2 "SOP50P640X120-30N" H 25450 7350 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 25450 7250 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 25450 7150 50  0001 L CNN "Description"
+F 5 "1.2" H 25450 7050 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 25450 6950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 25450 6850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 25450 6750 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 25450 6650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    24300 7250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
