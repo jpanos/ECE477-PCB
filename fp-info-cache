@@ -1,4 +1,4 @@
-19243501578070159
+19256307817165466
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74857,6 +74857,62 @@ rotary encoder
 0
 5
 4
+STM_footprints
+STM32H7_LQFP144_T2
+
+
+0
+144
+144
+SamacSys_Parts
+EUL_R-PDSS-B7_
+EUL (R-PDSS-B7)
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+P78052000S
+P7805-2000-S-2
+Connector
+0
+3
+3
+SamacSys_Parts
+QFP50P2200X2200X160-144N
+LQFP144
+Integrated Circuit
+0
+144
+144
+SamacSys_Parts
+SOD882
+SOD882
+Integrated Circuit
+0
+2
+2
+SamacSys_Parts
+SON95P300X300X100-7N-D
+DFN6 (3x3)
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SOP50P640X120-30N
+DBT0030A
+Integrated Circuit
+0
+30
+30
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
