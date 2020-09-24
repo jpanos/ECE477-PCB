@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 1 1 5F46820E
-P 16650 2200
-F 0 "U1" H 17850 2587 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 17850 2481 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 17850 2440 60  0001 C CNN
-F 3 "" H 16650 2200 60  0000 C CNN
-	1    16650 2200
+P 20200 1900
+F 0 "U1" H 21400 2287 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 21400 2181 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 21400 2140 60  0001 C CNN
+F 3 "" H 20200 1900 60  0000 C CNN
+	1    20200 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 2 1 5F46EB3B
-P 24700 2500
-F 0 "U1" H 25800 2887 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 25800 2781 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 25900 2740 60  0001 C CNN
-F 3 "" H 24700 2500 60  0000 C CNN
-	2    24700 2500
+P 23800 2400
+F 0 "U1" H 24900 2787 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 24900 2681 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 25000 2640 60  0001 C CNN
+F 3 "" H 23800 2400 60  0000 C CNN
+	2    23800 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1249,48 +1249,48 @@ Wire Notes Line
 Wire Notes Line
 	5800 10350 5800 11150
 Wire Wire Line
-	16650 3600 16300 3600
+	20200 3300 19850 3300
 Wire Wire Line
-	16650 3700 16300 3700
+	20200 3400 19850 3400
 Wire Wire Line
-	16650 3500 16300 3500
-Text GLabel 16300 3500 0    50   Input ~ 0
+	20200 3200 19850 3200
+Text GLabel 19850 3200 0    50   Input ~ 0
 JTMS_SWDIO
-Text GLabel 16300 3600 0    50   Input ~ 0
+Text GLabel 19850 3300 0    50   Input ~ 0
 JTCK_SWCLK
-Text GLabel 16300 3700 0    50   Input ~ 0
+Text GLabel 19850 3400 0    50   Input ~ 0
 JTDI
 Wire Wire Line
-	16650 4200 16300 4200
+	20200 3900 19850 3900
 Wire Wire Line
-	16650 4300 16300 4300
-Text GLabel 16300 4200 0    50   Input ~ 0
+	20200 4000 19850 4000
+Text GLabel 19850 3900 0    50   Input ~ 0
 JTDO
-Text GLabel 16300 4300 0    50   Input ~ 0
+Text GLabel 19850 4000 0    50   Input ~ 0
 nJTRST
 Wire Wire Line
-	16650 3100 16300 3100
+	20200 2800 19850 2800
 Wire Wire Line
-	16650 3200 16300 3200
-Text GLabel 16300 3100 0    50   Input ~ 0
+	20200 2900 19850 2900
+Text GLabel 19850 2800 0    50   Input ~ 0
 USART1_TX
-Text GLabel 16300 3200 0    50   Input ~ 0
+Text GLabel 19850 2900 0    50   Input ~ 0
 USART1_RX
 $Comp
 L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC5
 U 1 1 5F7B6D95
-P 11350 6100
-F 0 "IC5" H 12000 6365 50  0000 C CNN
-F 1 "BQ29330DBT" H 12000 6274 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP50P640X120-30N" H 12500 6200 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 12500 6100 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 12500 6000 50  0001 L CNN "Description"
-F 5 "1.2" H 12500 5900 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 12500 5800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 12500 5700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 12500 5600 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 12500 5500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11350 6100
+P 10000 2400
+F 0 "IC5" H 10650 2665 50  0000 C CNN
+F 1 "BQ29330DBT" H 10650 2574 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP50P640X120-30N" H 11150 2500 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 11150 2400 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 11150 2300 50  0001 L CNN "Description"
+F 5 "1.2" H 11150 2200 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 11150 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 11150 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 11150 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 11150 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10000 2400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1593,4 +1593,12 @@ Wire Notes Line
 	550  7950 8600 7950
 Text Notes 6550 10250 0    50   ~ 0
 Must be used if using LDO pwr supply
+Wire Wire Line
+	11300 2500 11550 2500
+Wire Wire Line
+	11300 2600 11550 2600
+Text GLabel 11550 2500 2    50   Input ~ 0
+SDATA_BAT
+Text GLabel 11550 2600 2    50   Input ~ 0
+SCLK_BAT
 $EndSCHEMATC
