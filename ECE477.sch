@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 1 1 5F46820E
-P 20200 1900
-F 0 "U1" H 21400 2287 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 21400 2181 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 21400 2140 60  0001 C CNN
-F 3 "" H 20200 1900 60  0000 C CNN
-	1    20200 1900
+P 15150 1800
+F 0 "U1" H 16350 2187 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 16350 2081 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 16350 2040 60  0001 C CNN
+F 3 "" H 15150 1800 60  0000 C CNN
+	1    15150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 2 1 5F46EB3B
-P 23800 2400
-F 0 "U1" H 24900 2787 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 24900 2681 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 25000 2640 60  0001 C CNN
-F 3 "" H 23800 2400 60  0000 C CNN
-	2    23800 2400
+P 25800 2250
+F 0 "U1" H 26900 2637 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 26900 2531 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 27000 2490 60  0001 C CNN
+F 3 "" H 25800 2250 60  0000 C CNN
+	2    25800 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -637,274 +637,6 @@ F 3 "" H 5750 1500 50  0001 C CNN
 	1    5750 1500
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R_US R5
-U 1 1 5F79E182
-P 15700 12050
-F 0 "R5" H 15632 12004 50  0000 R CNN
-F 1 "100K" H 15632 12095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15740 12040 50  0001 C CNN
-F 3 "~" H 15700 12050 50  0001 C CNN
-	1    15700 12050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R3
-U 1 1 5F7A1AEE
-P 15350 11700
-F 0 "R3" V 15555 11700 50  0000 C CNN
-F 1 "47K" V 15464 11700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15390 11690 50  0001 C CNN
-F 3 "~" H 15350 11700 50  0001 C CNN
-	1    15350 11700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q1
-U 1 1 5F7C964D
-P 16150 11700
-F 0 "Q1" H 16338 11753 60  0000 L CNN
-F 1 "NPN SOT23" H 16338 11647 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 16350 11900 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 16350 12000 60  0001 L CNN
-F 4 "MMBT2222ALT1GOSCT-ND" H 16350 12100 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT2222ALT1G" H 16350 12200 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16350 12300 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 16350 12400 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 16350 12500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 16350 12600 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SOT23" H 16350 12700 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 16350 12800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16350 12900 60  0001 L CNN "Status"
-	1    16150 11700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15700 11900 15700 11700
-Connection ~ 15700 11700
-Wire Wire Line
-	15700 11700 15950 11700
-Wire Wire Line
-	15500 11700 15700 11700
-Wire Wire Line
-	16250 11900 16250 12200
-Wire Wire Line
-	15700 12200 16250 12200
-Connection ~ 16250 12200
-Wire Wire Line
-	16250 12200 16250 12400
-$Comp
-L power:GND #PWR05
-U 1 1 5F7EDDBC
-P 16250 12400
-F 0 "#PWR05" H 16250 12150 50  0001 C CNN
-F 1 "GND" H 16255 12227 50  0000 C CNN
-F 2 "" H 16250 12400 50  0001 C CNN
-F 3 "" H 16250 12400 50  0001 C CNN
-	1    16250 12400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R9
-U 1 1 5F7FE74E
-P 18250 12150
-F 0 "R9" H 18182 12104 50  0000 R CNN
-F 1 "100K" H 18182 12195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18290 12140 50  0001 C CNN
-F 3 "~" H 18250 12150 50  0001 C CNN
-	1    18250 12150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R7
-U 1 1 5F7FE754
-P 17900 11800
-F 0 "R7" V 18105 11800 50  0000 C CNN
-F 1 "47K" V 18014 11800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 17940 11790 50  0001 C CNN
-F 3 "~" H 17900 11800 50  0001 C CNN
-	1    17900 11800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q3
-U 1 1 5F7FE763
-P 18700 11800
-F 0 "Q3" H 18888 11853 60  0000 L CNN
-F 1 "NPN SOT23" H 18888 11747 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 18900 12000 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 18900 12100 60  0001 L CNN
-F 4 "MMBT2222ALT1GOSCT-ND" H 18900 12200 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT2222ALT1G" H 18900 12300 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 18900 12400 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 18900 12500 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 18900 12600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 18900 12700 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SOT23" H 18900 12800 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 18900 12900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 18900 13000 60  0001 L CNN "Status"
-	1    18700 11800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18250 12000 18250 11800
-Connection ~ 18250 11800
-Wire Wire Line
-	18250 11800 18500 11800
-Wire Wire Line
-	18050 11800 18250 11800
-Wire Wire Line
-	18800 12000 18800 12300
-Wire Wire Line
-	18250 12300 18800 12300
-Connection ~ 18800 12300
-Wire Wire Line
-	18800 12300 18800 12500
-$Comp
-L power:GND #PWR09
-U 1 1 5F7FE771
-P 18800 12500
-F 0 "#PWR09" H 18800 12250 50  0001 C CNN
-F 1 "GND" H 18805 12327 50  0000 C CNN
-F 2 "" H 18800 12500 50  0001 C CNN
-F 3 "" H 18800 12500 50  0001 C CNN
-	1    18800 12500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R6
-U 1 1 5F81DB29
-P 15850 14450
-F 0 "R6" H 15782 14404 50  0000 R CNN
-F 1 "100K" H 15782 14495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15890 14440 50  0001 C CNN
-F 3 "~" H 15850 14450 50  0001 C CNN
-	1    15850 14450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R4
-U 1 1 5F81DB2F
-P 15500 14100
-F 0 "R4" V 15705 14100 50  0000 C CNN
-F 1 "47K" V 15614 14100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15540 14090 50  0001 C CNN
-F 3 "~" H 15500 14100 50  0001 C CNN
-	1    15500 14100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q2
-U 1 1 5F81DB3E
-P 16300 14100
-F 0 "Q2" H 16488 14153 60  0000 L CNN
-F 1 "NPN SOT23" H 16488 14047 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 16500 14300 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 16500 14400 60  0001 L CNN
-F 4 "MMBT2222ALT1GOSCT-ND" H 16500 14500 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT2222ALT1G" H 16500 14600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 16500 14700 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 16500 14800 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 16500 14900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 16500 15000 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SOT23" H 16500 15100 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 16500 15200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 16500 15300 60  0001 L CNN "Status"
-	1    16300 14100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15850 14300 15850 14100
-Connection ~ 15850 14100
-Wire Wire Line
-	15850 14100 16100 14100
-Wire Wire Line
-	15650 14100 15850 14100
-Wire Wire Line
-	16400 14300 16400 14600
-Wire Wire Line
-	15850 14600 16400 14600
-Connection ~ 16400 14600
-Wire Wire Line
-	16400 14600 16400 14800
-$Comp
-L power:GND #PWR06
-U 1 1 5F81DB4C
-P 16400 14800
-F 0 "#PWR06" H 16400 14550 50  0001 C CNN
-F 1 "GND" H 16405 14627 50  0000 C CNN
-F 2 "" H 16400 14800 50  0001 C CNN
-F 3 "" H 16400 14800 50  0001 C CNN
-	1    16400 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R10
-U 1 1 5F823AF9
-P 18450 14600
-F 0 "R10" H 18382 14554 50  0000 R CNN
-F 1 "100K" H 18382 14645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18490 14590 50  0001 C CNN
-F 3 "~" H 18450 14600 50  0001 C CNN
-	1    18450 14600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R8
-U 1 1 5F823AFF
-P 18100 14250
-F 0 "R8" V 18305 14250 50  0000 C CNN
-F 1 "47K" V 18214 14250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18140 14240 50  0001 C CNN
-F 3 "~" H 18100 14250 50  0001 C CNN
-	1    18100 14250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ECE477-rescue:MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q4
-U 1 1 5F823B0E
-P 18900 14250
-F 0 "Q4" H 19088 14303 60  0000 L CNN
-F 1 "NPN SOT23" H 19088 14197 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 19100 14450 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 19100 14550 60  0001 L CNN
-F 4 "MMBT2222ALT1GOSCT-ND" H 19100 14650 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT2222ALT1G" H 19100 14750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 19100 14850 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 19100 14950 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 19100 15050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" H 19100 15150 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SOT23" H 19100 15250 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 19100 15350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 19100 15450 60  0001 L CNN "Status"
-	1    18900 14250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18450 14450 18450 14250
-Connection ~ 18450 14250
-Wire Wire Line
-	18450 14250 18700 14250
-Wire Wire Line
-	18250 14250 18450 14250
-Wire Wire Line
-	19000 14450 19000 14750
-Wire Wire Line
-	18450 14750 19000 14750
-Connection ~ 19000 14750
-Wire Wire Line
-	19000 14750 19000 14950
-$Comp
-L power:GND #PWR010
-U 1 1 5F823B1C
-P 19000 14950
-F 0 "#PWR010" H 19000 14700 50  0001 C CNN
-F 1 "GND" H 19005 14777 50  0000 C CNN
-F 2 "" H 19000 14950 50  0001 C CNN
-F 3 "" H 19000 14950 50  0001 C CNN
-	1    19000 14950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 3750 2900 3750
 Wire Wire Line
@@ -1249,50 +981,33 @@ Wire Notes Line
 Wire Notes Line
 	5800 10350 5800 11150
 Wire Wire Line
-	20200 3300 19850 3300
+	15150 3200 14800 3200
 Wire Wire Line
-	20200 3400 19850 3400
+	15150 3300 14800 3300
 Wire Wire Line
-	20200 3200 19850 3200
-Text GLabel 19850 3200 0    50   Input ~ 0
+	15150 3100 14800 3100
+Text GLabel 14800 3100 0    50   Input ~ 0
 JTMS_SWDIO
-Text GLabel 19850 3300 0    50   Input ~ 0
+Text GLabel 14800 3200 0    50   Input ~ 0
 JTCK_SWCLK
-Text GLabel 19850 3400 0    50   Input ~ 0
+Text GLabel 14800 3300 0    50   Input ~ 0
 JTDI
 Wire Wire Line
-	20200 3900 19850 3900
+	15150 3800 14800 3800
 Wire Wire Line
-	20200 4000 19850 4000
-Text GLabel 19850 3900 0    50   Input ~ 0
+	15150 3900 14800 3900
+Text GLabel 14800 3800 0    50   Input ~ 0
 JTDO
-Text GLabel 19850 4000 0    50   Input ~ 0
+Text GLabel 14800 3900 0    50   Input ~ 0
 nJTRST
 Wire Wire Line
-	20200 2800 19850 2800
+	15150 2700 14800 2700
 Wire Wire Line
-	20200 2900 19850 2900
-Text GLabel 19850 2800 0    50   Input ~ 0
+	15150 2800 14800 2800
+Text GLabel 14800 2700 0    50   Input ~ 0
 USART1_TX
-Text GLabel 19850 2900 0    50   Input ~ 0
+Text GLabel 14800 2800 0    50   Input ~ 0
 USART1_RX
-$Comp
-L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC5
-U 1 1 5F7B6D95
-P 0 0
-F 0 "IC5" H 10650 2665 50  0000 C CNN
-F 1 "BQ29330DBT" H 10650 2574 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP50P640X120-30N" H 11150 2500 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 11150 2400 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 11150 2300 50  0001 L CNN "Description"
-F 5 "1.2" H 11150 2200 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 11150 2100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 11150 2000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 11150 1900 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 11150 1800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    0    0   
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	550  10350 550  11750
 Wire Notes Line
@@ -1423,150 +1138,8 @@ F 9 "P7805-2000-S" H 3500 10000 50  0001 L CNN "Manufacturer_Part_Number"
 	1    2750 10600
 	1    0    0    -1  
 $EndComp
-Text Notes 600  13550 0    50   ~ 0
-PWR generation blocks for 3.3V power to the MCU  ---- OLD LDO\n
-Wire Notes Line
-	4750 13650 550  13650
-Wire Notes Line
-	550  11850 4750 11850
-Text GLabel 4500 12600 1    50   Input ~ 0
-3V3_PER
-Text GLabel 4100 12600 1    50   Input ~ 0
-3V3_VDD
-Connection ~ 3750 12600
-Wire Wire Line
-	3750 12600 4500 12600
-Wire Wire Line
-	3750 12700 3750 12600
-Connection ~ 3750 12700
-Wire Wire Line
-	3750 12750 3750 12700
-Connection ~ 3750 13350
-Wire Wire Line
-	3750 13250 3750 13350
-$Comp
-L pspice:CAP C30
-U 1 1 5F7C2C90
-P 3750 13000
-F 0 "C30" H 3928 13046 50  0000 L CNN
-F 1 "4.7uF" H 3928 12955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 13000 50  0001 C CNN
-F 3 "~" H 3750 13000 50  0001 C CNN
-	1    3750 13000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5F7B85B7
-P 3750 13350
-F 0 "#PWR017" H 3750 13100 50  0001 C CNN
-F 1 "GND" H 3755 13177 50  0000 C CNN
-F 2 "" H 3750 13350 50  0001 C CNN
-F 3 "" H 3750 13350 50  0001 C CNN
-	1    3750 13350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 13350 2050 13350
-Connection ~ 1650 13350
-Wire Wire Line
-	1650 13200 1650 13350
-Wire Wire Line
-	950  13350 1650 13350
-Wire Wire Line
-	950  13200 950  13350
-Text GLabel 950  12150 1    50   Input ~ 0
-5V
-Connection ~ 1300 12150
-Wire Wire Line
-	1300 12150 950  12150
-Wire Wire Line
-	950  12700 950  12150
-Wire Wire Line
-	1300 12150 1300 12500
-Wire Wire Line
-	1650 12500 2150 12500
-Connection ~ 1650 12500
-Wire Wire Line
-	1650 12500 1650 12700
-Wire Wire Line
-	1600 12500 1650 12500
-$Comp
-L Device:R_US R12
-U 1 1 5F756B60
-P 1450 12500
-F 0 "R12" H 1518 12546 50  0000 L CNN
-F 1 "10K" H 1518 12455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1490 12490 50  0001 C CNN
-F 3 "~" H 1450 12500 50  0001 C CNN
-	1    1450 12500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pspice:CAP C28
-U 1 1 5F73EF44
-P 950 12950
-F 0 "C28" H 1128 12996 50  0000 L CNN
-F 1 "4.7uF" H 1128 12905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 950 12950 50  0001 C CNN
-F 3 "~" H 950 12950 50  0001 C CNN
-	1    950  12950
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:CAP C29
-U 1 1 5F735E0E
-P 1650 12950
-F 0 "C29" H 1828 12996 50  0000 L CNN
-F 1 "100nF" H 1828 12905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 12950 50  0001 C CNN
-F 3 "~" H 1650 12950 50  0001 C CNN
-	1    1650 12950
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 13350
-Wire Wire Line
-	2850 13350 3750 13350
-Wire Wire Line
-	2050 13350 2850 13350
-Connection ~ 2050 13350
-Wire Wire Line
-	2850 13200 2850 13350
-Wire Wire Line
-	2050 12600 2050 13350
-Wire Wire Line
-	2150 12600 2050 12600
-Wire Wire Line
-	3550 12700 3750 12700
-Wire Wire Line
-	3550 12600 3750 12600
-Wire Wire Line
-	3550 12150 1300 12150
-Wire Wire Line
-	3550 12500 3550 12150
 Text Notes 5250 11200 0    50   ~ 0
 PWR Selection\n\n
-$Comp
-L ECE477-rescue:ST1L05CPU33R-SamacSys_Parts IC2
-U 1 1 5F914541
-P 2150 12500
-F 0 "IC2" H 2850 12765 50  0000 C CNN
-F 1 "ST1L05CPU33R" H 2850 12674 50  0000 C CNN
-F 2 "SamacSys_Parts:SON95P300X300X100-7N-D" H 3400 12600 50  0001 L CNN
-F 3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" H 3400 12500 50  0001 L CNN
-F 4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" H 3400 12400 50  0001 L CNN "Description"
-F 5 "1" H 3400 12300 50  0001 L CNN "Height"
-F 6 "511-ST1L05CPU33R" H 3400 12200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" H 3400 12100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 3400 12000 50  0001 L CNN "Manufacturer_Name"
-F 9 "ST1L05CPU33R" H 3400 11900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2150 12500
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	4750 13650 4750 11850
-Wire Notes Line
-	550  13650 550  11850
 Wire Notes Line
 	550  7900 550  5300
 Wire Notes Line
@@ -1594,188 +1167,184 @@ Wire Notes Line
 Text Notes 6550 10250 0    50   ~ 0
 Must be used if using LDO pwr supply
 Wire Wire Line
-	16650 4900 16300 4900
+	15150 4500 14800 4500
 Wire Wire Line
-	16650 5100 16300 5100
-Text GLabel 16300 5000 0    50   Input ~ 0
+	15150 4700 14800 4700
+Text GLabel 14800 4600 0    50   Input ~ 0
 I2C2_SDA
-Text GLabel 16300 4900 0    50   Input ~ 0
+Text GLabel 14800 4500 0    50   Input ~ 0
 I2C2_SCL
-Text GLabel 16300 5100 0    50   Input ~ 0
+Text GLabel 14800 4700 0    50   Input ~ 0
 I2C2_SMBA
 Wire Wire Line
-	16650 4700 16300 4700
-Text GLabel 16300 4700 0    50   Input ~ 0
+	15150 4300 14800 4300
+Text GLabel 14800 4300 0    50   Input ~ 0
 Touch_Input
 Wire Wire Line
-	14550 4050 14900 4050
+	9800 1500 10150 1500
 Wire Wire Line
-	14550 4150 14900 4150
+	9800 1600 10150 1600
 Wire Wire Line
-	14550 4250 14900 4250
-Text GLabel 14900 4050 2    50   Input ~ 0
+	9800 1700 10150 1700
+Text GLabel 10150 1500 2    50   Input ~ 0
 I2C2_SMBA
-Text GLabel 14900 4150 2    50   Input ~ 0
+Text GLabel 10150 1600 2    50   Input ~ 0
 I2C2_SDA
-Text GLabel 14900 4250 2    50   Input ~ 0
+Text GLabel 10150 1700 2    50   Input ~ 0
 I2C2_SCL
 $Comp
-L ECE477-rescue:LP3852EMP-3.3_NOPB-SamacSys_Parts IC?
+L ECE477-rescue:LP3852EMP-3.3_NOPB-SamacSys_Parts IC1
 U 1 1 5F849652
-P 2200 14550
-F 0 "IC?" H 2950 14815 50  0000 C CNN
-F 1 "LP3852EMP-3.3_NOPB" H 2950 14724 50  0000 C CNN
-F 2 "SOT150P700X180-5N" H 3550 14650 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" H 3550 14550 50  0001 L CNN
-F 4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" H 3550 14450 50  0001 L CNN "Description"
-F 5 "1.8" H 3550 14350 50  0001 L CNN "Height"
-F 6 "926-LP3852EMP33NOPB" H 3550 14250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" H 3550 14150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 3550 14050 50  0001 L CNN "Manufacturer_Name"
-F 9 "LP3852EMP-3.3/NOPB" H 3550 13950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2200 14550
+P 2200 12600
+F 0 "IC1" H 2950 12865 50  0000 C CNN
+F 1 "LP3852EMP-3.3_NOPB" H 2950 12774 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT150P700X180-5N" H 3550 12700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" H 3550 12600 50  0001 L CNN
+F 4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" H 3550 12500 50  0001 L CNN "Description"
+F 5 "1.8" H 3550 12400 50  0001 L CNN "Height"
+F 6 "926-LP3852EMP33NOPB" H 3550 12300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" H 3550 12200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3550 12100 50  0001 L CNN "Manufacturer_Name"
+F 9 "LP3852EMP-3.3/NOPB" H 3550 12000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2200 12600
 	1    0    0    -1  
 $EndComp
-$Comp
-L ECE477-rescue:TL1963A-33DCYR-SamacSys_Parts PS?
-U 1 1 5F84A36C
-P 6550 11600
-F 0 "PS?" H 7150 11865 50  0000 C CNN
-F 1 "TL1963A-33DCYR" H 7150 11774 50  0000 C CNN
-F 2 "SOT230P700X180-4N" H 7600 11700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/tl1963a" H 7600 11600 50  0001 L CNN
-F 4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" H 7600 11500 50  0001 L CNN "Description"
-F 5 "1.8" H 7600 11400 50  0001 L CNN "Height"
-F 6 "595-TL1963A-33DCYR" H 7600 11300 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" H 7600 11200 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 7600 11100 50  0001 L CNN "Manufacturer_Name"
-F 9 "TL1963A-33DCYR" H 7600 11000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6550 11600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11300 2600 11550 2600
-Text GLabel 11550 2500 2    50   Input ~ 0
-SDATA_BAT
-Text GLabel 11550 2600 2    50   Input ~ 0
-SCLK_BAT
-Text GLabel 650  14000 1    50   Input ~ 0
+Text GLabel 650  12050 1    50   Input ~ 0
 5V
 Wire Wire Line
-	1200 14550 1200 14000
+	1200 12600 1200 12050
 $Comp
-L Device:R_US R?
+L Device:R_US R12
 U 1 1 5F7B7D2C
-P 2050 14300
-F 0 "R?" H 2118 14346 50  0000 L CNN
-F 1 "10K" H 2118 14255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2090 14290 50  0001 C CNN
-F 3 "~" H 2050 14300 50  0001 C CNN
-	1    2050 14300
+P 2050 12350
+F 0 "R12" H 2118 12396 50  0000 L CNN
+F 1 "10K" H 2118 12305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2090 12340 50  0001 C CNN
+F 3 "~" H 2050 12350 50  0001 C CNN
+	1    2050 12350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pspice:CAP C?
+L pspice:CAP C28
 U 1 1 5F7B7D32
-P 1200 14800
-F 0 "C?" H 1378 14846 50  0000 L CNN
-F 1 "10uF" H 1378 14755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 14800 50  0001 C CNN
-F 3 "~" H 1200 14800 50  0001 C CNN
-	1    1200 14800
+P 1200 12850
+F 0 "C28" H 1378 12896 50  0000 L CNN
+F 1 "10uF" H 1378 12805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 12850 50  0001 C CNN
+F 3 "~" H 1200 12850 50  0001 C CNN
+	1    1200 12850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 14550 3700 15700
+	3700 12600 3700 13750
 Wire Wire Line
-	3700 15700 2750 15700
+	3700 13750 2750 13750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 5F81DC44
-P 2750 15700
-F 0 "#PWR?" H 2750 15450 50  0001 C CNN
-F 1 "GND" H 2755 15527 50  0000 C CNN
-F 2 "" H 2750 15700 50  0001 C CNN
-F 3 "" H 2750 15700 50  0001 C CNN
-	1    2750 15700
+P 2750 13750
+F 0 "#PWR017" H 2750 13500 50  0001 C CNN
+F 1 "GND" H 2755 13577 50  0000 C CNN
+F 2 "" H 2750 13750 50  0001 C CNN
+F 3 "" H 2750 13750 50  0001 C CNN
+	1    2750 13750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 15700
+Connection ~ 2750 13750
 Wire Wire Line
-	2200 14550 2200 14300
+	2200 12600 2200 12350
 Wire Wire Line
-	650  14000 1200 14000
+	650  12050 1200 12050
 Wire Wire Line
-	1900 14000 1900 14300
+	1900 12050 1900 12350
 Wire Wire Line
-	1900 14650 2200 14650
-Connection ~ 1900 14300
+	1900 12700 2200 12700
+Connection ~ 1900 12350
 Wire Wire Line
-	1900 14300 1900 14650
-Connection ~ 1200 14000
+	1900 12350 1900 12700
+Connection ~ 1200 12050
 Wire Wire Line
-	1200 14000 1900 14000
+	1200 12050 1900 12050
 Wire Wire Line
-	1200 15050 1200 15700
+	1200 13100 1200 13750
 $Comp
-L pspice:CAP C?
+L pspice:CAP C29
 U 1 1 5F8BC1BD
-P 2650 15450
-F 0 "C?" H 2828 15496 50  0000 L CNN
-F 1 "10uF" H 2828 15405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 15450 50  0001 C CNN
-F 3 "~" H 2650 15450 50  0001 C CNN
-	1    2650 15450
+P 2650 13500
+F 0 "C29" H 2828 13546 50  0000 L CNN
+F 1 "10uF" H 2828 13455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 13500 50  0001 C CNN
+F 3 "~" H 2650 13500 50  0001 C CNN
+	1    2650 13500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R13
 U 1 1 5F8DF78E
-P 2250 15100
-F 0 "R?" H 2318 15146 50  0000 L CNN
-F 1 "10K" H 2318 15055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2290 15090 50  0001 C CNN
-F 3 "~" H 2250 15100 50  0001 C CNN
-	1    2250 15100
+P 2250 13150
+F 0 "R13" H 2318 13196 50  0000 L CNN
+F 1 "10K" H 2318 13105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2290 13140 50  0001 C CNN
+F 3 "~" H 2250 13150 50  0001 C CNN
+	1    2250 13150
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2650 15700
+Connection ~ 2650 13750
 Wire Wire Line
-	2650 15700 2750 15700
+	2650 13750 2750 13750
 Wire Wire Line
-	1200 15700 2650 15700
+	1200 13750 2650 13750
 Wire Wire Line
-	2200 14850 2100 14850
+	2200 12900 2100 12900
 Wire Wire Line
-	2100 14850 2100 15100
+	2100 12900 2100 13150
 Wire Wire Line
-	2200 14750 1900 14750
+	2200 12800 1900 12800
 Wire Wire Line
-	1900 14750 1900 15200
+	1900 12800 1900 13250
 Wire Wire Line
-	1900 15200 2400 15200
-Connection ~ 2650 15200
+	1900 13250 2400 13250
+Connection ~ 2650 13250
 Wire Wire Line
-	2400 15100 2400 15200
-Connection ~ 2400 15200
+	2400 13150 2400 13250
+Connection ~ 2400 13250
 Wire Wire Line
-	2400 15200 2650 15200
-Text Notes 3000 14100 0    50   ~ 0
+	2400 13250 2650 13250
+Text Notes 3000 12150 0    50   ~ 0
 We need to see if we want to use the ERR pin\n
-Text GLabel 3150 15200 3    50   Input ~ 0
+Text GLabel 3150 13250 3    50   Input ~ 0
 3V3_PER
-Text GLabel 3450 15200 3    50   Input ~ 0
+Text GLabel 3450 13250 3    50   Input ~ 0
 3V3_VDD
 Wire Wire Line
-	2650 15200 3450 15200
-Text Notes 1000 16050 0    50   ~ 0
+	2650 13250 3450 13250
+Text Notes 1000 14100 0    50   ~ 0
 PWR generation blocks for 3.3V power to the MCU  --- NEW LDO \n
 Wire Notes Line
-	550  16100 4900 16100
+	550  14150 4900 14150
 Wire Notes Line
-	550  13800 550  16100
+	550  11850 550  14150
 Wire Notes Line
-	4900 13800 4900 16100
+	4900 11850 4900 14150
 Wire Notes Line
-	550  13800 4900 13800
+	550  11850 4900 11850
+$Comp
+L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC5
+U 1 1 5F7B6D95
+P 8500 1500
+F 0 "IC5" H 9062 1786 50  0000 C CNN
+F 1 "BQ29330DBT" H 9055 1673 50  0000 C CNN
+F 2 "SOP50P640X120-30N" H 19650 4000 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 19650 3900 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 19650 3800 50  0001 L CNN "Description"
+F 5 "1.2" H 19650 3700 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 19650 3600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 19650 3500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 19650 3400 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 19650 3300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 4600 15150 4600
 $EndSCHEMATC

@@ -116,36 +116,6 @@ X GND_(TAB) 5 1500 0 200 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# ECE477-rescue_MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single
-#
-DEF ECE477-rescue_MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
-F0 "Q" -126 166 60 H V L CNN
-F1 "ECE477-rescue_MMBT2222ALT1G-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
-F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" 200 300 60 H I L CNN
-F4 "MMBT2222ALT1GOSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "MMBT2222ALT1G" 200 500 60 H I L CNN "MPN"
-F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
-F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
-F8 "http://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "TRANS NPN 40V 0.6A SOT23" 200 1000 60 H I L CNN "Description"
-F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C 0 0 128 0 1 0 f
-P 2 0 1 0 -150 0 -100 0 N
-P 2 0 1 0 -140 0 0 0 N
-P 2 0 1 0 0 -50 100 -100 N
-P 2 0 1 0 0 50 100 100 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
-X B 1 -200 0 100 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # ECE477-rescue_P7805-2000-S-SamacSys_Parts
 #
 DEF ECE477-rescue_P7805-2000-S-SamacSys_Parts J 0 30 Y Y 1 F N
@@ -164,31 +134,6 @@ P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
 X +VIN 1 0 0 200 R 50 50 0 0 P
 X GND 2 0 -100 200 R 50 50 0 0 P
 X +VO 3 0 -200 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# ECE477-rescue_ST1L05CPU33R-SamacSys_Parts
-#
-DEF ECE477-rescue_ST1L05CPU33R-SamacSys_Parts IC 0 30 Y Y 1 F N
-F0 "IC" 1250 300 50 H V L CNN
-F1 "ECE477-rescue_ST1L05CPU33R-SamacSys_Parts" 1250 200 50 H V L CNN
-F2 "SON95P300X300X100-7N-D" 1250 100 50 H I L CNN
-F3 "https://www.mouser.de/datasheet/2/389/st1l05-974244.pdf" 1250 0 50 H I L CNN
-F4 "LDO Voltage Regulators Low Quiescent BiCMOS Voltage Regulator" 1250 -100 50 H I L CNN "Description"
-F5 "1" 1250 -200 50 H I L CNN "Height"
-F6 "511-ST1L05CPU33R" 1250 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1L05CPU33R?qs=J6yVZnuyYCM7Ijtp87hQ4A%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "STMicroelectronics" 1250 -500 50 H I L CNN "Manufacturer_Name"
-F9 "ST1L05CPU33R" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
-X EN 1 0 0 200 R 50 50 0 0 P
-X GND 2 0 -100 200 R 50 50 0 0 P
-X N.C. 3 0 -200 200 R 50 50 0 0 N
-X VO 4 1400 -200 200 L 50 50 0 0 P
-X V_O_SENSE 5 1400 -100 200 L 50 50 0 0 P
-X VI 6 1400 0 200 L 50 50 0 0 P
-X EP 7 700 -700 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -361,28 +306,6 @@ X VSS 89 2200 -800 300 L 59 59 3 0 W
 X VDD50USB 90 0 -2300 300 R 59 59 3 0 W
 X VDD33USB 91 0 -2200 300 R 59 59 3 0 W
 X VDD 92 0 -800 300 R 59 59 3 0 W
-ENDDRAW
-ENDDEF
-#
-# ECE477-rescue_TL1963A-33DCYR-SamacSys_Parts
-#
-DEF ECE477-rescue_TL1963A-33DCYR-SamacSys_Parts PS 0 30 Y Y 1 F N
-F0 "PS" 1050 300 50 H V L CNN
-F1 "ECE477-rescue_TL1963A-33DCYR-SamacSys_Parts" 1050 200 50 H V L CNN
-F2 "SOT230P700X180-4N" 1050 100 50 H I L CNN
-F3 "http://www.ti.com/lit/gpn/tl1963a" 1050 0 50 H I L CNN
-F4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" 1050 -100 50 H I L CNN "Description"
-F5 "1.8" 1050 -200 50 H I L CNN "Height"
-F6 "595-TL1963A-33DCYR" 1050 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
-F9 "TL1963A-33DCYR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
-X IN 1 0 0 200 R 50 50 0 0 I
-X GND_1 2 0 -100 200 R 50 50 0 0 W
-X OUT 3 0 -200 200 R 50 50 0 0 O
-X GND_2 4 1200 0 200 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
