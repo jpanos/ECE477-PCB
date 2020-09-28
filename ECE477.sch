@@ -637,8 +637,6 @@ F 3 "" H 5750 1500 50  0001 C CNN
 	1    5750 1500
 	-1   0    0    1   
 $EndComp
-<<<<<<< HEAD
-=======
 $Comp
 L Device:R_US R5
 U 1 1 5F79E182
@@ -907,7 +905,6 @@ F 3 "" H 19000 14950 50  0001 C CNN
 	1    19000 14950
 	1    0    0    -1  
 $EndComp
->>>>>>> 38c771991df6f9a9aa612a24e752d11794080ac6
 Wire Wire Line
 	3200 3750 2900 3750
 Wire Wire Line
@@ -1282,24 +1279,7 @@ USART1_RX
 $Comp
 L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC5
 U 1 1 5F7B6D95
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-P 13250 4050
-F 0 "IC5" H 13900 4315 50  0000 C CNN
-F 1 "BQ29330DBT" H 13900 4224 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP50P640X120-30N" H 14400 4150 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 14400 4050 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 14400 3950 50  0001 L CNN "Description"
-F 5 "1.2" H 14400 3850 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 14400 3750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 14400 3650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 14400 3550 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 14400 3450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13250 4050
-=======
->>>>>>> Stashed changes
-P 10000 2400
+P 0 0
 F 0 "IC5" H 10650 2665 50  0000 C CNN
 F 1 "BQ29330DBT" H 10650 2574 50  0000 C CNN
 F 2 "SamacSys_Parts:SOP50P640X120-30N" H 11150 2500 50  0001 L CNN
@@ -1310,11 +1290,7 @@ F 6 "595-BQ29330DBT" H 11150 2100 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 11150 2000 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Texas Instruments" H 11150 1900 50  0001 L CNN "Manufacturer_Name"
 F 9 "BQ29330DBT" H 11150 1800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10000 2400
-<<<<<<< Updated upstream
-=======
->>>>>>> 38c771991df6f9a9aa612a24e752d11794080ac6
->>>>>>> Stashed changes
+	1    0    0   
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1448,7 +1424,7 @@ F 9 "P7805-2000-S" H 3500 10000 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Text Notes 600  13550 0    50   ~ 0
-PWR generation blocks for 3.3V power to the MCU
+PWR generation blocks for 3.3V power to the MCU  ---- OLD LDO\n
 Wire Notes Line
 	4750 13650 550  13650
 Wire Notes Line
@@ -1618,11 +1594,6 @@ Wire Notes Line
 Text Notes 6550 10250 0    50   ~ 0
 Must be used if using LDO pwr supply
 Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	16650 5000 16300 5000
-Wire Wire Line
 	16650 4900 16300 4900
 Wire Wire Line
 	16650 5100 16300 5100
@@ -1649,50 +1620,162 @@ I2C2_SDA
 Text GLabel 14900 4250 2    50   Input ~ 0
 I2C2_SCL
 $Comp
-L SamacSys_Parts:LP3852EMP-3.3_NOPB IC?
+L ECE477-rescue:LP3852EMP-3.3_NOPB-SamacSys_Parts IC?
 U 1 1 5F849652
-P 4900 14200
-F 0 "IC?" H 5650 14465 50  0000 C CNN
-F 1 "LP3852EMP-3.3_NOPB" H 5650 14374 50  0000 C CNN
-F 2 "SOT150P700X180-5N" H 6250 14300 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" H 6250 14200 50  0001 L CNN
-F 4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" H 6250 14100 50  0001 L CNN "Description"
-F 5 "1.8" H 6250 14000 50  0001 L CNN "Height"
-F 6 "926-LP3852EMP33NOPB" H 6250 13900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" H 6250 13800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 6250 13700 50  0001 L CNN "Manufacturer_Name"
-F 9 "LP3852EMP-3.3/NOPB" H 6250 13600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4900 14200
+P 2200 14550
+F 0 "IC?" H 2950 14815 50  0000 C CNN
+F 1 "LP3852EMP-3.3_NOPB" H 2950 14724 50  0000 C CNN
+F 2 "SOT150P700X180-5N" H 3550 14650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" H 3550 14550 50  0001 L CNN
+F 4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" H 3550 14450 50  0001 L CNN "Description"
+F 5 "1.8" H 3550 14350 50  0001 L CNN "Height"
+F 6 "926-LP3852EMP33NOPB" H 3550 14250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" H 3550 14150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3550 14050 50  0001 L CNN "Manufacturer_Name"
+F 9 "LP3852EMP-3.3/NOPB" H 3550 13950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2200 14550
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:TL1963A-33DCYR PS?
+L ECE477-rescue:TL1963A-33DCYR-SamacSys_Parts PS?
 U 1 1 5F84A36C
-P 5000 15250
-F 0 "PS?" H 5600 15515 50  0000 C CNN
-F 1 "TL1963A-33DCYR" H 5600 15424 50  0000 C CNN
-F 2 "SOT230P700X180-4N" H 6050 15350 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/tl1963a" H 6050 15250 50  0001 L CNN
-F 4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" H 6050 15150 50  0001 L CNN "Description"
-F 5 "1.8" H 6050 15050 50  0001 L CNN "Height"
-F 6 "595-TL1963A-33DCYR" H 6050 14950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" H 6050 14850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 6050 14750 50  0001 L CNN "Manufacturer_Name"
-F 9 "TL1963A-33DCYR" H 6050 14650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5000 15250
+P 6550 11600
+F 0 "PS?" H 7150 11865 50  0000 C CNN
+F 1 "TL1963A-33DCYR" H 7150 11774 50  0000 C CNN
+F 2 "SOT230P700X180-4N" H 7600 11700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tl1963a" H 7600 11600 50  0001 L CNN
+F 4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" H 7600 11500 50  0001 L CNN "Description"
+F 5 "1.8" H 7600 11400 50  0001 L CNN "Height"
+F 6 "595-TL1963A-33DCYR" H 7600 11300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" H 7600 11200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7600 11100 50  0001 L CNN "Manufacturer_Name"
+F 9 "TL1963A-33DCYR" H 7600 11000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6550 11600
 	1    0    0    -1  
 $EndComp
-=======
->>>>>>> Stashed changes
-	11300 2500 11550 2500
 Wire Wire Line
 	11300 2600 11550 2600
 Text GLabel 11550 2500 2    50   Input ~ 0
 SDATA_BAT
 Text GLabel 11550 2600 2    50   Input ~ 0
 SCLK_BAT
-<<<<<<< Updated upstream
-=======
->>>>>>> 38c771991df6f9a9aa612a24e752d11794080ac6
->>>>>>> Stashed changes
+Text GLabel 650  14000 1    50   Input ~ 0
+5V
+Wire Wire Line
+	1200 14550 1200 14000
+$Comp
+L Device:R_US R?
+U 1 1 5F7B7D2C
+P 2050 14300
+F 0 "R?" H 2118 14346 50  0000 L CNN
+F 1 "10K" H 2118 14255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2090 14290 50  0001 C CNN
+F 3 "~" H 2050 14300 50  0001 C CNN
+	1    2050 14300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 5F7B7D32
+P 1200 14800
+F 0 "C?" H 1378 14846 50  0000 L CNN
+F 1 "10uF" H 1378 14755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 14800 50  0001 C CNN
+F 3 "~" H 1200 14800 50  0001 C CNN
+	1    1200 14800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 14550 3700 15700
+Wire Wire Line
+	3700 15700 2750 15700
+$Comp
+L power:GND #PWR?
+U 1 1 5F81DC44
+P 2750 15700
+F 0 "#PWR?" H 2750 15450 50  0001 C CNN
+F 1 "GND" H 2755 15527 50  0000 C CNN
+F 2 "" H 2750 15700 50  0001 C CNN
+F 3 "" H 2750 15700 50  0001 C CNN
+	1    2750 15700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 15700
+Wire Wire Line
+	2200 14550 2200 14300
+Wire Wire Line
+	650  14000 1200 14000
+Wire Wire Line
+	1900 14000 1900 14300
+Wire Wire Line
+	1900 14650 2200 14650
+Connection ~ 1900 14300
+Wire Wire Line
+	1900 14300 1900 14650
+Connection ~ 1200 14000
+Wire Wire Line
+	1200 14000 1900 14000
+Wire Wire Line
+	1200 15050 1200 15700
+$Comp
+L pspice:CAP C?
+U 1 1 5F8BC1BD
+P 2650 15450
+F 0 "C?" H 2828 15496 50  0000 L CNN
+F 1 "10uF" H 2828 15405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 15450 50  0001 C CNN
+F 3 "~" H 2650 15450 50  0001 C CNN
+	1    2650 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F8DF78E
+P 2250 15100
+F 0 "R?" H 2318 15146 50  0000 L CNN
+F 1 "10K" H 2318 15055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2290 15090 50  0001 C CNN
+F 3 "~" H 2250 15100 50  0001 C CNN
+	1    2250 15100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2650 15700
+Wire Wire Line
+	2650 15700 2750 15700
+Wire Wire Line
+	1200 15700 2650 15700
+Wire Wire Line
+	2200 14850 2100 14850
+Wire Wire Line
+	2100 14850 2100 15100
+Wire Wire Line
+	2200 14750 1900 14750
+Wire Wire Line
+	1900 14750 1900 15200
+Wire Wire Line
+	1900 15200 2400 15200
+Connection ~ 2650 15200
+Wire Wire Line
+	2400 15100 2400 15200
+Connection ~ 2400 15200
+Wire Wire Line
+	2400 15200 2650 15200
+Text Notes 3000 14100 0    50   ~ 0
+We need to see if we want to use the ERR pin\n
+Text GLabel 3150 15200 3    50   Input ~ 0
+3V3_PER
+Text GLabel 3450 15200 3    50   Input ~ 0
+3V3_VDD
+Wire Wire Line
+	2650 15200 3450 15200
+Text Notes 1000 16050 0    50   ~ 0
+PWR generation blocks for 3.3V power to the MCU  --- NEW LDO \n
+Wire Notes Line
+	550  16100 4900 16100
+Wire Notes Line
+	550  13800 550  16100
+Wire Notes Line
+	4900 13800 4900 16100
+Wire Notes Line
+	550  13800 4900 13800
 $EndSCHEMATC
