@@ -45,6 +45,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 # ECE477-rescue_BQ29330DBT-SamacSys_Parts
 #
 DEF ECE477-rescue_BQ29330DBT-SamacSys_Parts IC 0 30 Y Y 1 F N
@@ -144,6 +149,7 @@ X +VO 3 0 -200 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+>>>>>>> 38c771991df6f9a9aa612a24e752d11794080ac6
 # ECE477-rescue_ST1L05CPU33R-SamacSys_Parts
 #
 DEF ECE477-rescue_ST1L05CPU33R-SamacSys_Parts IC 0 30 Y Y 1 F N
@@ -366,6 +372,126 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+# SamacSys_Parts_BQ29330DBT
+#
+DEF SamacSys_Parts_BQ29330DBT IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SamacSys_Parts_BQ29330DBT" 1150 200 50 H V L CNN
+F2 "SOP50P640X120-30N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" 1150 0 50 H I L CNN
+F4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" 1150 -100 50 H I L CNN "Description"
+F5 "1.2" 1150 -200 50 H I L CNN "Height"
+F6 "595-BQ29330DBT" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BQ29330DBT" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -1500 200 -1500 200 100 N
+X CELL- 1 0 0 200 R 50 50 0 0 P
+X VC3 10 0 -900 200 R 50 50 0 0 P
+X VC2 11 0 -1000 200 R 50 50 0 0 P
+X VC1 12 0 -1100 200 R 50 50 0 0 P
+X BAT 13 0 -1200 200 R 50 50 0 0 P
+X CHG 14 0 -1300 200 R 50 50 0 0 P
+X NC_1 15 0 -1400 200 R 50 50 0 0 P
+X DSG 16 1300 -1400 200 L 50 50 0 0 P
+X PACK 17 1300 -1300 200 L 50 50 0 0 P
+X NC_2 18 1300 -1200 200 L 50 50 0 0 P
+X VCC 19 1300 -1100 200 L 50 50 0 0 P
+X CELL+ 2 0 -100 200 R 50 50 0 0 P
+X ZVCHG 20 1300 -1000 200 L 50 50 0 0 P
+X GPOD 21 1300 -900 200 L 50 50 0 0 P
+X PMS 22 1300 -800 200 L 50 50 0 0 P
+X VSS_2 23 1300 -700 200 L 50 50 0 0 P
+X LEDOUT 24 1300 -600 200 L 50 50 0 0 P
+X TOUT 25 1300 -500 200 L 50 50 0 0 P
+X WDI 26 1300 -400 200 L 50 50 0 0 P
+X NC_3 27 1300 -300 200 L 50 50 0 0 P
+X SCLK 28 1300 -200 200 L 50 50 0 0 P
+X SDATA 29 1300 -100 200 L 50 50 0 0 P
+X REG 3 0 -200 200 R 50 50 0 0 P
+X XALERT 30 1300 0 200 L 50 50 0 0 P
+X VSS_1 4 0 -300 200 R 50 50 0 0 P
+X XRST 5 0 -400 200 R 50 50 0 0 P
+X SRN 6 0 -500 200 R 50 50 0 0 P
+X SRP 7 0 -600 200 R 50 50 0 0 P
+X VC5 8 0 -700 200 R 50 50 0 0 P
+X VC4 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_LP3852EMP-3.3_NOPB
+#
+DEF SamacSys_Parts_LP3852EMP-3.3_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "SamacSys_Parts_LP3852EMP-3.3_NOPB" 1350 200 50 H V L CNN
+F2 "SOT150P700X180-5N" 1350 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" 1350 0 50 H I L CNN
+F4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" 1350 -100 50 H I L CNN "Description"
+F5 "1.8" 1350 -200 50 H I L CNN "Height"
+F6 "926-LP3852EMP33NOPB" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LP3852EMP-3.3/NOPB" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+X ~SD 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 I
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X ~ERROR 4 0 -300 200 R 50 50 0 0 P
+X GND_(TAB) 5 1500 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_P7805-2000-S
+#
+DEF SamacSys_Parts_P7805-2000-S J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_P7805-2000-S" 750 200 50 H V L CNN
+F2 "P78052000S" 750 100 50 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf" 750 0 50 H I L CNN
+F4 "Non-Isolated DC/DC Converters 5 Vdc, 2 A, 10 W, 8~36 Vdc Input Range" 750 -100 50 H I L CNN "Description"
+F5 "17.5" 750 -200 50 H I L CNN "Height"
+F6 "490-P7805-2000-S" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/P7805-2000-S?qs=GBLSl2AkirtGU70jx9b4PA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "P7805-2000-S" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X +VO 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TL1963A-33DCYR
+#
+DEF SamacSys_Parts_TL1963A-33DCYR PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_TL1963A-33DCYR" 1050 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tl1963a" 1050 0 50 H I L CNN
+F4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" 1050 -100 50 H I L CNN "Description"
+F5 "1.8" 1050 -200 50 H I L CNN "Height"
+F6 "595-TL1963A-33DCYR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL1963A-33DCYR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 I
+X GND_1 2 0 -100 200 R 50 50 0 0 W
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X GND_2 4 1200 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+=======
+>>>>>>> 38c771991df6f9a9aa612a24e752d11794080ac6
+>>>>>>> Stashed changes
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P

@@ -356,4 +356,49 @@ P 5 0 1 6 200 100 1100 100 1100 -1500 200 -1500 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model LP3852EMP-3.3_NOPB
+#/156959/321752/2.47/5/3/Integrated Circuit
+DEF LP3852EMP-3.3_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "LP3852EMP-3.3_NOPB" 1350 200 50 H V L CNN
+F2 "SOT150P700X180-5N" 1350 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lp3852.pdf" 1350 0 50 H I L CNN
+F4 "LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223" 1350 -100 50 H I L CNN "Description"
+F5 "1.8" 1350 -200 50 H I L CNN "Height"
+F6 "926-LP3852EMP33NOPB" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP3852EMP-33-NOPB?qs=1FNqv8aZn1SurWe7DNzDPA%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LP3852EMP-3.3/NOPB" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~SD 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 I
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X ~ERROR 4 0 -300 200 R 50 50 0 0 P
+X GND_(TAB) 5 1500 0 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL1963A-33DCYR
+#/303233/321752/2.47/4/3/Power Supply
+DEF TL1963A-33DCYR PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "TL1963A-33DCYR" 1050 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tl1963a" 1050 0 50 H I L CNN
+F4 "1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator" 1050 -100 50 H I L CNN "Description"
+F5 "1.8" 1050 -200 50 H I L CNN "Height"
+F6 "595-TL1963A-33DCYR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL1963A-33DCYR?qs=IK5e5L0zOXhRu%2FNTAfJNEA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL1963A-33DCYR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 I
+X GND_1 2 0 -100 200 R 50 50 0 0 W
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X GND_2 4 1200 0 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
