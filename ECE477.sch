@@ -682,7 +682,7 @@ Wire Wire Line
 Text GLabel 6400 3850 2    50   Input ~ 0
 VDD_MCU
 Text Notes 6800 3850 0    50   ~ 0
-Solder Bidge?\n
+Solder Bridge?\n
 $Comp
 L pspice:CAP C20
 U 1 1 5F6F339F
@@ -1347,4 +1347,6 @@ F 9 "BQ29330DBT" H 19650 3300 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	14800 4600 15150 4600
+Text Notes 14950 7200 0    50   ~ 0
+Two more USART 1 - 2 - 3 \n4 x PWM -- servo one GPIO \nLEDs \nPWR swtch + reset button\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
 $EndSCHEMATC
