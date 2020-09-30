@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 2 1 5F46EB3B
-P 25800 2250
-F 0 "U1" H 26900 2637 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 26900 2531 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 27000 2490 60  0001 C CNN
-F 3 "" H 25800 2250 60  0000 C CNN
-	2    25800 2250
+P 19550 2150
+F 0 "U1" H 20650 2537 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 20650 2431 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 20750 2390 60  0001 C CNN
+F 3 "" H 19550 2150 60  0000 C CNN
+	2    19550 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1348,5 +1348,125 @@ $EndComp
 Wire Wire Line
 	14800 4600 15150 4600
 Text Notes 14950 7200 0    50   ~ 0
-Two more USART 1 - 2 - 3 \n4 x PWM -- servo one GPIO \nLEDs \nPWR swtch + reset button\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
+Two more USART 1 - 2 - 3 \n4 x PWM -- servo one GPIO \nLEDs \nPWR swtch\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 5F877F07
+P 5850 13350
+F 0 "SW?" H 5850 13635 50  0000 C CNN
+F 1 "SW_Push_Dual" H 5850 13544 50  0000 C CNN
+F 2 "" H 5850 13550 50  0001 C CNN
+F 3 "~" H 5850 13550 50  0001 C CNN
+	1    5850 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 5F887729
+P 6600 13450
+F 0 "C?" H 6778 13496 50  0000 L CNN
+F 1 ".1uF" H 6778 13405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 13450 50  0001 C CNN
+F 3 "~" H 6600 13450 50  0001 C CNN
+	1    6600 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F8954D3
+P 5850 12600
+F 0 "R?" H 5918 12646 50  0000 L CNN
+F 1 "100k" H 5918 12555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5890 12590 50  0001 C CNN
+F 3 "~" H 5850 12600 50  0001 C CNN
+	1    5850 12600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 13200 6600 12900
+Wire Wire Line
+	6600 12900 5850 12900
+Connection ~ 5850 12900
+Wire Wire Line
+	5850 12900 5850 12750
+Wire Wire Line
+	5850 12300 5850 12450
+Wire Wire Line
+	5650 13550 5850 13550
+Wire Wire Line
+	5850 13550 5850 13750
+Connection ~ 5850 13550
+Wire Wire Line
+	5850 13550 6050 13550
+Wire Wire Line
+	5650 13350 5850 13350
+Wire Wire Line
+	5850 12900 5850 13350
+Connection ~ 5850 13350
+Wire Wire Line
+	5850 13350 6050 13350
+Wire Wire Line
+	6600 13700 6600 13750
+Wire Wire Line
+	6600 13750 5850 13750
+Connection ~ 5850 13750
+Wire Wire Line
+	5850 13750 5850 13900
+Wire Wire Line
+	6600 12900 6800 12900
+Connection ~ 6600 12900
+Text GLabel 6800 12900 2    50   Input ~ 0
+NRST
+Text GLabel 5850 12300 1    50   Input ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR?
+U 1 1 5F9369F7
+P 5850 13900
+F 0 "#PWR?" H 5850 13650 50  0001 C CNN
+F 1 "GND" H 5855 13727 50  0000 C CNN
+F 2 "" H 5850 13900 50  0001 C CNN
+F 3 "" H 5850 13900 50  0001 C CNN
+	1    5850 13900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21750 3450 22000 3450
+Text GLabel 22000 3450 2    50   Input ~ 0
+NRST
+$Comp
+L Device:R_US R?
+U 1 1 5F993DC3
+P 22300 3750
+F 0 "R?" H 22368 3796 50  0000 L CNN
+F 1 "100k" H 22368 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 22340 3740 50  0001 C CNN
+F 3 "~" H 22300 3750 50  0001 C CNN
+	1    22300 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	21750 3650 22050 3650
+Wire Wire Line
+	22050 3650 22050 3750
+Wire Wire Line
+	22050 3750 22150 3750
+Wire Wire Line
+	22450 3750 22650 3750
+Connection ~ 22050 3650
+Wire Wire Line
+	22050 3650 22650 3650
+Text GLabel 22650 3650 2    50   Input ~ 0
+BOOT0
+$Comp
+L power:GND #PWR?
+U 1 1 5F9EC431
+P 22650 3750
+F 0 "#PWR?" H 22650 3500 50  0001 C CNN
+F 1 "GND" H 22655 3577 50  0000 C CNN
+F 2 "" H 22650 3750 50  0001 C CNN
+F 3 "" H 22650 3750 50  0001 C CNN
+	1    22650 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

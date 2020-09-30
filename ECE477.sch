@@ -1348,7 +1348,7 @@ $EndComp
 Wire Wire Line
 	14800 4600 15150 4600
 Text Notes 14950 7200 0    50   ~ 0
-Two more USART 1 - 2 - 3 \n4 x PWM -- servo one GPIO \nLEDs \nPWR swtch\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
+LEDs \nPWR swtch\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
 $Comp
 L Switch:SW_Push_Dual SW?
 U 1 1 5F877F07
@@ -1469,4 +1469,170 @@ F 3 "" H 22650 3750 50  0001 C CNN
 	1    22650 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5FA28754
+P 10600 8950
+F 0 "J?" H 10708 9331 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 10708 9240 50  0000 C CNN
+F 2 "" H 10600 8950 50  0001 C CNN
+F 3 "~" H 10600 8950 50  0001 C CNN
+	1    10600 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA2B098
+P 12150 9000
+F 0 "J?" H 12258 9381 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 12258 9290 50  0000 C CNN
+F 2 "" H 12150 9000 50  0001 C CNN
+F 3 "~" H 12150 9000 50  0001 C CNN
+	1    12150 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA398AC
+P 11800 7550
+F 0 "J?" H 11908 7931 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 11908 7840 50  0000 C CNN
+F 2 "" H 11800 7550 50  0001 C CNN
+F 3 "~" H 11800 7550 50  0001 C CNN
+	1    11800 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA48124
+P 15350 10200
+F 0 "J?" H 15458 10581 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 15458 10490 50  0000 C CNN
+F 2 "" H 15350 10200 50  0001 C CNN
+F 3 "~" H 15350 10200 50  0001 C CNN
+	1    15350 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA567D5
+P 16050 10200
+F 0 "J?" H 16158 10581 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 16158 10490 50  0000 C CNN
+F 2 "" H 16050 10200 50  0001 C CNN
+F 3 "~" H 16050 10200 50  0001 C CNN
+	1    16050 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA64E72
+P 16750 10200
+F 0 "J?" H 16858 10581 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 16858 10490 50  0000 C CNN
+F 2 "" H 16750 10200 50  0001 C CNN
+F 3 "~" H 16750 10200 50  0001 C CNN
+	1    16750 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17550 2400 17900 2400
+Wire Wire Line
+	17550 2500 17900 2500
+Text GLabel 17900 2400 2    50   Input ~ 0
+USART6_TX
+Text GLabel 17900 2500 2    50   Input ~ 0
+USART6_RX
+Wire Wire Line
+	17550 2800 17900 2800
+Wire Wire Line
+	17550 2900 17900 2900
+Text GLabel 17900 2800 2    50   Input ~ 0
+USART3_TX
+Text GLabel 17900 2900 2    50   Input ~ 0
+USART3_RX
+Wire Wire Line
+	10800 8750 11150 8750
+Wire Wire Line
+	10800 8850 11150 8850
+Wire Wire Line
+	10800 8950 11150 8950
+Wire Wire Line
+	10800 9050 11150 9050
+Wire Wire Line
+	10800 9150 11150 9150
+Wire Wire Line
+	10800 9250 11150 9250
+Text GLabel 11150 8850 2    50   Input ~ 0
+USART1_TX
+Text GLabel 11150 8750 2    50   Input ~ 0
+USART1_RX
+Text GLabel 11150 8950 2    50   Input ~ 0
+USART3_TX
+Text GLabel 11150 9050 2    50   Input ~ 0
+USART3_RX
+Text GLabel 11150 9150 2    50   Input ~ 0
+USART6_TX
+Text GLabel 11150 9250 2    50   Input ~ 0
+USART6_RX
+Wire Wire Line
+	12350 8800 12650 8800
+Wire Wire Line
+	12350 8900 12650 8900
+Wire Wire Line
+	12350 9000 12650 9000
+Wire Wire Line
+	12350 9100 12650 9100
+Wire Wire Line
+	12350 9200 12650 9200
+Text GLabel 12650 9000 2    50   Input ~ 0
+JTMS_SWDIO
+Text GLabel 12650 8900 2    50   Input ~ 0
+JTCK_SWCLK
+Text GLabel 12650 8800 2    50   Input ~ 0
+JTDI
+Text GLabel 12650 9200 2    50   Input ~ 0
+JTDO
+Text GLabel 12650 9100 2    50   Input ~ 0
+nJTRST
+Wire Wire Line
+	17550 3500 17900 3500
+Wire Wire Line
+	17550 3600 17900 3600
+Wire Wire Line
+	17550 3700 17900 3700
+Wire Wire Line
+	17550 3800 17900 3800
+Wire Wire Line
+	17550 3900 17900 3900
+Text GLabel 17900 3500 2    50   Input ~ 0
+PWM1
+Text GLabel 17900 3600 2    50   Input ~ 0
+PWM2
+Text GLabel 17900 3700 2    50   Input ~ 0
+PWM3
+Text GLabel 17900 3800 2    50   Input ~ 0
+PWM4
+Text GLabel 17900 3900 2    50   Input ~ 0
+PWM5
+Wire Wire Line
+	12000 7350 12350 7350
+Wire Wire Line
+	12000 7450 12350 7450
+Wire Wire Line
+	12000 7550 12350 7550
+Wire Wire Line
+	12000 7650 12350 7650
+Wire Wire Line
+	12000 7750 12350 7750
+Text GLabel 12350 7350 2    50   Input ~ 0
+PWM1
+Text GLabel 12350 7450 2    50   Input ~ 0
+PWM2
+Text GLabel 12350 7550 2    50   Input ~ 0
+PWM3
+Text GLabel 12350 7650 2    50   Input ~ 0
+PWM4
+Text GLabel 12350 7750 2    50   Input ~ 0
+PWM5
 $EndSCHEMATC
