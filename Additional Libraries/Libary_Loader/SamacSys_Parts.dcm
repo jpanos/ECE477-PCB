@@ -42,4 +42,22 @@ K
 F https://www.cui.com/product/resource/digikeypdf/p78-2000-s.pdf
 $ENDCMP
 #
+$CMP BQ29330DBT
+D TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330
+$ENDCMP
+#
+$CMP LP3852EMP-3.3_NOPB
+D LP3852EMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1.5%, 2.5  7 Vin, 5-Pin SOT-223
+K
+F http://www.ti.com/lit/ds/symlink/lp3852.pdf
+$ENDCMP
+#
+$CMP TL1963A-33DCYR
+D 1.5-A Low-Noise Fast-Transient-Response Low-Dropout Regulator
+K
+F http://www.ti.com/lit/gpn/tl1963a
+$ENDCMP
+#
 #End Doc Library
