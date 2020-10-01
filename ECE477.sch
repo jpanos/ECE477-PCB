@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 1 1 5F46820E
-P 15150 1800
-F 0 "U1" H 16350 2187 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 16350 2081 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 16350 2040 60  0001 C CNN
-F 3 "" H 15150 1800 60  0000 C CNN
-	1    15150 1800
+P 9150 1300
+F 0 "U1" H 10350 1687 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 10350 1581 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 10350 1540 60  0001 C CNN
+F 3 "" H 9150 1300 60  0000 C CNN
+	1    9150 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECE477-rescue:STM32H7_LQFP144_T2-2020-08-25_13-35-24 U1
 U 2 1 5F46EB3B
-P 19550 2150
-F 0 "U1" H 20650 2537 60  0000 C CNN
-F 1 "STM32H7_LQFP144_T2" H 20650 2431 60  0000 C CNN
-F 2 "STM_footprints:STM32H7_LQFP144_T2" H 20750 2390 60  0001 C CNN
-F 3 "" H 19550 2150 60  0000 C CNN
-	2    19550 2150
+P 13650 1600
+F 0 "U1" H 14750 1987 60  0000 C CNN
+F 1 "STM32H7_LQFP144_T2" H 14750 1881 60  0000 C CNN
+F 2 "STM_footprints:STM32H7_LQFP144_T2" H 14850 1840 60  0001 C CNN
+F 3 "" H 13650 1600 60  0000 C CNN
+	2    13650 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -967,7 +967,7 @@ Wire Wire Line
 Text GLabel 5050 10550 0    50   Input ~ 0
 3V3_VDD
 Text GLabel 5050 11050 0    50   Input ~ 0
-1V8_VDD
+OFF
 Wire Wire Line
 	5350 10800 5650 10800
 Text GLabel 5650 10800 1    50   Input ~ 0
@@ -981,32 +981,32 @@ Wire Notes Line
 Wire Notes Line
 	5800 10350 5800 11150
 Wire Wire Line
-	15150 3200 14800 3200
+	9150 2700 8800 2700
 Wire Wire Line
-	15150 3300 14800 3300
+	9150 2800 8800 2800
 Wire Wire Line
-	15150 3100 14800 3100
-Text GLabel 14800 3100 0    50   Input ~ 0
+	9150 2600 8800 2600
+Text GLabel 8800 2600 0    50   Input ~ 0
 JTMS_SWDIO
-Text GLabel 14800 3200 0    50   Input ~ 0
+Text GLabel 8800 2700 0    50   Input ~ 0
 JTCK_SWCLK
-Text GLabel 14800 3300 0    50   Input ~ 0
+Text GLabel 8800 2800 0    50   Input ~ 0
 JTDI
 Wire Wire Line
-	15150 3800 14800 3800
+	9150 3300 8800 3300
 Wire Wire Line
-	15150 3900 14800 3900
-Text GLabel 14800 3800 0    50   Input ~ 0
+	9150 3400 8800 3400
+Text GLabel 8800 3300 0    50   Input ~ 0
 JTDO
-Text GLabel 14800 3900 0    50   Input ~ 0
+Text GLabel 8800 3400 0    50   Input ~ 0
 nJTRST
 Wire Wire Line
-	15150 2700 14800 2700
+	9150 2200 8800 2200
 Wire Wire Line
-	15150 2800 14800 2800
-Text GLabel 14800 2700 0    50   Input ~ 0
+	9150 2300 8800 2300
+Text GLabel 8800 2200 0    50   Input ~ 0
 USART1_TX
-Text GLabel 14800 2800 0    50   Input ~ 0
+Text GLabel 8800 2300 0    50   Input ~ 0
 USART1_RX
 Wire Notes Line
 	550  10350 550  11750
@@ -1167,30 +1167,30 @@ Wire Notes Line
 Text Notes 6550 10250 0    50   ~ 0
 Must be used if using LDO pwr supply
 Wire Wire Line
-	15150 4500 14800 4500
+	9150 4000 8800 4000
 Wire Wire Line
-	15150 4700 14800 4700
-Text GLabel 14800 4600 0    50   Input ~ 0
+	9150 4200 8800 4200
+Text GLabel 8800 4100 0    50   Input ~ 0
 I2C2_SDA
-Text GLabel 14800 4500 0    50   Input ~ 0
+Text GLabel 8800 4000 0    50   Input ~ 0
 I2C2_SCL
-Text GLabel 14800 4700 0    50   Input ~ 0
+Text GLabel 8800 4200 0    50   Input ~ 0
 I2C2_SMBA
 Wire Wire Line
-	15150 4300 14800 4300
-Text GLabel 14800 4300 0    50   Input ~ 0
+	9150 3800 8800 3800
+Text GLabel 8800 3800 0    50   Input ~ 0
 Touch_Input
 Wire Wire Line
-	9800 1500 10150 1500
+	12000 5750 12350 5750
 Wire Wire Line
-	9800 1600 10150 1600
+	12000 5850 12350 5850
 Wire Wire Line
-	9800 1700 10150 1700
-Text GLabel 10150 1500 2    50   Input ~ 0
+	12000 5950 12350 5950
+Text GLabel 12350 5750 2    50   Input ~ 0
 I2C2_SMBA
-Text GLabel 10150 1600 2    50   Input ~ 0
+Text GLabel 12350 5850 2    50   Input ~ 0
 I2C2_SDA
-Text GLabel 10150 1700 2    50   Input ~ 0
+Text GLabel 12350 5950 2    50   Input ~ 0
 I2C2_SCL
 $Comp
 L ECE477-rescue:LP3852EMP-3.3_NOPB-SamacSys_Parts IC1
@@ -1323,30 +1323,26 @@ PWR generation blocks for 3.3V power to the MCU  --- NEW LDO \n
 Wire Notes Line
 	550  14150 4900 14150
 Wire Notes Line
-	550  11850 550  14150
-Wire Notes Line
-	4900 11850 4900 14150
-Wire Notes Line
 	550  11850 4900 11850
 $Comp
 L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC5
 U 1 1 5F7B6D95
-P 8500 1500
-F 0 "IC5" H 9062 1786 50  0000 C CNN
-F 1 "BQ29330DBT" H 9055 1673 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP50P640X120-30N" H 19650 4000 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 19650 3900 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 19650 3800 50  0001 L CNN "Description"
-F 5 "1.2" H 19650 3700 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 19650 3600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 19650 3500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 19650 3400 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 19650 3300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8500 1500
+P 10700 5750
+F 0 "IC5" H 11350 6015 50  0000 C CNN
+F 1 "BQ29330DBT" H 11350 5924 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP50P640X120-30N" H 21850 8250 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 21850 8150 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 21850 8050 50  0001 L CNN "Description"
+F 5 "1.2" H 21850 7950 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 21850 7850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 21850 7750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 21850 7650 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 21850 7550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10700 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14800 4600 15150 4600
+	8800 4100 9150 4100
 Text Notes 14950 7200 0    50   ~ 0
 LEDs \nPWR swtch\nmake sure GPIO are ocnnected to advanced timers\n\n\n\n
 $Comp
@@ -1431,175 +1427,277 @@ F 3 "" H 5850 13900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21750 3450 22000 3450
-Text GLabel 22000 3450 2    50   Input ~ 0
+	15850 2900 16100 2900
+Text GLabel 16100 2900 2    50   Input ~ 0
 NRST
 $Comp
 L Device:R_US R4
 U 1 1 5F993DC3
-P 22300 3750
-F 0 "R4" H 22368 3796 50  0000 L CNN
-F 1 "100k" H 22368 3705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 22340 3740 50  0001 C CNN
-F 3 "~" H 22300 3750 50  0001 C CNN
-	1    22300 3750
+P 16400 3200
+F 0 "R4" H 16468 3246 50  0000 L CNN
+F 1 "100k" H 16468 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 16440 3190 50  0001 C CNN
+F 3 "~" H 16400 3200 50  0001 C CNN
+	1    16400 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	21750 3650 22050 3650
+	15850 3100 16150 3100
 Wire Wire Line
-	22050 3650 22050 3750
+	16150 3100 16150 3200
 Wire Wire Line
-	22050 3750 22150 3750
+	16150 3200 16250 3200
 Wire Wire Line
-	22450 3750 22650 3750
-Connection ~ 22050 3650
+	16550 3200 16750 3200
+Connection ~ 16150 3100
 Wire Wire Line
-	22050 3650 22650 3650
-Text GLabel 22650 3650 2    50   Input ~ 0
+	16150 3100 16750 3100
+Text GLabel 16750 3100 2    50   Input ~ 0
 BOOT0
 $Comp
 L power:GND #PWR06
 U 1 1 5F9EC431
-P 22650 3750
-F 0 "#PWR06" H 22650 3500 50  0001 C CNN
-F 1 "GND" H 22655 3577 50  0000 C CNN
-F 2 "" H 22650 3750 50  0001 C CNN
-F 3 "" H 22650 3750 50  0001 C CNN
-	1    22650 3750
+P 16750 3200
+F 0 "#PWR06" H 16750 2950 50  0001 C CNN
+F 1 "GND" H 16755 3027 50  0000 C CNN
+F 2 "" H 16750 3200 50  0001 C CNN
+F 3 "" H 16750 3200 50  0001 C CNN
+	1    16750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5FA28754
-P 10600 8950
-F 0 "J2" H 10708 9331 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 10708 9240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical" H 10600 8950 50  0001 C CNN
-F 3 "~" H 10600 8950 50  0001 C CNN
-	1    10600 8950
+P 2050 14850
+F 0 "J2" H 2158 15231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 2158 15140 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical" H 2050 14850 50  0001 C CNN
+F 3 "~" H 2050 14850 50  0001 C CNN
+	1    2050 14850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J4
 U 1 1 5FA2B098
-P 12150 9000
-F 0 "J4" H 12258 9381 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 12258 9290 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 12150 9000 50  0001 C CNN
-F 3 "~" H 12150 9000 50  0001 C CNN
-	1    12150 9000
+P 3500 14850
+F 0 "J4" H 3608 15231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 3608 15140 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3500 14850 50  0001 C CNN
+F 3 "~" H 3500 14850 50  0001 C CNN
+	1    3500 14850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J3
 U 1 1 5FA398AC
-P 11800 7550
-F 0 "J3" H 11908 7931 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 11908 7840 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 11800 7550 50  0001 C CNN
-F 3 "~" H 11800 7550 50  0001 C CNN
-	1    11800 7550
+P 800 14850
+F 0 "J3" H 908 15231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 908 15140 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 800 14850 50  0001 C CNN
+F 3 "~" H 800 14850 50  0001 C CNN
+	1    800  14850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17550 2400 17900 2400
+	11550 1900 11900 1900
 Wire Wire Line
-	17550 2500 17900 2500
-Text GLabel 17900 2400 2    50   Input ~ 0
+	11550 2000 11900 2000
+Text GLabel 11900 1900 2    50   Input ~ 0
 USART6_TX
-Text GLabel 17900 2500 2    50   Input ~ 0
+Text GLabel 11900 2000 2    50   Input ~ 0
 USART6_RX
 Wire Wire Line
-	17550 2800 17900 2800
+	11550 2300 11900 2300
 Wire Wire Line
-	17550 2900 17900 2900
-Text GLabel 17900 2800 2    50   Input ~ 0
+	11550 2400 11900 2400
+Text GLabel 11900 2300 2    50   Input ~ 0
 USART3_TX
-Text GLabel 17900 2900 2    50   Input ~ 0
+Text GLabel 11900 2400 2    50   Input ~ 0
 USART3_RX
 Wire Wire Line
-	10800 8750 11150 8750
+	2250 14650 2600 14650
 Wire Wire Line
-	10800 8850 11150 8850
+	2250 14750 2600 14750
 Wire Wire Line
-	10800 8950 11150 8950
+	2250 14850 2600 14850
 Wire Wire Line
-	10800 9050 11150 9050
+	2250 14950 2600 14950
 Wire Wire Line
-	10800 9150 11150 9150
+	2250 15050 2600 15050
 Wire Wire Line
-	10800 9250 11150 9250
-Text GLabel 11150 8850 2    50   Input ~ 0
+	2250 15150 2600 15150
+Text GLabel 2600 14750 2    50   Input ~ 0
 USART1_TX
-Text GLabel 11150 8750 2    50   Input ~ 0
+Text GLabel 2600 14650 2    50   Input ~ 0
 USART1_RX
-Text GLabel 11150 8950 2    50   Input ~ 0
+Text GLabel 2600 14850 2    50   Input ~ 0
 USART3_TX
-Text GLabel 11150 9050 2    50   Input ~ 0
+Text GLabel 2600 14950 2    50   Input ~ 0
 USART3_RX
-Text GLabel 11150 9150 2    50   Input ~ 0
+Text GLabel 2600 15050 2    50   Input ~ 0
 USART6_TX
-Text GLabel 11150 9250 2    50   Input ~ 0
+Text GLabel 2600 15150 2    50   Input ~ 0
 USART6_RX
 Wire Wire Line
-	12350 8800 12650 8800
+	3700 14650 4000 14650
 Wire Wire Line
-	12350 8900 12650 8900
+	3700 14750 4000 14750
 Wire Wire Line
-	12350 9000 12650 9000
+	3700 14850 4000 14850
 Wire Wire Line
-	12350 9100 12650 9100
+	3700 14950 4000 14950
 Wire Wire Line
-	12350 9200 12650 9200
-Text GLabel 12650 9000 2    50   Input ~ 0
+	3700 15050 4000 15050
+Text GLabel 4000 14850 2    50   Input ~ 0
 JTMS_SWDIO
-Text GLabel 12650 8900 2    50   Input ~ 0
+Text GLabel 4000 14750 2    50   Input ~ 0
 JTCK_SWCLK
-Text GLabel 12650 8800 2    50   Input ~ 0
+Text GLabel 4000 14650 2    50   Input ~ 0
 JTDI
-Text GLabel 12650 9200 2    50   Input ~ 0
+Text GLabel 4000 15050 2    50   Input ~ 0
 JTDO
-Text GLabel 12650 9100 2    50   Input ~ 0
+Text GLabel 4000 14950 2    50   Input ~ 0
 nJTRST
 Wire Wire Line
-	17550 3500 17900 3500
+	11550 3000 11900 3000
 Wire Wire Line
-	17550 3600 17900 3600
+	11550 3100 11900 3100
 Wire Wire Line
-	17550 3700 17900 3700
+	11550 3200 11900 3200
 Wire Wire Line
-	17550 3800 17900 3800
+	11550 3300 11900 3300
 Wire Wire Line
-	17550 3900 17900 3900
-Text GLabel 17900 3500 2    50   Input ~ 0
+	11550 3400 11900 3400
+Text GLabel 11900 3000 2    50   Input ~ 0
 PWM1
-Text GLabel 17900 3600 2    50   Input ~ 0
+Text GLabel 11900 3100 2    50   Input ~ 0
 PWM2
-Text GLabel 17900 3700 2    50   Input ~ 0
+Text GLabel 11900 3200 2    50   Input ~ 0
 PWM3
-Text GLabel 17900 3800 2    50   Input ~ 0
+Text GLabel 11900 3300 2    50   Input ~ 0
 PWM4
-Text GLabel 17900 3900 2    50   Input ~ 0
+Text GLabel 11900 3400 2    50   Input ~ 0
 PWM5
 Wire Wire Line
-	12000 7350 12350 7350
+	1000 14650 1350 14650
 Wire Wire Line
-	12000 7450 12350 7450
+	1000 14750 1350 14750
 Wire Wire Line
-	12000 7550 12350 7550
+	1000 14850 1350 14850
 Wire Wire Line
-	12000 7650 12350 7650
+	1000 14950 1350 14950
 Wire Wire Line
-	12000 7750 12350 7750
-Text GLabel 12350 7350 2    50   Input ~ 0
+	1000 15050 1350 15050
+Text GLabel 1350 14650 2    50   Input ~ 0
 PWM1
-Text GLabel 12350 7450 2    50   Input ~ 0
+Text GLabel 1350 14750 2    50   Input ~ 0
 PWM2
-Text GLabel 12350 7550 2    50   Input ~ 0
+Text GLabel 1350 14850 2    50   Input ~ 0
 PWM3
-Text GLabel 12350 7650 2    50   Input ~ 0
+Text GLabel 1350 14950 2    50   Input ~ 0
 PWM4
-Text GLabel 12350 7750 2    50   Input ~ 0
-PWM5
+Text GLabel 1350 15050 2    50   Input ~ 0
+Touch_Input
+Wire Notes Line
+	4900 11850 4900 14150
+Wire Notes Line
+	550  11850 550  14150
+Wire Notes Line
+	550  14250 4900 14250
+Wire Notes Line
+	4900 14250 4900 15400
+Wire Notes Line
+	4900 15400 550  15400
+Wire Notes Line
+	550  15400 550  14250
+Wire Notes Line
+	1750 14250 1750 15400
+Wire Notes Line
+	3200 15400 3200 14250
+Text Notes 3250 14350 0    50   ~ 0
+JTAG - Connection\n
+Text Notes 1800 14350 0    50   ~ 0
+USART - Connections\n
+Text Notes 550  14350 0    50   ~ 0
+PWM - Connections\n
+Wire Notes Line
+	5000 11850 7200 11850
+Wire Notes Line
+	7200 11850 7200 14250
+Wire Notes Line
+	7200 14250 5000 14250
+Wire Notes Line
+	5000 14250 5000 11850
+Text Notes 5050 11950 0    50   ~ 0
+NRST - Switch\n
+$Comp
+L Connector:Conn_01x05_Male J5
+U 1 1 5F9B4020
+P 800 15900
+F 0 "J5" H 908 16281 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 908 16190 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 800 15900 50  0001 C CNN
+F 3 "~" H 800 15900 50  0001 C CNN
+	1    800  15900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 15700 1350 15700
+Wire Wire Line
+	1000 15800 1350 15800
+Wire Wire Line
+	1000 15900 1350 15900
+Wire Wire Line
+	1000 16000 1350 16000
+Wire Wire Line
+	1000 16100 1350 16100
+Text GLabel 1350 15700 2    50   Input ~ 0
+5V
+Text GLabel 1350 15800 2    50   Input ~ 0
+3.3V
+Text GLabel 1350 15900 2    50   Input ~ 0
+PWR_IN
+Text GLabel 1350 16000 2    50   Input ~ 0
+GND
+Text GLabel 1350 16100 2    50   Input ~ 0
+Touch_Input
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5FA074D0
+P 2500 15900
+F 0 "J?" H 2608 16281 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 2608 16190 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 2500 15900 50  0001 C CNN
+F 3 "~" H 2500 15900 50  0001 C CNN
+	1    2500 15900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 15700 3050 15700
+Wire Wire Line
+	2700 15800 3050 15800
+Wire Wire Line
+	2700 15900 3050 15900
+Wire Wire Line
+	2700 16000 3050 16000
+Wire Wire Line
+	2700 16100 3050 16100
+Text GLabel 3050 15700 2    50   Input ~ 0
+PWM1
+Text GLabel 3050 15800 2    50   Input ~ 0
+PWM2
+Text GLabel 3050 15900 2    50   Input ~ 0
+PWM3
+Text GLabel 3050 16000 2    50   Input ~ 0
+PWM4
+Text GLabel 3050 16100 2    50   Input ~ 0
+Touch_Input
+Wire Wire Line
+	10700 5750 10400 5750
+Wire Wire Line
+	10700 5850 10400 5850
+Text GLabel 10400 5750 0    50   Input ~ 0
+GND
+Text GLabel 10400 5850 0    50   Input ~ 0
+PWR_IN
 $EndSCHEMATC
