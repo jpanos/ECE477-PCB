@@ -1781,4 +1781,12 @@ Wire Wire Line
 	3500 13250 3600 13250
 Text Notes 14800 4050 0    50   ~ 0
 review data sheet for PACK and BAT pions\n
+Wire Wire Line
+	16100 3300 16400 3300
+Text GLabel 16400 3300 2    50   Input ~ 0
+PWR_IN
+Wire Wire Line
+	14800 3200 14500 3200
+Text GLabel 14500 3200 0    50   Input ~ 0
+PWR_IN
 $EndSCHEMATC

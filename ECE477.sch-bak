@@ -941,12 +941,8 @@ Text Notes 8400 8800 2    50   ~ 0
 Must be place near VDD_LDO\n
 Text GLabel 4650 9950 0    50   Input ~ 0
 1V2_MCU
-Wire Wire Line
-	4650 9950 5300 9950
 Text GLabel 5300 9950 2    50   Input ~ 0
 VDD_LDO
-Text Notes 4700 9950 0    50   ~ 0
-Solder Bridge?\n
 $Comp
 L Jumper:Jumper_3_Open JP1
 U 1 1 5F894476
@@ -1594,11 +1590,9 @@ Wire Notes Line
 	550  14150 4900 14150
 Text Notes 600  14100 0    50   ~ 0
 PWR generation blocks for 3.3V power to the MCU  --- NEW LDO \n
-Wire Wire Line
-	2650 13250 3450 13250
-Text GLabel 3450 13250 3    50   Input ~ 0
+Text GLabel 3100 13250 3    50   Input ~ 0
 3V3_VDD
-Text GLabel 3150 13250 3    50   Input ~ 0
+Text GLabel 3600 13250 3    50   Input ~ 0
 3V3_PER
 Text Notes 3000 12150 0    50   ~ 0
 We need to see if we want to use the ERR pin\n
@@ -1607,7 +1601,6 @@ Wire Wire Line
 Connection ~ 2400 13250
 Wire Wire Line
 	2400 13150 2400 13250
-Connection ~ 2650 13250
 Wire Wire Line
 	1900 13250 2400 13250
 Wire Wire Line
@@ -1745,14 +1738,47 @@ $EndComp
 Wire Wire Line
 	6100 5450 6900 5450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5F983E71
 P 5050 11050
-F 0 "#PWR?" H 5050 10800 50  0001 C CNN
+F 0 "#PWR0103" H 5050 10800 50  0001 C CNN
 F 1 "GND" H 5055 10877 50  0000 C CNN
 F 2 "" H 5050 11050 50  0001 C CNN
 F 3 "" H 5050 11050 50  0001 C CNN
 	1    5050 11050
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5F9C6E06
+P 4950 9950
+F 0 "R6" H 5018 9996 50  0000 L CNN
+F 1 "0R" H 5018 9905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4990 9940 50  0001 C CNN
+F 3 "~" H 4950 9950 50  0001 C CNN
+	1    4950 9950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 9950 4800 9950
+Wire Wire Line
+	5100 9950 5300 9950
+$Comp
+L Device:R_US R5
+U 1 1 5FA367EF
+P 3350 13250
+F 0 "R5" H 3418 13296 50  0000 L CNN
+F 1 "0R" H 3418 13205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3390 13240 50  0001 C CNN
+F 3 "~" H 3350 13250 50  0001 C CNN
+	1    3350 13250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2650 13250
+Wire Wire Line
+	2650 13250 3200 13250
+Wire Wire Line
+	3500 13250 3600 13250
+Text Notes 14800 4050 0    50   ~ 0
+review data sheet for PACK and BAT pions\n
 $EndSCHEMATC
