@@ -1173,32 +1173,32 @@ Wire Wire Line
 Text GLabel 6600 3700 0    50   Input ~ 0
 Touch_Input
 Wire Wire Line
-	16100 2000 16450 2000
+	16650 2000 17000 2000
 Wire Wire Line
-	16100 2100 16450 2100
+	16650 2100 17000 2100
 Wire Wire Line
-	16100 2200 16450 2200
-Text GLabel 16450 2000 2    50   Input ~ 0
+	16650 2200 17000 2200
+Text GLabel 17000 2000 2    50   Input ~ 0
 I2C2_SMBA
-Text GLabel 16450 2100 2    50   Input ~ 0
+Text GLabel 17000 2100 2    50   Input ~ 0
 I2C2_SDA
-Text GLabel 16450 2200 2    50   Input ~ 0
+Text GLabel 17000 2200 2    50   Input ~ 0
 I2C2_SCL
 $Comp
 L ECE477-rescue:BQ29330DBT-SamacSys_Parts IC2
 U 1 1 5F7B6D95
-P 14800 2000
-F 0 "IC2" H 15450 2265 50  0000 C CNN
-F 1 "BQ29330DBT" H 15450 2174 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP50P640X120-30N" H 25950 4500 50  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 25950 4400 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 25950 4300 50  0001 L CNN "Description"
-F 5 "1.2" H 25950 4200 50  0001 L CNN "Height"
-F 6 "595-BQ29330DBT" H 25950 4100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 25950 4000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 25950 3900 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ29330DBT" H 25950 3800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    14800 2000
+P 15350 2000
+F 0 "IC2" H 16000 2265 50  0000 C CNN
+F 1 "BQ29330DBT" H 16000 2174 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP50P640X120-30N" H 26500 4500 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq29330" H 26500 4400 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29330DBT. - Li-Ion Battery, Li-Pol Full Protector, 2/3/4 Series, I2C interface, 4.5 V to 28 V supply, TSSOP-30" H 26500 4300 50  0001 L CNN "Description"
+F 5 "1.2" H 26500 4200 50  0001 L CNN "Height"
+F 6 "595-BQ29330DBT" H 26500 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29330DBT?qs=YxwvVplHM%2FnxR6WOWVPfQQ%3D%3D" H 26500 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 26500 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ29330DBT" H 26500 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15350 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1278,33 +1278,27 @@ Text GLabel 9700 3200 2    50   Input ~ 0
 PWM4
 Text GLabel 9700 3300 2    50   Input ~ 0
 PWM5
-Wire Wire Line
-	14800 2000 14500 2000
-Wire Wire Line
-	14800 2100 14500 2100
-Text GLabel 14500 2000 0    50   Input ~ 0
-GND
-Text GLabel 14500 2100 0    50   Input ~ 0
+Text GLabel 17000 3100 2    50   Input ~ 0
 PWR_IN
 Wire Wire Line
-	14800 3100 14450 3100
+	15350 3100 15000 3100
 Wire Wire Line
-	14800 3000 14450 3000
+	15350 3000 15000 3000
 Wire Wire Line
-	14800 2900 14450 2900
+	15350 2900 15000 2900
 Wire Wire Line
-	14800 2800 14450 2800
+	15350 2800 15000 2800
 Wire Wire Line
-	14800 2700 14450 2700
-Text GLabel 14450 2700 0    50   Input ~ 0
+	15350 2700 15000 2700
+Text GLabel 15000 2700 0    50   Input ~ 0
 V5
-Text GLabel 14450 2800 0    50   Input ~ 0
+Text GLabel 15000 2800 0    50   Input ~ 0
 V4
-Text GLabel 14450 2900 0    50   Input ~ 0
+Text GLabel 15000 2900 0    50   Input ~ 0
 V3
-Text GLabel 14450 3000 0    50   Input ~ 0
+Text GLabel 15000 3000 0    50   Input ~ 0
 V2
-Text GLabel 14450 3100 0    50   Input ~ 0
+Text GLabel 15000 3100 0    50   Input ~ 0
 V1
 Wire Notes Line
 	5000 11850 5000 14150
@@ -1781,12 +1775,34 @@ Wire Wire Line
 	3500 13250 3600 13250
 Text Notes 14800 4050 0    50   ~ 0
 review data sheet for PACK and BAT pions\n
-Wire Wire Line
-	16100 3300 16400 3300
-Text GLabel 16400 3300 2    50   Input ~ 0
+Text GLabel 17000 3300 2    50   Input ~ 0
+PWR_IN
+Text GLabel 15000 3200 0    50   Input ~ 0
 PWR_IN
 Wire Wire Line
-	14800 3200 14500 3200
-Text GLabel 14500 3200 0    50   Input ~ 0
-PWR_IN
+	15350 2300 15000 2300
+Wire Wire Line
+	16650 2700 17000 2700
+Wire Wire Line
+	15000 2100 15350 2100
+Wire Wire Line
+	15000 2000 15350 2000
+Text GLabel 15000 2300 0    50   Input ~ 0
+GND
+Text GLabel 17000 2700 2    50   Input ~ 0
+GND
+Wire Wire Line
+	16650 3100 17000 3100
+Wire Wire Line
+	16650 3300 17000 3300
+Wire Wire Line
+	15000 3200 15350 3200
+Wire Wire Line
+	16650 2600 17000 2600
+Text GLabel 17000 2600 2    50   Input ~ 0
+LED_PWR
+Wire Wire Line
+	16650 2400 17000 2400
+Text GLabel 17000 2400 2    50   Input ~ 0
+CLK
 $EndSCHEMATC
