@@ -47,8 +47,6 @@ F 3 "" H 2300 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3800 4850 3800
-Wire Wire Line
 	4500 3900 4850 3900
 Wire Wire Line
 	4500 4000 4850 4000
@@ -59,20 +57,12 @@ Wire Wire Line
 	4850 3900 4850 4000
 Wire Wire Line
 	4850 3800 5000 3800
-Connection ~ 4850 3800
 Text GLabel 5000 3800 2    50   Input ~ 0
 VCAP
 Wire Wire Line
 	2300 3300 2000 3300
 Wire Wire Line
-	2300 3200 2000 3200
-Wire Wire Line
 	2300 3100 2000 3100
-Wire Wire Line
-	2000 3300 2000 3200
-Connection ~ 2000 3200
-Wire Wire Line
-	2000 3200 2000 3100
 Wire Wire Line
 	2000 3100 1850 3100
 Connection ~ 2000 3100
@@ -82,8 +72,6 @@ Wire Wire Line
 	2300 2600 2000 2600
 Wire Wire Line
 	2300 2400 2000 2400
-Wire Wire Line
-	2300 2300 2000 2300
 Wire Wire Line
 	2300 2200 2000 2200
 Wire Wire Line
@@ -97,17 +85,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 1700 2000 1700
 Wire Wire Line
-	2300 1600 2000 1600
-Wire Wire Line
 	2300 1500 2000 1500
 Wire Wire Line
 	2000 1250 2000 1500
 Connection ~ 2000 1500
-Wire Wire Line
-	2000 1500 2000 1600
-Connection ~ 2000 1600
-Wire Wire Line
-	2000 1600 2000 1700
 Connection ~ 2000 1700
 Wire Wire Line
 	2000 1700 2000 1800
@@ -124,11 +105,6 @@ Connection ~ 2000 2100
 Wire Wire Line
 	2000 2100 2000 2200
 Connection ~ 2000 2200
-Wire Wire Line
-	2000 2200 2000 2300
-Connection ~ 2000 2300
-Wire Wire Line
-	2000 2300 2000 2400
 Connection ~ 2000 2400
 Connection ~ 2000 2600
 Wire Wire Line
@@ -512,8 +488,6 @@ Text GLabel 5100 5650 1    50   Input ~ 0
 VREF+
 Wire Wire Line
 	2300 2900 1400 2900
-Wire Wire Line
-	2300 4000 1400 4000
 $Comp
 L Device:R_US R2
 U 1 1 5F725EB7
@@ -529,7 +503,6 @@ Wire Wire Line
 	1400 2900 1400 3550
 Wire Wire Line
 	1400 4000 1250 4000
-Connection ~ 1400 4000
 Wire Wire Line
 	1400 3550 1250 3550
 Connection ~ 1400 3550
@@ -575,13 +548,6 @@ Wire Wire Line
 	4500 2500 4850 2500
 Connection ~ 4850 2500
 Wire Wire Line
-	4850 2500 4850 2400
-Wire Wire Line
-	4500 2400 4850 2400
-Connection ~ 4850 2400
-Wire Wire Line
-	4850 2400 4850 2300
-Wire Wire Line
 	4500 2300 4850 2300
 Connection ~ 4850 2300
 Wire Wire Line
@@ -589,13 +555,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 2200 4850 2200
 Connection ~ 4850 2200
-Wire Wire Line
-	4850 2200 4850 2100
-Wire Wire Line
-	4500 2100 4850 2100
-Connection ~ 4850 2100
-Wire Wire Line
-	4850 2100 4850 2000
 Wire Wire Line
 	4500 2000 4850 2000
 Connection ~ 4850 2000
@@ -645,21 +604,12 @@ Wire Wire Line
 	2300 3800 2000 3800
 Wire Wire Line
 	4500 2900 4950 2900
-Wire Wire Line
-	4500 3300 4950 3300
-Wire Wire Line
-	4500 3400 4950 3400
 Text GLabel 2000 3500 0    50   Input ~ 0
 VDDSMPS_IN
 Wire Wire Line
 	4500 3100 4850 3100
-Connection ~ 4850 3100
 Wire Wire Line
 	4850 3100 4850 2700
-Wire Wire Line
-	4850 3100 4950 3100
-Text GLabel 4950 3100 2    50   Input ~ 0
-VSSSMPS
 Text GLabel 4950 3400 2    50   Input ~ 0
 VDDSMPS_OUT
 Text GLabel 4950 3300 2    50   Input ~ 0
@@ -813,7 +763,6 @@ Text GLabel 2700 8800 1    50   Input ~ 0
 VDDSMPS_OUT
 Text Notes 2400 9850 0    50   ~ 0
 Fit C22 and L near VLXSD    and then C23 near L1\n
-Connection ~ 3800 8800
 $Comp
 L pspice:CAP C26
 U 1 1 5F7923D6
@@ -857,10 +806,7 @@ F 3 "" H 5300 9550 50  0001 C CNN
 $EndComp
 Text GLabel 5800 8800 1    50   Input ~ 0
 VCAP
-Wire Wire Line
-	3800 8800 5300 8800
-Connection ~ 5300 8800
-Text GLabel 4850 8800 1    50   Input ~ 0
+Text GLabel 4700 8800 1    50   Input ~ 0
 1V2_MCU
 Connection ~ 5300 9550
 Text Notes 4550 10250 0    50   ~ 0
@@ -920,17 +866,6 @@ Text Notes 3900 8050 0    50   ~ 0
 VDD_IND_OUT needs to be connected to VCAP*** \n
 Text GLabel 4750 8200 0    50   Input ~ 0
 VCAP
-$Comp
-L Device:R_US R11
-U 1 1 5F867280
-P 5150 8200
-F 0 "R11" H 5218 8246 50  0000 L CNN
-F 1 "0R" H 5218 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 8190 50  0001 C CNN
-F 3 "~" H 5150 8200 50  0001 C CNN
-	1    5150 8200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4750 8200 5000 8200
 Wire Wire Line
@@ -1307,8 +1242,6 @@ Wire Notes Line
 Text Notes 2050 15500 0    50   ~ 0
 Bat - Monitor Connections\n
 Wire Notes Line
-	550  16250 3400 16250
-Wire Notes Line
 	3400 14250 3400 16250
 Text GLabel 2900 16150 2    50   Input ~ 0
 V1
@@ -1354,7 +1287,7 @@ GND
 Text GLabel 1400 15950 2    50   Input ~ 0
 PWR_IN
 Text GLabel 1400 15850 2    50   Input ~ 0
-3.3V
+3.3_VDD
 Text GLabel 1400 15750 2    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1392,8 +1325,6 @@ Text Notes 3550 14350 0    50   ~ 0
 JTAG - Connection\n
 Wire Notes Line
 	4900 15400 550  15400
-Wire Notes Line
-	4900 14250 4900 15400
 Wire Notes Line
 	550  14250 4900 14250
 Wire Notes Line
@@ -1586,8 +1517,6 @@ Text Notes 600  14100 0    50   ~ 0
 PWR generation blocks for 3.3V power to the MCU  --- NEW LDO \n
 Text GLabel 3100 13250 3    50   Input ~ 0
 3V3_VDD
-Text GLabel 3600 13250 3    50   Input ~ 0
-3V3_PER
 Text Notes 3000 12150 0    50   ~ 0
 We need to see if we want to use the ERR pin\n
 Wire Wire Line
@@ -1729,8 +1658,6 @@ F 3 "" H 6100 5450 50  0001 C CNN
 	1    6100 5450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6100 5450 6900 5450
 $Comp
 L power:GND #PWR0103
 U 1 1 5F983E71
@@ -1757,22 +1684,6 @@ Wire Wire Line
 	4650 9950 4800 9950
 Wire Wire Line
 	5100 9950 5300 9950
-$Comp
-L Device:R_US R5
-U 1 1 5FA367EF
-P 3350 13250
-F 0 "R5" H 3418 13296 50  0000 L CNN
-F 1 "0R" H 3418 13205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3390 13240 50  0001 C CNN
-F 3 "~" H 3350 13250 50  0001 C CNN
-	1    3350 13250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2650 13250
-Wire Wire Line
-	2650 13250 3200 13250
-Wire Wire Line
-	3500 13250 3600 13250
 Text Notes 14800 4050 0    50   ~ 0
 review data sheet for PACK and BAT pions\n
 Text GLabel 17000 3300 2    50   Input ~ 0
@@ -1798,11 +1709,363 @@ Wire Wire Line
 Wire Wire Line
 	15000 3200 15350 3200
 Wire Wire Line
-	16650 2600 17000 2600
-Text GLabel 17000 2600 2    50   Input ~ 0
-LED_PWR
+	3950 16150 4300 16150
 Wire Wire Line
-	16650 2400 17000 2400
+	3950 16050 4300 16050
+Wire Wire Line
+	3950 15950 4300 15950
+Wire Wire Line
+	3950 15850 4300 15850
+Wire Wire Line
+	3950 15750 4300 15750
+$Comp
+L Connector:Conn_01x05_Male J7
+U 1 1 5F9C57C3
+P 3750 15950
+F 0 "J7" H 3858 16331 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 3858 16240 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3750 15950 50  0001 C CNN
+F 3 "~" H 3750 15950 50  0001 C CNN
+	1    3750 15950
+	1    0    0    -1  
+$EndComp
+Text Notes 3450 15500 0    50   ~ 0
+Bat - Monitor Connections V2\n
+Wire Notes Line
+	550  16250 4900 16250
+Wire Notes Line
+	4900 14250 4900 16250
+Text GLabel 15000 2000 0    50   Input ~ 0
+CELL-
+Text GLabel 15000 2100 0    50   Input ~ 0
+CELL+
+Text GLabel 4300 15750 2    50   Input ~ 0
+CELL-
+Text GLabel 4300 15850 2    50   Input ~ 0
+CELL+
+$Comp
+L Device:R_US R7
+U 1 1 5FA33AA1
+P 6500 5450
+F 0 "R7" H 6568 5496 50  0000 L CNN
+F 1 "0R" H 6568 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6540 5440 50  0001 C CNN
+F 3 "~" H 6500 5450 50  0001 C CNN
+	1    6500 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 5450 6350 5450
+Wire Wire Line
+	6650 5450 6900 5450
+Text GLabel 6950 4400 0    50   Input ~ 0
+NC
+Text GLabel 6950 4300 0    50   Input ~ 0
+NC
+Text GLabel 6950 4200 0    50   Input ~ 0
+NC
+Text GLabel 6950 3800 0    50   Input ~ 0
+NC
+Text GLabel 6950 3600 0    50   Input ~ 0
+NC
+Text GLabel 6950 3500 0    50   Input ~ 0
+NC
+Text GLabel 6950 3400 0    50   Input ~ 0
+NC
+Text GLabel 6950 3100 0    50   Input ~ 0
+NC
+Text GLabel 6950 3000 0    50   Input ~ 0
+NC
+Text GLabel 6950 2900 0    50   Input ~ 0
+NC
+Text GLabel 6950 2400 0    50   Input ~ 0
+NC
+Text GLabel 6950 2300 0    50   Input ~ 0
+NC
+Text GLabel 6950 2000 0    50   Input ~ 0
+NC
+Text GLabel 6950 1900 0    50   Input ~ 0
+NC
+Text GLabel 6950 1800 0    50   Input ~ 0
+NC
+Text GLabel 6950 1700 0    50   Input ~ 0
+NC
+Text GLabel 6950 1600 0    50   Input ~ 0
+NC
+Text GLabel 6950 1500 0    50   Input ~ 0
+NC
+Text GLabel 6950 1400 0    50   Input ~ 0
+NC
+Text GLabel 6950 1300 0    50   Input ~ 0
+NC
+Text GLabel 6950 1200 0    50   Input ~ 0
+NC
+Text GLabel 9350 1200 2    50   Input ~ 0
+NC
+Text GLabel 9350 1300 2    50   Input ~ 0
+NC
+Text GLabel 9350 1400 2    50   Input ~ 0
+NC
+Text GLabel 9350 1500 2    50   Input ~ 0
+NC
+Text GLabel 9350 1600 2    50   Input ~ 0
+NC
+Text GLabel 9350 1700 2    50   Input ~ 0
+NC
+Text GLabel 9350 2000 2    50   Input ~ 0
+NC
+Text GLabel 9350 2100 2    50   Input ~ 0
+NC
+Text GLabel 9350 2600 2    50   Input ~ 0
+NC
+Text GLabel 9350 2700 2    50   Input ~ 0
+NC
+Text GLabel 9350 2400 2    50   Input ~ 0
+NC
+Text GLabel 9350 2500 2    50   Input ~ 0
+NC
+Text GLabel 9350 3400 2    50   Input ~ 0
+NC
+Text GLabel 9350 3500 2    50   Input ~ 0
+NC
+Text GLabel 9350 3600 2    50   Input ~ 0
+NC
+Text GLabel 9350 3700 2    50   Input ~ 0
+NC
+Text GLabel 9350 3800 2    50   Input ~ 0
+NC
+Text GLabel 9350 3900 2    50   Input ~ 0
+NC
+Text GLabel 9350 4000 2    50   Input ~ 0
+NC
+Text GLabel 9350 4100 2    50   Input ~ 0
+NC
+Text GLabel 9350 4200 2    50   Input ~ 0
+NC
+Text GLabel 9350 4300 2    50   Input ~ 0
+NC
+Text GLabel 9350 4400 2    50   Input ~ 0
+NC
+Text GLabel 10750 2100 0    50   Input ~ 0
+NC
+Text GLabel 10750 2000 0    50   Input ~ 0
+NC
+Text GLabel 10750 1900 0    50   Input ~ 0
+NC
+Text GLabel 10750 1800 0    50   Input ~ 0
+NC
+Text GLabel 10750 1700 0    50   Input ~ 0
+NC
+Text GLabel 10750 1600 0    50   Input ~ 0
+NC
+Text GLabel 10750 2700 0    50   Input ~ 0
+NC
+Text GLabel 10750 2600 0    50   Input ~ 0
+NC
+Text GLabel 10750 2500 0    50   Input ~ 0
+NC
+Text GLabel 10750 2400 0    50   Input ~ 0
+NC
+Text GLabel 10750 2300 0    50   Input ~ 0
+NC
+Text GLabel 10750 2200 0    50   Input ~ 0
+NC
+Text GLabel 10750 4000 0    50   Input ~ 0
+NC
+Text GLabel 10750 3900 0    50   Input ~ 0
+NC
+Text GLabel 10750 3800 0    50   Input ~ 0
+NC
+Text GLabel 10750 3700 0    50   Input ~ 0
+NC
+Text GLabel 10750 3600 0    50   Input ~ 0
+NC
+Text GLabel 10750 3500 0    50   Input ~ 0
+NC
+Text GLabel 10750 3400 0    50   Input ~ 0
+NC
+Text GLabel 10750 3300 0    50   Input ~ 0
+NC
+Text GLabel 10750 3100 0    50   Input ~ 0
+NC
+Text GLabel 10750 3000 0    50   Input ~ 0
+NC
+Text GLabel 10750 2900 0    50   Input ~ 0
+NC
+Text GLabel 10750 2800 0    50   Input ~ 0
+NC
+Text GLabel 12950 1900 2    50   Input ~ 0
+NC
+Text GLabel 12950 2000 2    50   Input ~ 0
+NC
+Text GLabel 12950 2100 2    50   Input ~ 0
+NC
+Text GLabel 12950 2200 2    50   Input ~ 0
+NC
+Text GLabel 12950 2300 2    50   Input ~ 0
+NC
+Text GLabel 12950 2400 2    50   Input ~ 0
+NC
+Text GLabel 12950 1600 2    50   Input ~ 0
+NC
+Text GLabel 12950 1700 2    50   Input ~ 0
+NC
+Text GLabel 12950 1800 2    50   Input ~ 0
+NC
+Text GLabel 12950 2600 2    50   Input ~ 0
+NC
+Text GLabel 12950 2700 2    50   Input ~ 0
+NC
+Text GLabel 12950 3300 2    50   Input ~ 0
+NC
+Text GLabel 16650 3000 2    50   Input ~ 0
+NC
+Text GLabel 16650 2900 2    50   Input ~ 0
+NC
+Text GLabel 16650 2800 2    50   Input ~ 0
+NC
+Text GLabel 16650 2500 2    50   Input ~ 0
+NC
+Text GLabel 16650 2300 2    50   Input ~ 0
+NC
+Text GLabel 16650 3200 2    50   Input ~ 0
+NC
+Text GLabel 16650 3400 2    50   Input ~ 0
+NC
+Text GLabel 15350 3400 0    50   Input ~ 0
+NC
+Text GLabel 15350 3300 0    50   Input ~ 0
+NC
+Text GLabel 15350 2600 0    50   Input ~ 0
+NC
+Text GLabel 15350 2500 0    50   Input ~ 0
+NC
+Text GLabel 15350 2400 0    50   Input ~ 0
+NC
+Text GLabel 15350 2200 0    50   Input ~ 0
+NC
+Wire Wire Line
+	4850 2000 4850 2100
+Wire Wire Line
+	4500 2100 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	4850 2100 4850 2200
+Wire Wire Line
+	2000 1500 2000 1600
+Wire Wire Line
+	2300 1600 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 2000 1700
+Wire Wire Line
+	2000 3100 2000 3200
+Wire Wire Line
+	2300 3200 2000 3200
+Connection ~ 2000 3200
+Wire Wire Line
+	2000 3200 2000 3300
+Wire Wire Line
+	2300 4000 1400 4000
+Connection ~ 1400 4000
+Text GLabel 4500 12850 1    50   Input ~ 0
+BOOT0
+$Comp
+L Device:R_US R11
+U 1 1 5F867280
+P 5150 8200
+F 0 "R11" H 5218 8246 50  0000 L CNN
+F 1 "0R" H 5218 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 8190 50  0001 C CNN
+F 3 "~" H 5150 8200 50  0001 C CNN
+	1    5150 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 60200FAE
+P 4500 13200
+F 0 "R8" H 4568 13246 50  0000 L CNN
+F 1 "0R" H 4568 13155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4540 13190 50  0001 C CNN
+F 3 "~" H 4500 13200 50  0001 C CNN
+	1    4500 13200
+	-1   0    0    1   
+$EndComp
+Text GLabel 4500 13600 3    50   Input ~ 0
+3V3_VDD
+Wire Wire Line
+	4500 13600 4500 13350
+Wire Wire Line
+	4500 13050 4500 12850
+$Comp
+L Device:R_US R9
+U 1 1 602AFFF3
+P 4250 8800
+F 0 "R9" H 4318 8846 50  0000 L CNN
+F 1 "0R" H 4318 8755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4290 8790 50  0001 C CNN
+F 3 "~" H 4250 8800 50  0001 C CNN
+	1    4250 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 602C9249
+P 5050 8800
+F 0 "R10" H 5118 8846 50  0000 L CNN
+F 1 "0R" H 5118 8755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5090 8790 50  0001 C CNN
+F 3 "~" H 5050 8800 50  0001 C CNN
+	1    5050 8800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 8800 4100 8800
+Connection ~ 3800 8800
+Wire Wire Line
+	4400 8800 4900 8800
+Wire Wire Line
+	5200 8800 5300 8800
+Connection ~ 5300 8800
+Text GLabel 4300 16150 2    50   Input ~ 0
+NC
+Text GLabel 4300 16050 2    50   Input ~ 0
+NC
+Text GLabel 4300 15950 2    50   Input ~ 0
+NC
+Wire Wire Line
+	16650 2600 17000 2600
+Wire Wire Line
+	17000 2400 16650 2400
+Text Notes 17750 2550 0    50   ~ 0
+WDI goes to CLK and LEDOUT goes to LEDPWR\n
 Text GLabel 17000 2400 2    50   Input ~ 0
-CLK
+NC
+Text GLabel 17000 2600 2    50   Input ~ 0
+NC
+Wire Wire Line
+	4500 3800 4850 3800
+Connection ~ 4850 3800
+Wire Wire Line
+	4500 3300 4950 3300
+Wire Wire Line
+	4950 3400 4500 3400
+Wire Wire Line
+	4850 2300 4850 2400
+Wire Wire Line
+	4500 2400 4850 2400
+Connection ~ 4850 2400
+Wire Wire Line
+	4850 2400 4850 2500
+Wire Wire Line
+	2000 2200 2000 2300
+Wire Wire Line
+	2300 2300 2000 2300
+Connection ~ 2000 2300
+Wire Wire Line
+	2000 2300 2000 2400
+Wire Wire Line
+	3100 13250 2650 13250
+Connection ~ 2650 13250
 $EndSCHEMATC
