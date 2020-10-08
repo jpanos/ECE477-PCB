@@ -1200,17 +1200,6 @@ Wire Wire Line
 	2550 15850 2900 15850
 Wire Wire Line
 	2550 15750 2900 15750
-$Comp
-L Connector:Conn_01x05_Male J6
-U 1 1 5F8FE391
-P 2350 15950
-F 0 "J6" H 2458 16331 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 2458 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 2350 15950 50  0001 C CNN
-F 3 "~" H 2350 15950 50  0001 C CNN
-	1    2350 15950
-	1    0    0    -1  
-$EndComp
 Text Notes 600  15500 0    50   ~ 0
 PWR - Input & Output\n
 Wire Notes Line
@@ -1243,7 +1232,7 @@ U 1 1 5F9B4020
 P 850 15950
 F 0 "J5" H 958 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 958 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 850 15950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 850 15950 50  0001 C CNN
 F 3 "~" H 850 15950 50  0001 C CNN
 	1    850  15950
 	1    0    0    -1  
@@ -1333,34 +1322,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 14650 2850 14650
 $Comp
-L Connector:Conn_01x05_Male J3
-U 1 1 5FA398AC
-P 800 14850
-F 0 "J3" H 908 15231 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 908 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 800 14850 50  0001 C CNN
-F 3 "~" H 800 14850 50  0001 C CNN
-	1    800  14850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x05_Male J4
-U 1 1 5FA2B098
-P 3800 14850
-F 0 "J4" H 3908 15231 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 3908 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3800 14850 50  0001 C CNN
-F 3 "~" H 3800 14850 50  0001 C CNN
-	1    3800 14850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5FA28754
 P 2300 14850
 F 0 "J2" H 2408 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2408 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical" H 2300 14850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2300 14850 50  0001 C CNN
 F 3 "~" H 2300 14850 50  0001 C CNN
 	1    2300 14850
 	1    0    0    -1  
@@ -1629,12 +1596,6 @@ Wire Wire Line
 Wire Wire Line
 	15000 3200 15350 3200
 Wire Wire Line
-	3950 16150 4300 16150
-Wire Wire Line
-	3950 16050 4300 16050
-Wire Wire Line
-	3950 15950 4300 15950
-Wire Wire Line
 	3950 15850 4300 15850
 Wire Wire Line
 	3950 15750 4300 15750
@@ -1644,7 +1605,7 @@ U 1 1 5F9C57C3
 P 3750 15950
 F 0 "J7" H 3858 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3858 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3750 15950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3750 15950 50  0001 C CNN
 F 3 "~" H 3750 15950 50  0001 C CNN
 	1    3750 15950
 	1    0    0    -1  
@@ -1865,9 +1826,6 @@ NoConn ~ 6950 3800
 NoConn ~ 6950 4200
 NoConn ~ 6950 4300
 NoConn ~ 6950 4400
-NoConn ~ 4300 15950
-NoConn ~ 4300 16050
-NoConn ~ 4300 16150
 $Comp
 L Device:R_US R5
 U 1 1 60339FF0
@@ -1928,4 +1886,57 @@ Text GLabel 17000 2400 2    50   Input ~ 0
 CLK
 Wire Wire Line
 	16650 2400 17000 2400
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5F8B51CF
+P 800 14850
+F 0 "J3" H 908 15231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 908 15140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 800 14850 50  0001 C CNN
+F 3 "~" H 800 14850 50  0001 C CNN
+	1    800  14850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J4
+U 1 1 5F8E70FD
+P 3800 14850
+F 0 "J4" H 3908 15231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 3908 15140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3800 14850 50  0001 C CNN
+F 3 "~" H 3800 14850 50  0001 C CNN
+	1    3800 14850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J6
+U 1 1 5F8FE391
+P 2350 15950
+F 0 "J6" H 2458 16331 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 2458 16240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2350 15950 50  0001 C CNN
+F 3 "~" H 2350 15950 50  0001 C CNN
+	1    2350 15950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 15150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1000 15150 1350 15150
+Text GLabel 4350 15150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4000 15150 4350 15150
+Text GLabel 4300 16150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 16150 4300 16150
+Text GLabel 4300 16050 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 16050 4300 16050
+Text GLabel 4300 15950 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 15950 4300 15950
 $EndSCHEMATC

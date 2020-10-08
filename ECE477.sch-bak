@@ -1206,7 +1206,7 @@ U 1 1 5F8FE391
 P 2350 15950
 F 0 "J6" H 2458 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2458 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 2350 15950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2350 15950 50  0001 C CNN
 F 3 "~" H 2350 15950 50  0001 C CNN
 	1    2350 15950
 	1    0    0    -1  
@@ -1243,7 +1243,7 @@ U 1 1 5F9B4020
 P 850 15950
 F 0 "J5" H 958 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 958 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 850 15950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 850 15950 50  0001 C CNN
 F 3 "~" H 850 15950 50  0001 C CNN
 	1    850  15950
 	1    0    0    -1  
@@ -1338,7 +1338,7 @@ U 1 1 5FA398AC
 P 800 14850
 F 0 "J3" H 908 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 908 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 800 14850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 800 14850 50  0001 C CNN
 F 3 "~" H 800 14850 50  0001 C CNN
 	1    800  14850
 	1    0    0    -1  
@@ -1349,7 +1349,7 @@ U 1 1 5FA2B098
 P 3800 14850
 F 0 "J4" H 3908 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3908 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3800 14850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3800 14850 50  0001 C CNN
 F 3 "~" H 3800 14850 50  0001 C CNN
 	1    3800 14850
 	1    0    0    -1  
@@ -1360,7 +1360,7 @@ U 1 1 5FA28754
 P 2300 14850
 F 0 "J2" H 2408 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2408 15140 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical" H 2300 14850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2300 14850 50  0001 C CNN
 F 3 "~" H 2300 14850 50  0001 C CNN
 	1    2300 14850
 	1    0    0    -1  
@@ -1644,7 +1644,7 @@ U 1 1 5F9C57C3
 P 3750 15950
 F 0 "J7" H 3858 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3858 16240 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 3750 15950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3750 15950 50  0001 C CNN
 F 3 "~" H 3750 15950 50  0001 C CNN
 	1    3750 15950
 	1    0    0    -1  
@@ -1773,7 +1773,6 @@ Wire Wire Line
 	3100 13250 2650 13250
 Connection ~ 2650 13250
 NoConn ~ 16650 2300
-NoConn ~ 16650 2400
 NoConn ~ 16650 2500
 NoConn ~ 16650 2600
 NoConn ~ 16650 2800
@@ -1817,7 +1816,6 @@ NoConn ~ 10750 3800
 NoConn ~ 10750 3700
 NoConn ~ 10750 3600
 NoConn ~ 10750 3500
-NoConn ~ 10750 3400
 NoConn ~ 10750 3300
 NoConn ~ 10750 3100
 NoConn ~ 10750 3000
@@ -1922,4 +1920,12 @@ Wire Wire Line
 	4350 8800 4900 8800
 Text GLabel 4600 8800 1    50   Input ~ 0
 VDD_LDO
+Wire Wire Line
+	10750 3400 10450 3400
+Text GLabel 10450 3400 0    50   Input ~ 0
+CLK
+Text GLabel 17000 2400 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	16650 2400 17000 2400
 $EndSCHEMATC

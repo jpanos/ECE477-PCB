@@ -1,0 +1,6 @@
+change caps in parallel to one electrolitic
+change pin headers to 2.54
+pcb verifcation checklist
+large elctrolitic along with a 1 and .1 micro across that to filter
+take unsued pads and add more connections
+MENTION WE ARE BUILDING IT
