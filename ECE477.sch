@@ -1606,8 +1606,6 @@ F 3 "" H 5050 11050 50  0001 C CNN
 	1    5050 11050
 	0    1    1    0   
 $EndComp
-Text Notes 14800 4050 0    50   ~ 0
-review data sheet for PACK and BAT pions\n
 Text GLabel 17000 3300 2    50   Input ~ 0
 PWR_IN
 Text GLabel 15000 3200 0    50   Input ~ 0

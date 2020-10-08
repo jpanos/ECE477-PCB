@@ -1745,7 +1745,6 @@ F 3 "~" H 5050 8800 50  0001 C CNN
 	1    5050 8800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3800 8800
 Wire Wire Line
 	5200 8800 5300 8800
 Connection ~ 5300 8800
@@ -1907,6 +1906,22 @@ Wire Notes Line
 	550  10300 6450 10300
 Wire Notes Line
 	6450 7950 550  7950
+$Comp
+L Device:R_US R6
+U 1 1 6069B2BC
+P 4200 8800
+F 0 "R6" H 4268 8846 50  0000 L CNN
+F 1 "0R" H 4268 8755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4240 8790 50  0001 C CNN
+F 3 "~" H 4200 8800 50  0001 C CNN
+	1    4200 8800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3800 8800
 Wire Wire Line
-	3800 8800 4900 8800
+	3800 8800 4050 8800
+Wire Wire Line
+	4350 8800 4900 8800
+Text GLabel 4600 8800 1    50   Input ~ 0
+VDD_LDO
 $EndSCHEMATC
