@@ -1773,7 +1773,6 @@ Wire Wire Line
 	3100 13250 2650 13250
 Connection ~ 2650 13250
 NoConn ~ 16650 2300
-NoConn ~ 16650 2400
 NoConn ~ 16650 2500
 NoConn ~ 16650 2600
 NoConn ~ 16650 2800
@@ -1817,7 +1816,6 @@ NoConn ~ 10750 3800
 NoConn ~ 10750 3700
 NoConn ~ 10750 3600
 NoConn ~ 10750 3500
-NoConn ~ 10750 3400
 NoConn ~ 10750 3300
 NoConn ~ 10750 3100
 NoConn ~ 10750 3000
@@ -1922,4 +1920,12 @@ Wire Wire Line
 	4350 8800 4900 8800
 Text GLabel 4600 8800 1    50   Input ~ 0
 VDD_LDO
+Wire Wire Line
+	10750 3400 10450 3400
+Text GLabel 10450 3400 0    50   Input ~ 0
+CLK
+Text GLabel 17000 2400 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	16650 2400 17000 2400
 $EndSCHEMATC
