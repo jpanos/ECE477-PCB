@@ -60,4 +60,10 @@ K
 F http://www.ti.com/lit/gpn/tl1963a
 $ENDCMP
 #
+$CMP HHXC630ARA6R8MF61G
+D Aluminum Organic Polymer Capacitors 6.8uF 63V 20% 6.3 x 5.8 AEC-Q200
+K
+F http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxc
+$ENDCMP
+#
 #End Doc Library
