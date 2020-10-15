@@ -1758,10 +1758,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 14600 5750 14600
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J8
 U 1 1 5F90DDE0
 P 5250 14800
-F 0 "J?" H 5358 15181 50  0000 C CNN
+F 0 "J8" H 5358 15181 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 5358 15090 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5250 14800 50  0001 C CNN
 F 3 "~" H 5250 14800 50  0001 C CNN
@@ -1795,4 +1795,48 @@ Text GLabel 5750 14700 2    50   Input ~ 0
 PIN5
 Text GLabel 5750 14600 2    50   Input ~ 0
 PIN6
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FA3229F
+P 5400 16100
+F 0 "H4" H 5500 16146 50  0000 L CNN
+F 1 "MountingHole" H 5500 16055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 16100 50  0001 C CNN
+F 3 "~" H 5400 16100 50  0001 C CNN
+	1    5400 16100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FA33293
+P 5400 15900
+F 0 "H3" H 5500 15946 50  0000 L CNN
+F 1 "MountingHole" H 5500 15855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15900 50  0001 C CNN
+F 3 "~" H 5400 15900 50  0001 C CNN
+	1    5400 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FA4990B
+P 5400 15650
+F 0 "H2" H 5500 15696 50  0000 L CNN
+F 1 "MountingHole" H 5500 15605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15650 50  0001 C CNN
+F 3 "~" H 5400 15650 50  0001 C CNN
+	1    5400 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FA5FFA0
+P 5400 15450
+F 0 "H1" H 5500 15496 50  0000 L CNN
+F 1 "MountingHole" H 5500 15405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15450 50  0001 C CNN
+F 3 "~" H 5400 15450 50  0001 C CNN
+	1    5400 15450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
