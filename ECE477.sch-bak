@@ -1008,10 +1008,6 @@ USART - Connections\n
 Text Notes 3550 14350 0    50   ~ 0
 JTAG - Connection\n
 Wire Notes Line
-	4900 15400 550  15400
-Wire Notes Line
-	550  14250 4900 14250
-Wire Notes Line
 	550  11850 550  14150
 Wire Notes Line
 	4900 11850 4900 14150
@@ -1370,8 +1366,6 @@ F 3 "~" H 3750 15950 50  0001 C CNN
 $EndComp
 Text Notes 3450 15500 0    50   ~ 0
 Bat - Monitor Connections V2\n
-Wire Notes Line
-	550  16250 4900 16250
 Wire Notes Line
 	4900 14250 4900 16250
 Text GLabel 15000 2000 0    50   Input ~ 0
@@ -1798,45 +1792,104 @@ PIN6
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5FA3229F
-P 5400 16100
-F 0 "H4" H 5500 16146 50  0000 L CNN
-F 1 "MountingHole" H 5500 16055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 16100 50  0001 C CNN
-F 3 "~" H 5400 16100 50  0001 C CNN
-	1    5400 16100
+P 5200 16150
+F 0 "H4" H 5300 16196 50  0000 L CNN
+F 1 "MountingHole" H 5300 16105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5200 16150 50  0001 C CNN
+F 3 "~" H 5200 16150 50  0001 C CNN
+	1    5200 16150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5FA33293
-P 5400 15900
-F 0 "H3" H 5500 15946 50  0000 L CNN
-F 1 "MountingHole" H 5500 15855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15900 50  0001 C CNN
-F 3 "~" H 5400 15900 50  0001 C CNN
-	1    5400 15900
+P 5200 15950
+F 0 "H3" H 5300 15996 50  0000 L CNN
+F 1 "MountingHole" H 5300 15905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5200 15950 50  0001 C CNN
+F 3 "~" H 5200 15950 50  0001 C CNN
+	1    5200 15950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5FA4990B
-P 5400 15650
-F 0 "H2" H 5500 15696 50  0000 L CNN
-F 1 "MountingHole" H 5500 15605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15650 50  0001 C CNN
-F 3 "~" H 5400 15650 50  0001 C CNN
-	1    5400 15650
+P 5200 15700
+F 0 "H2" H 5300 15746 50  0000 L CNN
+F 1 "MountingHole" H 5300 15655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5200 15700 50  0001 C CNN
+F 3 "~" H 5200 15700 50  0001 C CNN
+	1    5200 15700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FA5FFA0
-P 5400 15450
-F 0 "H1" H 5500 15496 50  0000 L CNN
-F 1 "MountingHole" H 5500 15405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5400 15450 50  0001 C CNN
-F 3 "~" H 5400 15450 50  0001 C CNN
-	1    5400 15450
+P 5200 15500
+F 0 "H1" H 5300 15546 50  0000 L CNN
+F 1 "MountingHole" H 5300 15455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5200 15500 50  0001 C CNN
+F 3 "~" H 5200 15500 50  0001 C CNN
+	1    5200 15500
 	1    0    0    -1  
 $EndComp
+Text GLabel 7000 14700 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6650 14700 7000 14700
+$Comp
+L Connector:Conn_01x01_Male J10
+U 1 1 5F959D67
+P 6450 16050
+F 0 "J10" H 6558 16431 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6558 16340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 16050 50  0001 C CNN
+F 3 "~" H 6450 16050 50  0001 C CNN
+	1    6450 16050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 16050 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6650 16050 7000 16050
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 5F9710DF
+P 6450 15300
+F 0 "J9" H 6558 15681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6558 15590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 15300 50  0001 C CNN
+F 3 "~" H 6450 15300 50  0001 C CNN
+	1    6450 15300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 15300 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6650 15300 7000 15300
+$Comp
+L Connector:Conn_01x01_Male J11
+U 1 1 5F8CD78B
+P 6450 14700
+F 0 "J11" H 6558 15081 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6558 14990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 14700 50  0001 C CNN
+F 3 "~" H 6450 14700 50  0001 C CNN
+	1    6450 14700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  15400 6050 15400
+Wire Notes Line
+	6050 14250 6050 16250
+Wire Notes Line
+	7400 16250 7400 14250
+Wire Notes Line
+	550  14250 7400 14250
+Wire Notes Line
+	550  16250 7400 16250
+Text Notes 6100 16200 0    50   ~ 0
+USART GNDs
+Text Notes 4950 15350 0    50   ~ 0
+Additional PINOUT
 $EndSCHEMATC
