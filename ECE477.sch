@@ -2366,8 +2366,8 @@ F 3 "" H 14750 5300 50  0001 C CNN
 	1    14750 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 14550 4650 0    50   Input ~ 0
-PIN1
 Text GLabel 14750 4050 2    50   Input ~ 0
 ALERT
+Text GLabel 14550 4650 0    50   Input ~ 0
+PIN2
 $EndSCHEMATC
