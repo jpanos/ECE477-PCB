@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 17)
     (tracks 856)
     (zones 0)
     (modules 77)
@@ -4406,6 +4406,9 @@
     )
   )
 
+  (gr_line (start 248.92 137.16) (end 241.3 137.16) (layer Edge.Cuts) (width 0.05) (tstamp 5F93544E))
+  (gr_line (start 248.92 48.26) (end 248.92 137.16) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 241.3 48.26) (end 248.92 48.26) (layer Edge.Cuts) (width 0.05))
   (gr_text "ECE 477 Team 4 / Rev 1 completed 10-15-2020\nJosh Panos - Moiz Rasheed \n/\nEthan Campbell - Jackie Malayter" (at 207.01 52.07) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
