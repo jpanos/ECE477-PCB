@@ -1556,7 +1556,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_ISO14580 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F87EC3A)
-    (at 234.95 53.34)
+    (at 242.57 53.34)
     (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
     (tags "mounting hole 3.2mm no annular m3 iso14580")
     (path /5FA3229F)
@@ -1576,7 +1576,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_ISO14580 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F87EC32)
-    (at 236.22 132.08)
+    (at 242.57 132.08)
     (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
     (tags "mounting hole 3.2mm no annular m3 iso14580")
     (path /5FA33293)
@@ -5387,7 +5387,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 238.76 57.15) (xy 231.14 57.15) (xy 231.14 49.53) (xy 238.76 49.53)
+        (xy 246.38 57.15) (xy 238.76 57.15) (xy 238.76 49.53) (xy 246.38 49.53)
       )
     )
   )
@@ -5398,7 +5398,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 240.03 135.89) (xy 232.41 135.89) (xy 232.41 128.27) (xy 240.03 128.27)
+        (xy 246.38 135.89) (xy 238.76 135.89) (xy 238.76 128.27) (xy 246.38 128.27)
       )
     )
   )
