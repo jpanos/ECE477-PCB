@@ -66,4 +66,10 @@ K
 F http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxc
 $ENDCMP
 #
+$CMP BQ7692006PWR
+D 3 to 5-Series Cell Li-Ion and Li-Phosphate Battery Monitor (bq76940 Family)
+K
+F http://www.ti.com/lit/gpn/bq76920
+$ENDCMP
+#
 #End Doc Library
