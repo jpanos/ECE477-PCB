@@ -464,4 +464,27 @@ P 5 0 1 6 200 100 1100 100 1100 -1000 200 -1000 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model ESW106M016AC3FA
+#/1975650/321752/2.47/2/3/Capacitor
+DEF ESW106M016AC3FA C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ESW106M016AC3FA" 350 150 50 H V L CNN
+F2 "CAPPRD200W50D500H1250" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ESW106M016AC3FA.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - Radial Leaded 16V 10uF 105C 3k Hour Radial" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "80-ESW106M016AC3FA" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-ESW106M016AC3FA" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ESW106M016AC3FA" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

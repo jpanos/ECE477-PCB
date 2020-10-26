@@ -1,0 +1,14 @@
+THINGS TO BRING UP WITH TODD:
+
+BATTERY THINGY BEING FUCKED
+LOCATION OF CLK OUTPUT PIN
+
+
+Rework PCB with the BQ76920 and create a model to predict the health of the battery
+
+give better naming to jumpers
+Move around silk screen to ensure readability
+
+dont use ki cad gerber viewer 
+
+download gerbVi

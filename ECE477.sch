@@ -587,25 +587,8 @@ Wire Wire Line
 	5300 8200 5550 8200
 Text GLabel 5550 8200 2    50   Input ~ 0
 VFBSD
-$Comp
-L Jumper:Jumper_3_Open JP1
-U 1 1 5F894476
-P 5200 10800
-F 0 "JP1" V 5246 10887 50  0000 L CNN
-F 1 "Jumper_3_Open" V 5155 10887 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 5200 10800 50  0001 C CNN
-F 3 "~" H 5200 10800 50  0001 C CNN
-	1    5200 10800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5200 10550 5050 10550
-Wire Wire Line
-	5200 11050 5050 11050
 Text GLabel 5050 10550 0    50   Input ~ 0
 3V3_VDD
-Wire Wire Line
-	5350 10800 5650 10800
 Text GLabel 5650 10800 1    50   Input ~ 0
 VDD_MCU
 Text GLabel 2000 3700 0    50   Input ~ 0
@@ -927,10 +910,10 @@ Wire Wire Line
 Wire Wire Line
 	1050 15750 1400 15750
 $Comp
-L Connector:Conn_01x05_Male J5
+L Connector:Conn_01x05_Male PWR_Out1
 U 1 1 5F9B4020
 P 850 15950
-F 0 "J5" H 958 16331 50  0000 C CNN
+F 0 "PWR_Out1" H 958 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 958 16240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 850 15950 50  0001 C CNN
 F 3 "~" H 850 15950 50  0001 C CNN
@@ -1018,10 +1001,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 14650 2850 14650
 $Comp
-L Connector:Conn_01x06_Male J2
+L Connector:Conn_01x06_Male USART1
 U 1 1 5FA28754
 P 2300 14850
-F 0 "J2" H 2408 15231 50  0000 C CNN
+F 0 "USART1" H 2408 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2408 15140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2300 14850 50  0001 C CNN
 F 3 "~" H 2300 14850 50  0001 C CNN
@@ -1276,10 +1259,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 15750 4300 15750
 $Comp
-L Connector:Conn_01x05_Male J7
+L Connector:Conn_01x05_Male GNDs1
 U 1 1 5F9C57C3
 P 3750 15950
-F 0 "J7" H 3858 16331 50  0000 C CNN
+F 0 "GNDs1" H 3858 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3858 16240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3750 15950 50  0001 C CNN
 F 3 "~" H 3750 15950 50  0001 C CNN
@@ -1291,9 +1274,9 @@ Bat - Monitor Connections V2\n
 Wire Notes Line
 	4900 14250 4900 16250
 Text GLabel 4300 15750 2    50   Input ~ 0
-CELL-
+GND
 Text GLabel 4300 15850 2    50   Input ~ 0
-CELL+
+GND
 $Comp
 L Device:R_US R7
 U 1 1 5FA33AA1
@@ -1525,10 +1508,10 @@ Wire Wire Line
 Text GLabel 4600 8800 1    50   Input ~ 0
 VDD_LDO
 $Comp
-L Connector:Conn_01x06_Male J3
+L Connector:Conn_01x06_Male PWM1
 U 1 1 5F8B51CF
 P 800 14850
-F 0 "J3" H 908 15231 50  0000 C CNN
+F 0 "PWM1" H 908 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 908 15140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 800 14850 50  0001 C CNN
 F 3 "~" H 800 14850 50  0001 C CNN
@@ -1536,10 +1519,10 @@ F 3 "~" H 800 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J4
+L Connector:Conn_01x06_Male JTAG/SWD1
 U 1 1 5F8E70FD
 P 3800 14850
-F 0 "J4" H 3908 15231 50  0000 C CNN
+F 0 "JTAG/SWD1" H 3908 15231 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3908 15140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3800 14850 50  0001 C CNN
 F 3 "~" H 3800 14850 50  0001 C CNN
@@ -1547,10 +1530,10 @@ F 3 "~" H 3800 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J6
+L Connector:Conn_01x05_Male Cell_In1
 U 1 1 5F8FE391
 P 2350 15950
-F 0 "J6" H 2458 16331 50  0000 C CNN
+F 0 "Cell_In1" H 2458 16331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2458 16240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2350 15950 50  0001 C CNN
 F 3 "~" H 2350 15950 50  0001 C CNN
@@ -1584,24 +1567,6 @@ F 3 "~" H 2050 6900 50  0001 C CNN
 	1    2050 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP1 C1
-U 1 1 5F8BCBAE
-P 1500 6900
-F 0 "C1" H 1615 6946 50  0000 L CNN
-F 1 "10uF" H 1615 6855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1500 6900 50  0001 C CNN
-F 3 "~" H 1500 6900 50  0001 C CNN
-	1    1500 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  6650 1500 6650
-Wire Wire Line
-	1500 6750 1500 6650
-Connection ~ 1500 6650
-Wire Wire Line
-	1500 6650 2050 6650
 Wire Wire Line
 	900  6650 900  6450
 Connection ~ 900  6650
@@ -1616,13 +1581,6 @@ F 3 "~" H 900 6900 50  0001 C CNN
 	1    900  6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  7150 1500 7150
-Wire Wire Line
-	1500 7050 1500 7150
-Connection ~ 1500 7150
-Wire Wire Line
-	1500 7150 2050 7150
 Wire Wire Line
 	900  7150 900  7350
 Connection ~ 900  7150
@@ -1639,10 +1597,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 14600 5750 14600
 $Comp
-L Connector:Conn_01x06_Male J8
+L Connector:Conn_01x06_Male Pinout1
 U 1 1 5F90DDE0
 P 5250 14800
-F 0 "J8" H 5358 15181 50  0000 C CNN
+F 0 "Pinout1" H 5358 15181 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 5358 15090 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5250 14800 50  0001 C CNN
 F 3 "~" H 5250 14800 50  0001 C CNN
@@ -1725,10 +1683,10 @@ GND
 Wire Wire Line
 	6650 14700 7000 14700
 $Comp
-L Connector:Conn_01x01_Male J10
+L Connector:Conn_01x01_Male USART3_GND1
 U 1 1 5F959D67
 P 6450 16050
-F 0 "J10" H 6558 16431 50  0000 C CNN
+F 0 "USART3_GND1" H 6558 16431 50  0000 C CNN
 F 1 "USART3" H 6558 16340 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 16050 50  0001 C CNN
 F 3 "~" H 6450 16050 50  0001 C CNN
@@ -1740,10 +1698,10 @@ GND
 Wire Wire Line
 	6650 16050 7000 16050
 $Comp
-L Connector:Conn_01x01_Male J9
+L Connector:Conn_01x01_Male USART6_GND1
 U 1 1 5F9710DF
 P 6450 15300
-F 0 "J9" H 6558 15681 50  0000 C CNN
+F 0 "USART6_GND1" H 6558 15681 50  0000 C CNN
 F 1 "USART6" H 6558 15590 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 15300 50  0001 C CNN
 F 3 "~" H 6450 15300 50  0001 C CNN
@@ -1755,10 +1713,10 @@ GND
 Wire Wire Line
 	6650 15300 7000 15300
 $Comp
-L Connector:Conn_01x01_Male J11
+L Connector:Conn_01x01_Male USART1_GND1
 U 1 1 5F8CD78B
 P 6450 14700
-F 0 "J11" H 6558 15081 50  0000 C CNN
+F 0 "USART1_GND1" H 6558 15081 50  0000 C CNN
 F 1 "USART1" H 6558 14990 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 14700 50  0001 C CNN
 F 3 "~" H 6450 14700 50  0001 C CNN
@@ -2092,17 +2050,6 @@ F 3 "" H 9850 13550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C7
-U 1 1 60627530
-P 8650 13100
-F 0 "C7" H 8765 13146 50  0000 L CNN
-F 1 "10uF" H 8765 13055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8650 13100 50  0001 C CNN
-F 3 "~" H 8650 13100 50  0001 C CNN
-	1    8650 13100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R23
 U 1 1 606B89F9
 P 8650 12450
@@ -2119,8 +2066,6 @@ Wire Wire Line
 	7950 12150 8650 12150
 Wire Wire Line
 	8650 12600 8650 12800
-Wire Wire Line
-	8650 13250 8650 13550
 $Comp
 L power:GND #PWR018
 U 1 1 6072B2EE
@@ -2427,4 +2372,80 @@ Wire Notes Line
 	7400 10050 7400 16250
 Text Notes 7450 10150 0    50   ~ 0
 Alert pin and boot pin connections
+$Comp
+L Connector:Conn_01x03_Male PWR_On1
+U 1 1 61454015
+P 5050 10800
+F 0 "PWR_On1" H 5158 11181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5158 11090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 10800 50  0001 C CNN
+F 3 "~" H 5050 10800 50  0001 C CNN
+	1    5050 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 10550 5250 10550
+Wire Wire Line
+	5250 10550 5250 10700
+Wire Wire Line
+	5250 10800 5650 10800
+Wire Wire Line
+	5250 11050 5250 10900
+Wire Wire Line
+	5050 11050 5250 11050
+Wire Wire Line
+	8650 13250 8650 13550
+$Comp
+L Device:CP1 C7
+U 1 1 60627530
+P 8650 13100
+F 0 "C7" H 8765 13146 50  0000 L CNN
+F 1 "10uF" H 8765 13055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8650 13100 50  0001 C CNN
+F 3 "~" H 8650 13100 50  0001 C CNN
+	1    8650 13100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7150 2050 7150
+Wire Wire Line
+	900  7150 1500 7150
+Connection ~ 1500 7150
+Wire Wire Line
+	1500 7050 1500 7150
+Connection ~ 1500 6650
+Wire Wire Line
+	1500 6650 2050 6650
+Wire Wire Line
+	900  6650 1500 6650
+Wire Wire Line
+	1500 6750 1500 6650
+$Comp
+L Device:CP1 C1
+U 1 1 5F8BCBAE
+P 1500 6900
+F 0 "C1" H 1615 6946 50  0000 L CNN
+F 1 "10uF" H 1615 6855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1500 6900 50  0001 C CNN
+F 3 "~" H 1500 6900 50  0001 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:HHXC630ARA6R8MF61G C11
+U 1 1 6157E6C1
+P 1750 4900
+F 0 "C11" H 2000 5167 50  0000 C CNN
+F 1 "HHXC630ARA6R8MF61G" H 2000 5076 50  0000 C CNN
+F 2 "CAPAE660X610N" H 2100 4950 50  0001 L CNN
+F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxc" H 2100 4850 50  0001 L CNN
+F 4 "Aluminum Organic Polymer Capacitors 6.8uF 63V 20% 6.3 x 5.8 AEC-Q200" H 2100 4750 50  0001 L CNN "Description"
+F 5 "6.1" H 2100 4650 50  0001 L CNN "Height"
+F 6 "661-HHXC630A6R8MF61G" H 2100 4550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/HHXC630ARA6R8MF61G?qs=u4fy%2FsgLU9NtTkILhvfEZQ%3D%3D" H 2100 4450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "United Chemi-Con" H 2100 4350 50  0001 L CNN "Manufacturer_Name"
+F 9 "HHXC630ARA6R8MF61G" H 2100 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1750 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -18,6 +18,29 @@ X Pin_1 1 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x05_Male
 #
 DEF Connector_Conn_01x05_Male J 0 40 Y N 1 F N
@@ -359,31 +382,6 @@ X VDD 92 0 -800 300 R 59 59 3 0 W
 ENDDRAW
 ENDDEF
 #
-# Jumper_Jumper_3_Open
-#
-DEF Jumper_Jumper_3_Open JP 0 0 Y N 1 F N
-F0 "JP" -100 -100 50 H V C CNN
-F1 "Jumper_Jumper_3_Open" 0 110 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jumper*
- TestPoint*3Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
-A 65 -30 89 1282 518 0 1 0 N 10 40 120 40
-C -130 0 20 0 0 0 N
-C 0 0 20 0 0 0 N
-C 130 0 20 0 0 0 N
-P 2 0 1 0 0 -20 0 -50 N
-X A 1 -250 0 100 R 50 50 1 1 P
-X C 2 0 -150 100 U 50 50 1 1 I
-X B 3 250 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Mechanical_MountingHole
 #
 DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
@@ -434,6 +432,31 @@ X TS1 6 0 -500 200 R 50 50 0 0 P
 X CAP1 7 0 -600 200 R 50 50 0 0 P
 X REGOUT 8 0 -700 200 R 50 50 0 0 P
 X REGSRC 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_HHXC630ARA6R8MF61G
+#
+DEF SamacSys_Parts_HHXC630ARA6R8MF61G C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_HHXC630ARA6R8MF61G" 350 150 50 H V L CNN
+F2 "CAPAE660X610N" 350 50 50 H I L CNN
+F3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=hxc" 350 -50 50 H I L CNN
+F4 "Aluminum Organic Polymer Capacitors 6.8uF 63V 20% 6.3 x 5.8 AEC-Q200" 350 -150 50 H I L CNN "Description"
+F5 "6.1" 350 -250 50 H I L CNN "Height"
+F6 "661-HHXC630A6R8MF61G" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/HHXC630ARA6R8MF61G?qs=u4fy%2FsgLU9NtTkILhvfEZQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "United Chemi-Con" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "HHXC630ARA6R8MF61G" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
